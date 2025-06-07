@@ -11,7 +11,7 @@
 ??? abstract "Chapitre 1: Corps purs et mélanges"
     - [📚Chapitre I](data/Chapitre I cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 1  Corps pur et mélange](data/Act01 corps pur et melange.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 24 à 30)"
+    ??? question "Exercices du livre (chap 1 pages 28 à 36)"
         ![page 24](data/p24.png)
         ![page 25](data/p25.png)
         ![page 25](data/p25.png)
@@ -27,7 +27,7 @@
     - [⚛️Activité 3 Préparation d'une solution par dilution](data/Act03 dilution.pdf){:target="_blank"}    
     - [⚛️Activité 4 Concentration en masse et masse volumique](data/Act04 vin de Bandol.pdf){:target="_blank"}    
     
-    ??? question "Exercices du livre (pages 89 à 96)"
+    ??? question "Exercices du livre (chap2 pages 52 à 60)"
         ![page 89](data/p89.png)
         ![page 90](data/p90.png)
         ![page 91](data/p91.png)
@@ -41,7 +41,7 @@
     - [📚Chapitre III](data/Chapitre III cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 5 Vitesse d'un système](data/Act05 vitesse systeme.pdf){:target="_blank"}
     - [⚛️Activité 6 Vecteurs déplacement et vitesse](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 112 à 116)" 
+    ??? question "Exercices du livre (chap9 pages 178 à 186)" 
         ![page 112](data/p112.png)
         ![page 113](data/p113.png)
         ![page 114](data/p114.png)
@@ -51,7 +51,7 @@
     
 ??? abstract "Chapitre 4: Modéliser une action mécanique"
     - [⚛️Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 314 à 319)" 
+    ??? question "Exercices du livre (chap10 pages 200 à 206)" 
         ![page 314](data/p314.png)
         ![page 315](data/p315.png)
         ![page 316](data/p316.png)
@@ -63,7 +63,7 @@
 ??? abstract "Chapitre 5: Principe d'inertie"
     - [📚Chapitre V](data/Chapitre V cours eleve.pdf){:target="_blank"}
     - [⚛️Activité 8 Le principe d'inertie](data/Act08 principe d'inertie.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 330 à 334)" 
+    ??? question "Exercices du livre (chap11 pages 216 à 222)" 
         ![page 330](data/p330.png)
         ![page 331](data/p331.png)
         ![page 332](data/p332.png)
@@ -74,7 +74,7 @@
 ??? abstract "Chapitre 6: De l'atome à l’élément chimique"
     - [📚Chapitre VI](data/Chapitre VI cours Photon eleve.pdf){:target="_blank"}
     - [⚛️Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 346 à 352)" 
+    ??? question "Exercices du livre (chap3 pages 71 à 76)" 
         ![page 346](data/p346.png)
         ![page 347](data/p347.png)
         ![page 348](data/p348.png) 
@@ -90,7 +90,7 @@
     - [⚛️Activité 10 Familles chimiques](data/Act10 familles chimiques.pdf){:target="_blank"}
     - [⚛️Activité 11 Formation des ions](data/Act11 formation des ions.pdf){:target="_blank"}    
     - [⚛️Activité 12 Modèle de Lewis](data/Act12 Le modele de Lewis.pdf){:target="_blank"}    
-    ??? question "Exercices du livre (pages 130 à 134)" 
+    ??? question "Exercices du livre (chap4 pages 90 à 98)" 
         ![page 130](data/p130.png)
         ![page 131](data/p131.png)
         ![page 132](data/p132.png)
@@ -102,7 +102,7 @@
     - [📚Chapitre VIII](data/Chapitre VIII cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 13 Mesure de la vitesse du son](data/Act13 vitesse du son.pdf){:target="_blank"}
     - [⚛️Activité 14 Analyse d'un son](data/Act14 analyse d'un son.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 148 à 152)" 
+    ??? question "Exercices du livre (chap12 pages 237 à 246)" 
         ![page 148](data/p148.png) 
         ![page 149](data/p149.png)
         ![page 150](data/p150.png)
@@ -112,7 +112,7 @@
 ??? abstract "Chapitre 9: Transformations physiques"
     - [📚Chapitre IX](data/Chapitre IX cours champs eleve.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
-    ??? question "Exercices du livre (pages 184 à 190)"
+    ??? question "Exercices du livre (chap6 pages 120 à 126)"
         ![page 184](data/p184.png)
         ![page 185](data/p185.png)
         ![page 186](data/p186.png)
@@ -127,7 +127,7 @@
     - [⚛️Activité 17 Du gaspillage dans les vignes](data/Act17 gaspillage dans les vignes.pdf){:target="_blank"}        
     - [⚛️Activité 18 Transformations chimiques et effet thermique](data/Act18 transformations chimiques et effet thermique.pdf){:target="_blank"}            
     - [⚛️Activité 19 Arôme de banane](data/Act19 preparation d'un arome.pdf){:target="_blank"}                
-    ??? question "Exercices du livre (pages 224 à 230)"
+    ??? question "Exercices du livre (chap7 pages 140 à 148)"
         ![page 224](data/p224.png)
         ![page 225](data/p225.png)
         ![page 226](data/p226.png)
@@ -136,11 +136,10 @@
         ![page 229](data/p229.png)
         ![page 230](data/p230.png)
     
-??? abstract "Chapitre 11: Énergie mécanique"
+??? abstract "Chapitre 11: Réfraction et réflexion de la lumière"
     - [📚Chapitre XI](data/Chapitre XI cours EmEcEpp eleves.pdf){:target="_blank"}
-    - [⚛️TP15 Évolution de l'énergie mécanique](data/TP15 Evolution energie mecanique eleves.pdf){:target="_blank"}    
-    - [⚛️TP16 Le théorème de l'énergie cinétique](data/TP16 Energie cinetique eleves.pdf){:target="_blank"}        
-    ??? question "Exercices du livre (pages 266 à 274)"
+    - [⚛️Activité 20 Lois de Snell-Descartes](data/Act20 Snell Descartes.pdf){:target="_blank"}    
+    ??? question "Exercices du livre (chap14 pages 279 à 286)"
         ![page 266](data/p266.png)
         ![page 267](data/p267.png)        
         ![page 268](data/p268.png)
@@ -152,13 +151,10 @@
         ![page 274](data/p274.png)
 
  
-??? abstract "Chapitre 12: Oxydoréduction et avancement"
+??? abstract "Chapitre 12: Les lentilles convergentes"
     - [📚Chapitre XII](data/Chapitre XII redox eleves.pdf){:target="_blank"}
-    - [⚛️TP17 Les réactions d'oxydoréduction](data/TP17 Redox  eleves.pdf){:target="_blank"}    
-    - [⚛️TP17 bis D’autres réactions d'oxydoréduction](data/TP17bis Reactions redox eleves.pdf){:target="_blank"}    
-    - [⚛️TP18 Avancement](data/TP18 Avancement eleves.pdf){:target="_blank"}        
-    - [🐍 Bilan de matière](python.md)
-    ??? question "Exercices du livre (pages 42 à 47) & (pages 56 à 62)"
+    - [⚛️Activité 21 Lentille convergente](data/Act21 lentille convergente.pdf){:target="_blank"}    
+    ??? question "Exercices du livre (chap 15 pages 298 à 304)"
         ![page 42](data/p42.png)
         ![page 43](data/p43.png)
         ![page 44](data/p44.png)
@@ -175,12 +171,10 @@
  
  
  
-??? abstract "Chapitre 13: Avancement et titrage"
+??? abstract "Chapitre 13: Les spectres d'émission"
     - [📚Chapitre XIII](data/Chapitre XIII cours eleves.pdf){:target="_blank"}
-    - [⚛️TP19 Retrouver le titre d'une solution](data/TP19 Titrage eleves.pdf){:target="_blank"}    
-    - [⚛️TP20 Titrage Lugol diiode](data/TP20 Titrage diiode Lugol eleve.pdf){:target="_blank"}    
-    - [🐍 Titrage](python.md)
-    ??? question "Exercices du livre (pages 73 à 76)"
+    - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
+    ??? question "Exercices du livre (chap 13 pages 258 à 266)"
         ![page 73](data/p73.png)
         ![page 74](data/p74.png)
         ![page 75](data/p75.png)
@@ -189,12 +183,10 @@
         ![page 76](data/p76.png)
  
  
-??? abstract "Chapitre 14: Énergie électrique"
+??? abstract "Chapitre 14: Les lois de l'électricité"
     - [📚Chapitre XIV](data/Chapitre XIV cours energie electrique eleves.pdf){:target="_blank"}
-    - [⚛️TP21 Modélisation d'un panneau photovoltaïque](data/TP21 Photovoltaique partie1 eleves.pdf){:target="_blank"}    
-    - [⚛️TP21 bis Rendement d'un panneau photovoltaïque](data/TP21bis Photovoltaique partie2 rendement eleves.pdf){:target="_blank"}    
-    - [🐍 Bilan de puissance et rendement](python.md)    
-    ??? question "Exercices du livre (pages 246 à 252)"
+    - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
+    ??? question "Exercices du livre (chap 16 pages 316 à 324)"
         ![page 246](data/p246.png)
         ![page 247](data/p247.png)
         ![page 248](data/p248.png)
@@ -202,42 +194,5 @@
         ![page 250](data/p250.png)
         ![page 251](data/p251.png)
         ![page 252](data/p252.png)
-
- 
-??? abstract "Chapitre 15: Les ondes"
-    - [📚Chapitre XV (diaporama)](data/Chapitre XV cours ondes eleves.pdf){:target="_blank"}
-    - [⚛️TP22 Les ultrasons](data/TP22 Ondes mecaniques ultrasons eleves.pdf){:target="_blank"}    
-    - [🐍 Simulation de la propagation d'une onde](python.md)     
-    ??? question "Exercices du livre (pages 294 à 300)"
-        ![page 294](data/p294.png)
-        ![page 295](data/p295.png)
-        ![page 296](data/p296.png)
-        ![page 297](data/p297.png)
-        ![page 298](data/p298.png)
-        ![page 299](data/p299.png)
-        ![page 300](data/p300.png)
-
-??? abstract "Chapitre 16: Pression"
-    - [📚Chapitre XVI](data/Chapitre XVI cours eleve.pdf){:target="_blank"}
-    - [⚛️TP23 Statique des fluides](data/TP23 Statique des fluides eleves.pdf){:target="_blank"}    
-    - [⚛️TP24 Loi de Mariotte (préparation)](data/TP24 Loi de Mariotte preparation eleves.pdf){:target="_blank"}    
-    - [⚛️TP24 Loi de Mariotte](data/TP24 Loi de Mariotte eleves.pdf){:target="_blank"}        
-    ??? question "Exercices du livre (pages 204 à 210)"
-        ![page 204](data/p204.png)
-        ![page 205](data/p205.png)
-        ![page 206](data/p206.png)
-        ![page 207](data/p207.png)
-        ![page 208](data/p208.png)
-        ![page 209](data/p209.png)
-        ![page 210](data/p210.png)
-
-??? abstract "Chapitre 17: Combustion"
-    - [📚Chapitre XVII](data/Chapitre XVII cours Combustions eleves.pdf){:target="_blank"}
-    - [Activité d'introduction sur les combustions](data/AD Chapitre XVII Combustion1.pdf){:target="_blank"}    
-    - [Combustion et oxydoréduction](data/AD Chapitre XVII Combustion2.pdf){:target="_blank"}    
-    ??? question "Exercices du livre (pages 164 à 166)"
-        ![page 164](data/p164.png)
-        ![page 165](data/p165.png)
-        ![page 166](data/p166.png)
 
 

@@ -1,5 +1,5 @@
-site_name: " Physique-Chimie en seconde (Lycée de la méditerranée La Ciotat)"
-site_description: Cours et exercices de Physique Chimie en seconde
+site_name: "Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat"
+site_description: Cours, activités et exercices de Physique Chimie en seconde
 site_author: R. Hatterer
 site_url: https://raoulhatterer.github.io/pc2 # mkdocs serve
 site_dir: public
