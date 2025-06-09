@@ -43,60 +43,69 @@
     - [⚛️Activité 5 Vitesse d'un système](data/Act05 vitesse systeme.pdf){:target="_blank"}
     - [⚛️Activité 6 Vecteurs déplacement et vitesse](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap9 pages 178 à 186)" 
-        ![page 112](data/p112.png)
-        ![page 113](data/p113.png)
-        ![page 114](data/p114.png)
-        ![page 115](data/p115.png)
-        ![page 116](data/p116.png)
-
-    
+        ![page 178](data/p178.png)
+        ![page 179](data/p179.png)
+        ![page 180](data/p180.png)
+        ![page 181](data/p181.png)
+        ![page 182](data/p182.png)
+        ![page 183](data/p183.png)
+        ![page 184](data/p184.png)
+        ![page 185](data/p185.png)
+        ![page 186](data/p186.png)
+        
 ??? abstract "Chapitre 4: Modéliser une action mécanique"
     - [⚛️Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap10 pages 200 à 206)" 
-        ![page 314](data/p314.png)
-        ![page 315](data/p315.png)
-        ![page 316](data/p316.png)
-        ![page 317](data/p317.png)
-        ![page 319](data/p319.png)
-
+        ![page 200](data/p200.png)
+        ![page 201](data/p201.png)
+        ![page 202](data/p202.png)
+        ![page 203](data/p203.png)
+        ![page 204](data/p204.png)
+        ![page 205](data/p205.png)
+        ![page 206](data/p206.png)
+        
 
 
 ??? abstract "Chapitre 5: Principe d'inertie"
     - [📚Chapitre V](data/Chapitre V cours eleve.pdf){:target="_blank"}
     - [⚛️Activité 8 Le principe d'inertie](data/Act08 principe d'inertie.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap11 pages 216 à 222)" 
-        ![page 330](data/p330.png)
-        ![page 331](data/p331.png)
-        ![page 332](data/p332.png)
-        ![page 333](data/p333.png)
-        ![page 334](data/p334.png)
-
+        ![page 216](data/p216.png)
+        ![page 217](data/p217.png)
+        ![page 218](data/p218.png)
+        ![page 219](data/p219.png)
+        ![page 220](data/p220.png)
+        ![page 221](data/p221.png)
+        ![page 222](data/p222.png)
+        
  
 ??? abstract "Chapitre 6: De l'atome à l’élément chimique"
     - [📚Chapitre VI](data/Chapitre VI cours Photon eleve.pdf){:target="_blank"}
     - [⚛️Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap3 pages 71 à 76)" 
-        ![page 346](data/p346.png)
-        ![page 347](data/p347.png)
-        ![page 348](data/p348.png) 
-        ![page 349](data/p349.png)
-        ![page 350](data/p350.png)
-        ![page 351](data/p351.png)
-        ![page 352](data/p352.png)
-         
-         
-         
+        ![page 71](data/p71.png)
+        ![page 72](data/p72.png)
+        ![page 73](data/p73.png)
+        ![page 74](data/p74.png)
+        ![page 75](data/p75.png)
+        ![page 76](data/p76.png)
+        
 ??? abstract "Chapitre 7: Vers des entités plus stables"
     - [📚Chapitre VII](data/Chapitre VII cours eleve.pdf){:target="_blank"}
     - [⚛️Activité 10 Familles chimiques](data/Act10 familles chimiques.pdf){:target="_blank"}
     - [⚛️Activité 11 Formation des ions](data/Act11 formation des ions.pdf){:target="_blank"}    
     - [⚛️Activité 12 Modèle de Lewis](data/Act12 Le modele de Lewis.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap4 pages 90 à 98)" 
-        ![page 130](data/p130.png)
-        ![page 131](data/p131.png)
-        ![page 132](data/p132.png)
-        ![page 133](data/p133.png)
-        ![page 134](data/p134.png)
+        ![page 90](data/p90.png)
+        ![page 91](data/p91.png)
+        ![page 92](data/p92.png)
+        ![page 93](data/p93.png)
+        ![page 94](data/p94.png)
+        ![page 95](data/p95.png)
+        ![page 96](data/p96.png)
+        ![page 97](data/p97.png)
+        ![page 98](data/p98.png)
+
  
  
 ??? abstract "Chapitre 8: Émission et perception d'un son"
@@ -104,23 +113,29 @@
     - [⚛️Activité 13 Mesure de la vitesse du son](data/Act13 vitesse du son.pdf){:target="_blank"}
     - [⚛️Activité 14 Analyse d'un son](data/Act14 analyse d'un son.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap12 pages 237 à 246)" 
-        ![page 148](data/p148.png) 
-        ![page 149](data/p149.png)
-        ![page 150](data/p150.png)
-        ![page 151](data/p151.png)
-        ![page 152](data/p152.png)
+        ![page 237](data/p237.png) 
+        ![page 238](data/p238.png)
+        ![page 239](data/p239.png)
+        ![page 240](data/p240.png)
+        ![page 241](data/p241.png)
+        ![page 242](data/p242.png)
+        ![page 243](data/p243.png)
+        ![page 244](data/p244.png)
+        ![page 245](data/p245.png)
+        ![page 246](data/p246.png)
+
     
 ??? abstract "Chapitre 9: Transformations physiques"
     - [📚Chapitre IX](data/Chapitre IX cours champs eleve.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap6 pages 120 à 126)"
-        ![page 184](data/p184.png)
-        ![page 185](data/p185.png)
-        ![page 186](data/p186.png)
-        ![page 187](data/p187.png)
-        ![page 188](data/p188.png)
-        ![page 189](data/p189.png)
-        ![page 190](data/p190.png)
+        ![page 120](data/p120.png)
+        ![page 121](data/p121.png)
+        ![page 122](data/p122.png)
+        ![page 123](data/p123.png)
+        ![page 124](data/p124.png)
+        ![page 125](data/p125.png)
+        ![page 126](data/p126.png)
 
 ??? abstract "Chapitre 10: Transformations chimiques"
     - [📚Chapitre X](data/Chapitre X cours mouvements eleves.pdf){:target="_blank"}
@@ -129,60 +144,58 @@
     - [⚛️Activité 18 Transformations chimiques et effet thermique](data/Act18 transformations chimiques et effet thermique.pdf){:target="_blank"}            
     - [⚛️Activité 19 Arôme de banane](data/Act19 preparation d'un arome.pdf){:target="_blank"}                
     ??? question "Exercices du livre (chap7 pages 140 à 148)"
-        ![page 224](data/p224.png)
-        ![page 225](data/p225.png)
-        ![page 226](data/p226.png)
-        ![page 227](data/p227.png)
-        ![page 228](data/p228.png)
-        ![page 229](data/p229.png)
-        ![page 230](data/p230.png)
+        ![page 140](data/p140.png)
+        ![page 141](data/p141.png)
+        ![page 142](data/p142.png)
+        ![page 143](data/p143.png)
+        ![page 144](data/p144.png)
+        ![page 145](data/p145.png)
+        ![page 146](data/p146.png)
+        ![page 147](data/p147.png)
+        ![page 148](data/p148.png)
+        
     
 ??? abstract "Chapitre 11: Réfraction et réflexion de la lumière"
     - [📚Chapitre XI](data/Chapitre XI cours EmEcEpp eleves.pdf){:target="_blank"}
     - [⚛️Activité 20 Lois de Snell-Descartes](data/Act20 Snell Descartes.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap14 pages 279 à 286)"
-        ![page 266](data/p266.png)
-        ![page 267](data/p267.png)        
-        ![page 268](data/p268.png)
-        ![page 269](data/p269.png)        
-        ![page 270](data/p270.png)
-        ![page 271](data/p271.png)        
-        ![page 272](data/p272.png)
-        ![page 273](data/p273.png)        
-        ![page 274](data/p274.png)
+        ![page 279](data/p279.png)
+        ![page 280](data/p280.png)
+        ![page 281](data/p281.png)
+        ![page 282](data/p282.png)
+        ![page 283](data/p283.png)
+        ![page 284](data/p284.png)
+        ![page 285](data/p285.png)
+        ![page 286](data/p286.png)
 
  
 ??? abstract "Chapitre 12: Les lentilles convergentes"
     - [📚Chapitre XII](data/Chapitre XII redox eleves.pdf){:target="_blank"}
     - [⚛️Activité 21 Lentille convergente](data/Act21 lentille convergente.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap 15 pages 298 à 304)"
-        ![page 42](data/p42.png)
-        ![page 43](data/p43.png)
-        ![page 44](data/p44.png)
-        ![page 45](data/p45.png)
-        ![page 46](data/p46.png)
-        ![page 47](data/p47.png)
-        ![page 56](data/p56.png)
-        ![page 57](data/p57.png)
-        ![page 58](data/p58.png)
-        ![page 59](data/p59.png)
-        ![page 60](data/p60.png)
-        ![page 61](data/p61.png)
-        ![page 62](data/p62.png)
- 
+        ![page 298](data/p298.png)
+        ![page 299](data/p299.png)
+        ![page 300](data/p300.png)
+        ![page 301](data/p301.png)
+        ![page 302](data/p302.png)
+        ![page 303](data/p303.png)
+        ![page 304](data/p304.png)
  
  
 ??? abstract "Chapitre 13: Les spectres d'émission"
     - [📚Chapitre XIII](data/Chapitre XIII cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap 13 pages 258 à 266)"
-        ![page 73](data/p73.png)
-        ![page 74](data/p74.png)
-        ![page 75](data/p75.png)
-        ![page 76](data/p76.png)
-        ![page 77](data/p77.png)
-        ![page 76](data/p76.png)
- 
+        ![page 258](data/p258.png)
+        ![page 259](data/p259.png)
+        ![page 260](data/p260.png)
+        ![page 261](data/p261.png)
+        ![page 262](data/p262.png)
+        ![page 263](data/p263.png)
+        ![page 264](data/p264.png)
+        ![page 265](data/p265.png)
+        ![page 266](data/p266.png)
+        
  
 ??? abstract "Chapitre 14: Les lois de l'électricité"
     - [📚Chapitre XIV](data/Chapitre XIV cours energie electrique eleves.pdf){:target="_blank"}
