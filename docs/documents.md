@@ -28,15 +28,16 @@
     - [⚛️Activité 4 Concentration en masse et masse volumique](data/Act04 vin de Bandol.pdf){:target="_blank"}    
     
     ??? question "Exercices du livre (chap2 pages 52 à 60)"
-        ![page 89](data/p89.png)
-        ![page 90](data/p90.png)
-        ![page 91](data/p91.png)
-        ![page 92](data/p92.png)
-        ![page 93](data/p93.png)
-        ![page 94](data/p94.png)
-        ![page 95](data/p95.png)
-        ![page 96](data/p96.png)        
-    
+        ![page 52](data/p52.png)
+        ![page 53](data/p53.png)
+        ![page 54](data/p54.png)
+        ![page 55](data/p55.png)
+        ![page 56](data/p56.png)
+        ![page 57](data/p57.png)
+        ![page 58](data/p58.png)
+        ![page 59](data/p59.png)
+        ![page 60](data/p60.png)
+        
 ??? abstract "Chapitre 3: Description des mouvements"
     - [📚Chapitre III](data/Chapitre III cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 5 Vitesse d'un système](data/Act05 vitesse systeme.pdf){:target="_blank"}
