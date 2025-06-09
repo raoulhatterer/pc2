@@ -12,7 +12,7 @@
     - [📚Chapitre I](data/Chapitre I cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 1  Corps pur et mélange](data/Act01 corps pur et melange.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap 1 pages 28 à 36)"
-        ![page 24](data/p24.png)
+        ![page 28](data/p28.png)
         ![page 25](data/p25.png)
         ![page 25](data/p25.png)
         ![page 26](data/p26.png)
@@ -187,12 +187,14 @@
     - [📚Chapitre XIV](data/Chapitre XIV cours energie electrique eleves.pdf){:target="_blank"}
     - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap 16 pages 316 à 324)"
-        ![page 246](data/p246.png)
-        ![page 247](data/p247.png)
-        ![page 248](data/p248.png)
-        ![page 249](data/p249.png)
-        ![page 250](data/p250.png)
-        ![page 251](data/p251.png)
-        ![page 252](data/p252.png)
+        ![page 316](data/p316.png)
+        ![page 317](data/p317.png)
+        ![page 318](data/p318.png)
+        ![page 319](data/p319.png)
+        ![page 320](data/p320.png)
+        ![page 321](data/p321.png)
+        ![page 322](data/p322.png)
+        ![page 323](data/p323.png)
+        ![page 324](data/p324.png)        
 
 
