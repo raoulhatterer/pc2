@@ -4,7 +4,7 @@
 !!! success "Consignes"
     - Cours: Veillez à toujours avoir imprimé le chapitre suivant à l'avance ainsi lorsque l'on passera à un nouveau chapitre vous l'aurez à votre disposition.
     - Travaux Pratiques: Terminez systématiquement de rédiger l'activité qui a eu lieu et préparez la suivante pour la prochaine séance de TP. 
-
+    - Exercices: Préparer et savoir refaire les exercices est primordial. Si *Correlyce* ne fonctionne pas, vous trouverez ici des captures d'écran des énoncés d'exercices. 
 
 {# écrire `cache/` ou `data/` pour cacher ou non un fichier #} 
 
