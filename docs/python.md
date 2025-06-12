@@ -16,11 +16,11 @@
            else:
                print("Il s'agit d'un mélange car la température de changement d'état d'un mélange n'est pas constante.")
            ```
-        2. À la ligne 3, remplacez la chaîne de caractère "je réfléchis" par oui (sans guillemets) ou par non (sans guillemets) ou par la chaîne de caractère "oui" ou par la chaîne de caractère "non" puis testez le programme pour vous assurer que vous avez fait le bon choix.
-        3. Autres sources d'erreurs :
-            1. Essayez de ne mettre qu'un seul `=` dans le test de comparaison à la ligne 3 puis testez le programme. Que constatez-vous ?
-            2. Essayez de retirer le caractère `:`à  la fin de la ligne 3 ou à la fin de la ligne 5 et testez le programme. Que constatez-vous ?
-            3. Essayez de retirer les indentations (c'est-à-dire le décalage) au début des lignes 4 et 6 et testez le programme. Que constatez-vous ?
+        2. À la ligne 3, faut-il remplacer la chaîne de caractère "je réfléchis" par oui (sans guillemets) ou par non (sans guillemets) ou par la chaîne de caractère "oui" ou par la chaîne de caractère "non" ?  Tester le programme pour s'assurer que le choix fait est le bon.
+        3. Autres sources d'erreurs qui concernent la syntaxe :
+            1. Ne mettre qu'un seul `=` dans le test de comparaison à la ligne 3 puis tester le programme. Que constate-t-on ?
+            2. Retirer le caractère `:`à  la fin de la ligne 3 ou à la fin de la ligne 5 et tester le programme. Que constate-t-on ?
+            3. Retirer les indentations (c'est-à-dire le décalage) au début des lignes 4 et 6 et tester le programme. Que constate-t-on ?
                 - **Données :**
                     - Python souhaite une information de l'utilisateur : `input()` retourne la saisie de l'utilisateur sous forme de chaîne de caractère. 
                     - Comme tous les langages de programmation, Python a des exigences de syntaxe. Il convient de les respecter.
@@ -55,7 +55,7 @@
 ## Chapitre 3
 !!! example "{{ exercice() }} : Tracer les vecteurs vitesse avec pyplot (32 p 184)"
     === "Énoncé"
-        1. Ouvrir le script suivant dans Capytale (**code :**):
+        1. Les positions du système, ainsi que les instants `t` ont été extraits d'un pointage. Ouvrir le script suivant dans Capytale (**code :**):
            ```python  linenums="1"
            # Tracer les vecteurs vitesse (capytale c09e32p184)
            import matplotlib.pyplot as plt
@@ -92,22 +92,69 @@
 
 
 ## Chapitre 4
+!!! example "{{ exercice() }} : Calculer une force d'interaction gravitationnelle (chap10 ex 9 p 201)"
+    === "Énoncé"
+        1. Ouvrir le script suivant dans Capytale (**code :**):
+           ```python  linenums="1"
+           G = 6.67E-11 # en N.m2/kg2
+           d = float(input("d (en m) = "))
+           m1 = float(input("m1 (en kg) = "))
+           
+           F = G * m1 * m2 / d**2
+           print("F =", F, "N")
+           ```
+           2. Syntaxe : indiquer à quoi correspond le `E` à la ligne 1.
+           3. Écrire la ligne 4 permettant de demander `m2` à l'utilisateur.
+           3. Exécuter le script pour calculer la valeur de la force de l'exercice 9 p 201 (en utilisant `E` pour saisir aisément les valeurs de la formule).
+           4. Donner le résultat en notation scientifique avec 2 chiffres significatifs.
+
+
+
 
 ## Chapitre 5
-
-
-```python  linenums="1"
-t  = [0, 0.04, 0.08, 0.12, 0.16, 0.20, 0.24]
-# d  = 0 0.008 0.031 0.071 0.125
-d = [4.9* dt**2 for dt in t]
-# v (m/s)0.20 0.58 0.98 1.40
-v = [d[i]/t[i] for i in len(t)]
-```
-
+!!! example "{{ exercice() }} : Galilée et la chute des corps (chap11 ex 14 p 218)"
+    === "Énoncé"
+        1. Ouvrir le script suivant dans Capytale (**code :**):
+           ```python  linenums="1"
+           t = [0, 0.04, 0.08, 0.12, 0.16, 0.20, 0.24]
+           d = [4.9 * dt**2 for dt in t]
+           v = [(d[i + 1] - d[i]) / (t[i + 1] - t[i]) for i in range(len(t) - 1)]
+           l = [round(2 * vitesse, 1) for vitesse in v]
+           print("t (en s):", t)
+           print("d (en m):", d)
+           print("v (en m/s):", v)
+           print("l (en cm)", l)
+           ```
+           2. Quelle ligne du programme utilise la relation de proportionnalité évoquée par Galilée ?
+           3. Quelle est la syntaxe Python pour élever au carré ?
+           4. Remplir le tableau de l'exercice 14 p 218 à la main (et calculatrice) puis exécuter le script pour vérifier les réponses.
+           5. Après exécution du script python `t`, `d`, `v` et `l` sont des listes de valeurs. En se référant à l'énoncé de l'exercice 14 p218, indiquer à quoi correspondent les valeurs de la liste `l`. 
+       
 
 
 ## Chapitre 6
+!!! example "{{ exercice() }} : Masse approchée d'un atome (chap03 ex 9 p 72)"
+    === "Énoncé"
+        1. Ouvrir le script suivant dans Capytale (**code :**):
+           ```python  linenums="1"
+           # Masse approchée d'un atome
+           Z = int(input("Nombre de protons: "))
+           rep = int(input("Nombre d'électrons: "))
+           if rep != Z:
+               print("Faux. Un atome est neutre donc il a autant d'électrons que de protons.")
+           N = int(input("Nombre de neutrons: "))
+           m_nucleon = 1.67E-27
+           m_electron = m_nucleon / 1836
+           m_noyau = m_nucleon * (Z + N)
+           m_atome = m_noyau + m_electron * Z
+           print("masse du noyau :", m_noyau)
+           print("masse de l'atome :", m_atome)
 
+           ```
+           2. Syntaxe : indiquer la signification de `!=` dans le test effectué à la ligne 4.
+           3. Exécuter le script pour répondre à l'exercice 9 p 72.
+           4. Quel est le calcul simple permettant d'obtenir la masse approchée d'un atome ? Pourquoi parle-t-on de masse approchée ?
+           
 
 
 
@@ -286,7 +333,28 @@ v = [d[i]/t[i] for i in len(t)]
         5. À l’aide de la représentation temporelle de la fonction `y`, indiquer ce que représente le nombre 3 dans la ligne 13 du programme.
         6. Sous le tracé des deux fonctions précédentes, on souhaite tracer une nouvelle fonction `y2` qui est sinusoïdale, de période T égale à 0,020 s et d’amplitude égale à 4. Modifier le programme  (`f2 = ?` ; `y2 = ?` ; Tracé de y2) pour afficher le tracé des trois fonctions. Utiliser `plt.subplot(3, 1, 1)`, `plt.subplot(3, 1, 2)` et `plt.subplot(3, 1, 3)` pour placer les sous figures dans une grille 3x1.
     
-
+## Chapitre 9
+!!! example "{{ exercice() }} : Décrire des états physiques (chap06 ex 4 p 121)"
+    === "Énoncé"
+        1. On a mesuré la température au cours du temps lors de la solidification du cyclohexane. Ouvrir et tester le script suivant dans Capytale (**code :**):    
+           ```python  linenums="1"
+           # Décrire des états physiques
+           import matplotlib.pyplot as plt
+           t = [0, 2, 4, 6, 8, 10] # (en min)
+           T = 16.0, 11.5, 6.5, 6.5, 6.0, 1.51  # (en °C)
+           # préparation de la zone graphique
+           plt.grid()
+           plt.title("Donner un titre")
+           plt.xlabel(".....(en min)")
+           plt.ylabel("..... (en °C)")
+           # tracé des points de la trajectoire
+           plt.plot(t,T,'ro-')
+           plt.show()
+           ```
+           2. Syntaxe : Python est sensible à la "casse" c'est-à-dire qu'il distingue les majuscules et les minuscules. Dans ce script que représentent les variables `t`et `T`?
+           3. Lignes 7, 8 et 9 donner un titre au graphique et annoter les axes. 
+           3. Exécuter le script pour tracer le graphique représentant l’évolution de la température au cours du temps.
+           4. Identifier les états physiques par lesquels passe le cyclohexane au cours du temps.
 
 
 ## Chapitre 12

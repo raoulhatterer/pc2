@@ -8,7 +8,8 @@
 
 {# écrire `cache/` ou `data/` pour cacher ou non un fichier #} 
 
-??? abstract "Chapitre 1: Corps purs et mélanges"
+## Chapitre 1
+??? abstract "Corps purs et mélanges"
     - [📚Chapitre I](data/Chapitre I cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 1  Corps pur et mélange](data/Act01 corps pur et melange.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap 1 pages 28 à 36)"
@@ -20,8 +21,8 @@
         ![page 29](data/p29.png)
         ![page 30](data/p30.png)
 
-    
-??? abstract "Chapitre 2: Solutions aqueuses"
+## Chapitre 2    
+??? abstract "Solutions aqueuses"
     - [📚Chapitre II](data/Chapitre II cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 2 Préparation d'une solution par dissolution](data/Act02 dissolution.pdf){:target="_blank"}
     - [⚛️Activité 3 Préparation d'une solution par dilution](data/Act03 dilution.pdf){:target="_blank"}    
@@ -37,8 +38,9 @@
         ![page 58](data/p58.png)
         ![page 59](data/p59.png)
         ![page 60](data/p60.png)
-        
-??? abstract "Chapitre 3: Description des mouvements"
+
+## Chapitre 3        
+??? abstract "Description des mouvements"
     - [📚Chapitre III](data/Chapitre III cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 5 Vitesse d'un système](data/Act05 vitesse systeme.pdf){:target="_blank"}
     - [⚛️Activité 6 Vecteurs déplacement et vitesse](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"}
@@ -52,8 +54,9 @@
         ![page 184](data/p184.png)
         ![page 185](data/p185.png)
         ![page 186](data/p186.png)
-        
-??? abstract "Chapitre 4: Modéliser une action mécanique"
+
+## Chapitre 4        
+??? abstract "Modéliser une action mécanique"
     - [⚛️Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap10 pages 200 à 206)" 
         ![page 200](data/p200.png)
@@ -65,8 +68,8 @@
         ![page 206](data/p206.png)
         
 
-
-??? abstract "Chapitre 5: Principe d'inertie"
+## Chapitre 5
+??? abstract "Principe d'inertie"
     - [📚Chapitre V](data/Chapitre V cours eleve.pdf){:target="_blank"}
     - [⚛️Activité 8 Le principe d'inertie](data/Act08 principe d'inertie.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap11 pages 216 à 222)" 
@@ -78,8 +81,8 @@
         ![page 221](data/p221.png)
         ![page 222](data/p222.png)
         
- 
-??? abstract "Chapitre 6: De l'atome à l’élément chimique"
+## Chapitre 6 
+??? abstract "De l'atome à l’élément chimique"
     - [📚Chapitre VI](data/Chapitre VI cours Photon eleve.pdf){:target="_blank"}
     - [⚛️Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap3 pages 71 à 76)" 
@@ -89,8 +92,9 @@
         ![page 74](data/p74.png)
         ![page 75](data/p75.png)
         ![page 76](data/p76.png)
-        
-??? abstract "Chapitre 7: Vers des entités plus stables"
+
+## Chapitre 7        
+??? abstract "Vers des entités plus stables"
     - [📚Chapitre VII](data/Chapitre VII cours eleve.pdf){:target="_blank"}
     - [⚛️Activité 10 Familles chimiques](data/Act10 familles chimiques.pdf){:target="_blank"}
     - [⚛️Activité 11 Formation des ions](data/Act11 formation des ions.pdf){:target="_blank"}    
@@ -107,8 +111,8 @@
         ![page 98](data/p98.png)
 
  
- 
-??? abstract "Chapitre 8: Émission et perception d'un son"
+## Chapitre 8 
+??? abstract "Émission et perception d'un son"
     - [📚Chapitre VIII](data/Chapitre VIII cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 13 Mesure de la vitesse du son](data/Act13 vitesse du son.pdf){:target="_blank"}
     - [⚛️Activité 14 Analyse d'un son](data/Act14 analyse d'un son.pdf){:target="_blank"}
@@ -124,8 +128,8 @@
         ![page 245](data/p245.png)
         ![page 246](data/p246.png)
 
-    
-??? abstract "Chapitre 9: Transformations physiques"
+## Chapitre 9
+??? abstract "Transformations physiques"
     - [📚Chapitre IX](data/Chapitre IX cours champs eleve.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap6 pages 120 à 126)"
@@ -137,7 +141,8 @@
         ![page 125](data/p125.png)
         ![page 126](data/p126.png)
 
-??? abstract "Chapitre 10: Transformations chimiques"
+## Chapitre 10
+??? abstract "Transformations chimiques"
     - [📚Chapitre X](data/Chapitre X cours mouvements eleves.pdf){:target="_blank"}
     - [⚛️Activité 16 Trouver le réactif limitant](data/Act16 reactifs limitant.pdf){:target="_blank"}    
     - [⚛️Activité 17 Du gaspillage dans les vignes](data/Act17 gaspillage dans les vignes.pdf){:target="_blank"}        
@@ -154,8 +159,8 @@
         ![page 147](data/p147.png)
         ![page 148](data/p148.png)
         
-    
-??? abstract "Chapitre 11: Réfraction et réflexion de la lumière"
+## Chapitre 11
+??? abstract "Réfraction et réflexion de la lumière"
     - [📚Chapitre XI](data/Chapitre XI cours EmEcEpp eleves.pdf){:target="_blank"}
     - [⚛️Activité 20 Lois de Snell-Descartes](data/Act20 Snell Descartes.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap14 pages 279 à 286)"
@@ -168,8 +173,8 @@
         ![page 285](data/p285.png)
         ![page 286](data/p286.png)
 
- 
-??? abstract "Chapitre 12: Les lentilles convergentes"
+## Chapitre 12 
+??? abstract "Les lentilles convergentes"
     - [📚Chapitre XII](data/Chapitre XII redox eleves.pdf){:target="_blank"}
     - [⚛️Activité 21 Lentille convergente](data/Act21 lentille convergente.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap 15 pages 298 à 304)"
@@ -181,8 +186,8 @@
         ![page 303](data/p303.png)
         ![page 304](data/p304.png)
  
- 
-??? abstract "Chapitre 13: Les spectres d'émission"
+## Chapitre 13 
+??? abstract "Les spectres d'émission"
     - [📚Chapitre XIII](data/Chapitre XIII cours eleves.pdf){:target="_blank"}
     - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap 13 pages 258 à 266)"
@@ -196,8 +201,8 @@
         ![page 265](data/p265.png)
         ![page 266](data/p266.png)
         
- 
-??? abstract "Chapitre 14: Les lois de l'électricité"
+## Chapitre 14 
+??? abstract "Les lois de l'électricité"
     - [📚Chapitre XIV](data/Chapitre XIV cours energie electrique eleves.pdf){:target="_blank"}
     - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap 16 pages 316 à 324)"
