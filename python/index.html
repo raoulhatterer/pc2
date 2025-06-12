@@ -1,0 +1,1585 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cours, activités et exercices de Physique Chimie en seconde">
+      
+      
+        <meta name="author" content="R. Hatterer">
+      
+      
+        <link rel="canonical" href="https://raoulhatterer.github.io/pc2/python/">
+      
+      <link rel="icon" href="../xtra/favPPC.png">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.3">
+    
+    
+      
+        <title>Python en Physique-Chimie - Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.7a952b86.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+
+    
+    
+    
+    <!-- Load CDNs : Pyodide (Python in WASM), Ace (Editor) and JQuery (Terminal) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.12/ext-language_tools.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.17.0/full/pyodide.asm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-md5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/js/jquery.terminal.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/jquery.terminal@2.23.0/css/jquery.terminal.min.css" rel="stylesheet">
+
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../xtra/pyoditeur.css">
+    
+      <link rel="stylesheet" href="../xtra/ajustements.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#python-en-physique-chimie" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat" class="md-header__button md-logo" aria-label="Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 2H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2M7.4 20C5.9 18.6 5 16.6 5 14.5s.9-4.1 2.4-5.5l1.6.6c-1.3 1.1-2 3-2 4.9s.7 3.7 2 4.9l-1.6.6m5.3-2-.8-2-1.4 2H9l2.3-3.1L10 12h1.3l.8 2 1.4-2H15l-2.2 3 1.3 3h-1.4m3.9 2-1.6-.6c1.3-1.2 2-3 2-4.9s-.7-3.7-2-4.9l1.6-.6c1.5 1.4 2.4 3.4 2.4 5.5s-.9 4.1-2.4 5.5M21 7H3V4h18v3Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Python en Physique-Chimie
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="green"  aria-label="Passer au mode nuit"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Passer au mode nuit" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="teal"  aria-label="Passer au mode jour"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Passer au mode jour" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      🏡 Accueil
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../corrections/" class="md-tabs__link">
+      Corrections
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../documents/" class="md-tabs__link">
+      Cours et TP
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../fiches-methodes/" class="md-tabs__link">
+      Fiches méthode
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../millimetre/" class="md-tabs__link">
+      Papier millimétré
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Python en Physique-Chimie
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../tableau-periodique/" class="md-tabs__link">
+      Tableau périodique
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../vid%C3%A9os/chapitre-01-composition-d-un-syst%C3%A8me-chimique/" class="md-tabs__link">
+        Vidéos
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat" class="md-nav__button md-logo" aria-label="Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 2H3c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2M7.4 20C5.9 18.6 5 16.6 5 14.5s.9-4.1 2.4-5.5l1.6.6c-1.3 1.1-2 3-2 4.9s.7 3.7 2 4.9l-1.6.6m5.3-2-.8-2-1.4 2H9l2.3-3.1L10 12h1.3l.8 2 1.4-2H15l-2.2 3 1.3 3h-1.4m3.9 2-1.6-.6c1.3-1.2 2-3 2-4.9s-.7-3.7-2-4.9l1.6-.6c1.5 1.4 2.4 3.4 2.4 5.5s-.9 4.1-2.4 5.5M21 7H3V4h18v3Z"/></svg>
+
+    </a>
+    Seconde — Physique-Chimie au Lycée de la méditerranée La Ciotat
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        🏡 Accueil
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../corrections/" class="md-nav__link">
+        Corrections
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../documents/" class="md-nav__link">
+        Cours et TP
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fiches-methodes/" class="md-nav__link">
+        Fiches méthode
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../millimetre/" class="md-nav__link">
+        Papier millimétré
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Python en Physique-Chimie
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Python en Physique-Chimie
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-1" class="md-nav__link">
+    Chapitre 1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-2" class="md-nav__link">
+    Chapitre 2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-3" class="md-nav__link">
+    Chapitre 3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-4" class="md-nav__link">
+    Chapitre 4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-5" class="md-nav__link">
+    Chapitre 5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-6" class="md-nav__link">
+    Chapitre 6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-7" class="md-nav__link">
+    Chapitre 7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-8" class="md-nav__link">
+    Chapitre 8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-9" class="md-nav__link">
+    Chapitre 9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-12" class="md-nav__link">
+    Chapitre 12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapitre-14" class="md-nav__link">
+    Chapitre 14
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tableau-periodique/" class="md-nav__link">
+        Tableau périodique
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Vidéos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Vidéos" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Vidéos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-01-composition-d-un-syst%C3%A8me-chimique/" class="md-nav__link">
+        Chapitre 1: Composition d'un système chimique
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-02-de-la-structure-a-la-polarite-d-une-entite/" class="md-nav__link">
+        Chapitre 2: De la structure à la polarité d'une entité
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-03-cohesion-et-dissolution-des-solides/" class="md-nav__link">
+        Chapitre 3: Cohésion et dissolution des solides
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-04-images-et-lentilles/" class="md-nav__link">
+        Chapitre 4: Images et lentilles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-05-les-couleurs/" class="md-nav__link">
+        Chapitre 5: Les couleurs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-06-la-lumiere/" class="md-nav__link">
+        Chapitre 6: La lumière (onde et particule)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-07-structure-des-composes-organiques/" class="md-nav__link">
+        Chapitre 7: Structure des composés organiques
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-08-synthese-de-composes-organiques/" class="md-nav__link">
+        Chapitre 8: Synthèse de composés organiques
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-09-champs-gravitationnels-et-electriques/" class="md-nav__link">
+        Chapitre 9: Champs gravitationnels et électriques
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-10-mouvement/" class="md-nav__link">
+        Chapitre 10: Mouvement
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-11-phenomenes-mecaniques-et-energie/" class="md-nav__link">
+        Chapitre 11: Phénomènes mécaniques et énergie
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-12-oxydo-reduction/" class="md-nav__link">
+        Chapitre 12: oxydo-réduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-13-avancement-et-titrage/" class="md-nav__link">
+        Chapitre 13: Avancement et titrage
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-14-energie-electrique/" class="md-nav__link">
+        Chapitre 14: Énergie électrique
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vid%C3%A9os/chapitre-15-ondes/" class="md-nav__link">
+        Chapitre 15: Les ondes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+    
+                  
+
+  <a href="tree/main/docs/python.md" title="Editer cette page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.js"></script>
+<script src="https://raoulhatterer.github.io/pc2//js/sqlite_ide.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/sql/sql.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.css">
+<link rel="stylesheet" href="https://raoulhatterer.github.io/pc2//css/sqlite_ide.css">
+<script>sqljs_base_path="https://raoulhatterer.github.io/pc2/"</script>
+<h1 id="python-en-physique-chimie">Python en Physique-Chimie<a class="headerlink" href="#python-en-physique-chimie" title="Permanent link">⚓︎</a></h1>
+<h2 id="chapitre-1">Chapitre 1<a class="headerlink" href="#chapitre-1" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  1 : Corps pur ou mélange</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:1"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Le programme suivant doit permettre de déterminer si l'on a affaire à un corps pur ou à un mélange. Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Corps pur ou mélange </span>
+<span class="n">observation</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;La température du corps est-elle constante lors du changement d&#39;état ? &quot;</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">observation</span> <span class="o">==</span> <span class="s2">&quot;je réfléchis&quot;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Il s&#39;agit d&#39;un corps pur car la température de changement d&#39;état d&#39;un corps pur est constante.&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Il s&#39;agit d&#39;un mélange car la température de changement d&#39;état d&#39;un mélange n&#39;est pas constante.&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></li>
+<li>À la ligne 3, faut-il remplacer la chaîne de caractère "je réfléchis" par oui (sans guillemets) ou par non (sans guillemets) ou par la chaîne de caractère "oui" ou par la chaîne de caractère "non" ?  Tester le programme pour s'assurer que le choix fait est le bon.</li>
+<li>Autres sources d'erreurs qui concernent la syntaxe :<ol>
+<li>Ne mettre qu'un seul <code>=</code> dans le test de comparaison à la ligne 3 puis tester le programme. Que constate-t-on ?</li>
+<li>Retirer le caractère <code>:</code>à  la fin de la ligne 3 ou à la fin de la ligne 5 et tester le programme. Que constate-t-on ?</li>
+<li>Retirer les indentations (c'est-à-dire le décalage) au début des lignes 4 et 6 et tester le programme. Que constate-t-on ?<ul>
+<li><strong>Données :</strong><ul>
+<li>Python souhaite une information de l'utilisateur : <code>input()</code> retourne la saisie de l'utilisateur sous forme de chaîne de caractère. </li>
+<li>Comme tous les langages de programmation, Python a des exigences de syntaxe. Il convient de les respecter.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-2">Chapitre 2<a class="headerlink" href="#chapitre-2" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  2 : Déterminer une concentration (chap02 ex 28 p 56)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Le programme suivant permet de déterminer la concentration en masse de chlorure de sodium d’une solution. Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Déterminer une concentration (chap02 ex 28 p 56)</span>
+<span class="n">m</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Masse de chlorure de sodium en g : &quot;</span><span class="p">))</span>
+<span class="n">V</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Volume de la solution en L : &quot;</span><span class="p">))</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">m</span> <span class="o">/</span> <span class="n">V</span>
+<span class="k">if</span> <span class="n">t</span> <span class="o">&gt;</span> <span class="mi">360</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La concentration en masse t = 360 g/L&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La concentration en masse :&quot;</span><span class="p">,</span> <span class="n">t</span><span class="p">,</span> <span class="s2">&quot;g/L&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Donner le mode de préparation de la solution S</li>
+<li>La ligne 1 correspond à un commentaire. Par quel caractère doit-on commencer une ligne de commentaire ?</li>
+<li>Préciser l’objectif de <code>float()</code> aux lignes 2 et 3.</li>
+<li>Donner le nom de la fonction python utilisée aux lignes 6 et 8 qui permet d'afficher un message à l'écran.</li>
+<li>Modifier le programme afin de pouvoir déterminer la masse à prélever connaissant la concentration et le volume. <ul>
+<li><strong>Données :</strong><ul>
+<li>À température ambiante, la concentration maximale en chlorure de sodium d’une solution est égale à 360 g·L<sup>–1</sup>.</li>
+<li>Python et les nombres : python manipule soit des nombres entiers (<code>int</code>) comme 360 soit des nombres réels (<code>float</code>) comme 3,14.</li>
+<li>Python souhaite une information de l'utilisateur : <code>input()</code> retourne la saisie de l'utilisateur sous forme de chaîne de caractère. </li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-3">Chapitre 3<a class="headerlink" href="#chapitre-3" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  3 : Tracer les vecteurs vitesse avec pyplot (32 p 184)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:1"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Les positions du système, ainsi que les instants <code>t</code> ont été extraits d'un pointage. Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Tracer les vecteurs vitesse (capytale c09e32p184)</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="n">x</span><span class="o">=</span><span class="p">[</span><span class="mf">0.0257</span><span class="p">,</span><span class="mf">0.2877</span><span class="p">,</span><span class="mf">0.5549</span><span class="p">,</span><span class="mf">0.8118</span><span class="p">,</span><span class="mf">1.0842</span><span class="p">,</span><span class="mf">1.3256</span><span class="p">,</span><span class="mf">1.6031</span><span class="p">]</span>
+<span class="n">y</span><span class="o">=</span><span class="p">[</span><span class="mf">1.0944</span><span class="p">,</span><span class="mf">1.4387</span><span class="p">,</span><span class="mf">1.5980</span><span class="p">,</span><span class="mf">1.6133</span><span class="p">,</span><span class="mf">1.4849</span><span class="p">,</span><span class="mf">1.2177</span><span class="p">,</span><span class="mf">0.7810</span><span class="p">]</span>
+<span class="n">t</span><span class="o">=</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mf">0.125</span><span class="p">,</span><span class="mf">0.25</span><span class="p">,</span><span class="mf">0.375</span><span class="p">,</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.625</span><span class="p">,</span><span class="mf">0.75</span><span class="p">]</span>
+<span class="c1"># Calcul des composantes Vx et Vy</span>
+<span class="n">Vx</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">:</span>
+    <span class="n">Vxi</span><span class="o">=</span><span class="p">[(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">/</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">])]</span>
+    <span class="n">Vx</span><span class="o">=</span> <span class="n">Vx</span><span class="o">+</span> <span class="n">Vxi</span>
+<span class="n">Vy</span><span class="o">=</span><span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">:</span>
+    <span class="n">Vyi</span><span class="o">=</span><span class="p">[(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">])</span><span class="o">/</span><span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">])]</span>
+    <span class="n">Vy</span><span class="o">=</span><span class="n">Vy</span><span class="o">+</span><span class="n">Vyi</span>
+<span class="c1"># préparation de la zone graphique</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Représentation du vecteur vitesse&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;$x$ (m)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;$y$ (m)&#39;</span><span class="p">)</span>
+<span class="c1"># tracé des points de la trajectoire</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="s1">&#39;ro&#39;</span><span class="p">)</span>
+<span class="c1"># tracé des vecteurs vitesse avec un facteur d&#39;échelle</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">arrow</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">Vx</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">/</span><span class="mi">10</span><span class="p">,</span> <span class="n">Vy</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">/</span><span class="mi">10</span><span class="p">,</span><span class="n">head_width</span><span class="o">=</span><span class="mf">0.03</span><span class="p">,</span> <span class="n">head_length</span><span class="o">=</span><span class="mf">0.03</span><span class="p">,</span><span class="n">color</span><span class="o">=</span><span class="s2">&quot;blue&quot;</span><span class="p">)</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="mf">0.05</span><span class="p">,</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="sa">r</span><span class="s2">&quot;$\vec</span><span class="si">{v}</span><span class="s2">$&quot;</span><span class="o">+</span><span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">),</span><span class="n">color</span><span class="o">=</span><span class="s2">&quot;blue&quot;</span><span class="p">)</span>
+<span class="c1"># Légende</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">text</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="mf">0.8</span><span class="p">,</span><span class="s2">&quot;Echelle 1 cm $\leftrightarrow$ 10 cm/s&quot;</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;blue&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Repérer dans le programme les lignes correspondant aux données extraites du pointage.</li>
+<li>Repérer de même la (ou les) ligne(s) permettant de représenter les vecteurs vitesse. Extraire de cette (ou ces) ligne(s) le facteur de représentation des vecteurs vitesse.</li>
+<li>Proposer une modification du programme pour avoir un facteur de représentation des vecteurs vitesse de 1/15.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-4">Chapitre 4<a class="headerlink" href="#chapitre-4" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  4 : Calculer une force d'interaction gravitationnelle (chap10 ex 9 p 201)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:1"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">G</span> <span class="o">=</span> <span class="mf">6.67E-11</span> <span class="c1"># en N.m2/kg2</span>
+<span class="n">d</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;d (en m) = &quot;</span><span class="p">))</span>
+<span class="n">m1</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;m1 (en kg) = &quot;</span><span class="p">))</span>
+
+<span class="n">F</span> <span class="o">=</span> <span class="n">G</span> <span class="o">*</span> <span class="n">m1</span> <span class="o">*</span> <span class="n">m2</span> <span class="o">/</span> <span class="n">d</span><span class="o">**</span><span class="mi">2</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;F =&quot;</span><span class="p">,</span> <span class="n">F</span><span class="p">,</span> <span class="s2">&quot;N&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Syntaxe : indiquer à quoi correspond le <code>E</code> à la ligne 1.</li>
+<li>Écrire la ligne 4 permettant de demander <code>m2</code> à l'utilisateur.</li>
+<li>Exécuter le script pour calculer la valeur de la force de l'exercice 9 p 201 (en utilisant <code>E</code> pour saisir aisément les valeurs de la formule).</li>
+<li>Donner le résultat en notation scientifique avec 2 chiffres significatifs.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-5">Chapitre 5<a class="headerlink" href="#chapitre-5" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  5 : Galilée et la chute des corps (chap11 ex 14 p 218)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:1"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span>
+<span class="normal">8</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">t</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.04</span><span class="p">,</span> <span class="mf">0.08</span><span class="p">,</span> <span class="mf">0.12</span><span class="p">,</span> <span class="mf">0.16</span><span class="p">,</span> <span class="mf">0.20</span><span class="p">,</span> <span class="mf">0.24</span><span class="p">]</span>
+<span class="n">d</span> <span class="o">=</span> <span class="p">[</span><span class="mf">4.9</span> <span class="o">*</span> <span class="n">dt</span><span class="o">**</span><span class="mi">2</span> <span class="k">for</span> <span class="n">dt</span> <span class="ow">in</span> <span class="n">t</span><span class="p">]</span>
+<span class="n">v</span> <span class="o">=</span> <span class="p">[(</span><span class="n">d</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="o">/</span> <span class="p">(</span><span class="n">t</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="n">t</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">t</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)]</span>
+<span class="n">l</span> <span class="o">=</span> <span class="p">[</span><span class="nb">round</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">vitesse</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="k">for</span> <span class="n">vitesse</span> <span class="ow">in</span> <span class="n">v</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;t (en s):&quot;</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;d (en m):&quot;</span><span class="p">,</span> <span class="n">d</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;v (en m/s):&quot;</span><span class="p">,</span> <span class="n">v</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;l (en cm)&quot;</span><span class="p">,</span> <span class="n">l</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Quelle ligne du programme utilise la relation de proportionnalité évoquée par Galilée ?</li>
+<li>Quelle est la syntaxe Python pour élever au carré ?</li>
+<li>Remplir le tableau de l'exercice 14 p 218 à la main (et calculatrice) puis exécuter le script pour vérifier les réponses.</li>
+<li>Après exécution du script python <code>t</code>, <code>d</code>, <code>v</code> et <code>l</code> sont des listes de valeurs. En se référant à l'énoncé de l'exercice 14 p218, indiquer à quoi correspondent les valeurs de la liste <code>l</code>. </li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-6">Chapitre 6<a class="headerlink" href="#chapitre-6" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  6 : Masse approchée d'un atome (chap03 ex 9 p 72)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="6:1"><input checked="checked" id="__tabbed_6_1" name="__tabbed_6" type="radio" /><div class="tabbed-labels"><label for="__tabbed_6_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Masse approchée d&#39;un atome</span>
+<span class="n">Z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Nombre de protons: &quot;</span><span class="p">))</span>
+<span class="n">rep</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Nombre d&#39;électrons: &quot;</span><span class="p">))</span>
+<span class="k">if</span> <span class="n">rep</span> <span class="o">!=</span> <span class="n">Z</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Faux. Un atome est neutre donc il a autant d&#39;électrons que de protons.&quot;</span><span class="p">)</span>
+<span class="n">N</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Nombre de neutrons: &quot;</span><span class="p">))</span>
+<span class="n">m_nucleon</span> <span class="o">=</span> <span class="mf">1.67E-27</span>
+<span class="n">m_electron</span> <span class="o">=</span> <span class="n">m_nucleon</span> <span class="o">/</span> <span class="mi">1836</span>
+<span class="n">m_noyau</span> <span class="o">=</span> <span class="n">m_nucleon</span> <span class="o">*</span> <span class="p">(</span><span class="n">Z</span> <span class="o">+</span> <span class="n">N</span><span class="p">)</span>
+<span class="n">m_atome</span> <span class="o">=</span> <span class="n">m_noyau</span> <span class="o">+</span> <span class="n">m_electron</span> <span class="o">*</span> <span class="n">Z</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;masse du noyau :&quot;</span><span class="p">,</span> <span class="n">m_noyau</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;masse de l&#39;atome :&quot;</span><span class="p">,</span> <span class="n">m_atome</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Syntaxe : indiquer la signification de <code>!=</code> dans le test effectué à la ligne 4.</li>
+<li>Exécuter le script pour répondre à l'exercice 9 p 72.</li>
+<li>Quel est le calcul simple permettant d'obtenir la masse approchée d'un atome ? Pourquoi parle-t-on de masse approchée ?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-7">Chapitre 7<a class="headerlink" href="#chapitre-7" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  7 : Obtenir une configuration électronique (chap04 ex 33 p 95)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="7:2"><input checked="checked" id="__tabbed_7_1" name="__tabbed_7" type="radio" /><input id="__tabbed_7_2" name="__tabbed_7" type="radio" /><div class="tabbed-labels"><label for="__tabbed_7_1">Énoncé</label><label for="__tabbed_7_2">Correction</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Obtenir une configuration électronique (capytale c04e33p95)</span>
+<span class="n">Z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Que vaut Z (Z &lt; 18) ?&quot;</span><span class="p">))</span>
+<span class="n">ne</span> <span class="o">=</span> <span class="n">Z</span> <span class="c1"># (1)</span>
+<span class="c1"># initialisation: les sous-couches électroniques sont vides</span>
+<span class="n">n1s</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">n2s</span><span class="p">,</span> <span class="n">n2p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+<span class="n">n3s</span><span class="p">,</span> <span class="n">n3p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+
+<span class="c1"># Remplir sous-couche 1s</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n1s</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">):</span> <span class="c1"># (4)</span>
+    <span class="n">n1s</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># (2)</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>  <span class="c1"># (3)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n1s</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="s2">&quot; 1s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n1s</span><span class="p">)</span> <span class="c1"># (5)</span>
+
+<span class="c1"># Remplir sous-couche 2s</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n2s</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="n">n2s</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n2s</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 2s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n2s</span><span class="p">)</span> <span class="c1"># (6)</span>
+
+<span class="c1"># Remplir sous-couche 2p</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n2p</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">):</span>
+    <span class="n">n2p</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n2p</span> <span class="o">==</span> <span class="mi">6</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 2p&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n2p</span><span class="p">)</span> <span class="c1"># (7)</span>
+
+<span class="c1"># Remplir sous-couche 3s</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n3s</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="n">n3s</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n3s</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 3s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n3s</span><span class="p">)</span> <span class="c1"># (8)</span>
+
+<span class="c1"># Remplir sous-couche 3p</span>
+
+
+
+
+
+
+<span class="k">if</span> <span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;hors programme&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pour Z =&quot;</span><span class="p">,</span> <span class="n">Z</span><span class="p">,</span> <span class="s2">&quot;la configuration électronique est&quot;</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div><ol>
+<li>Nombre d'électrons à placer sur les différentes sous-couches</li>
+<li>Incrémente le nombre d'électrons sur la sous-couche 1s</li>
+<li>Décrémente le nombre total d'électrons restant à placer</li>
+<li>Tant qu'il reste des électrons à placer et que la sous-couche 1s n'est pas pleine, continuer de remplir la sous-couche 1s</li>
+<li>Commence une chaîne de caractères qui va débuter par <em>1s</em> suivi du nombre d'électrons sur cette sous couche. La fonction <code>str()</code> transforme un entier en chaine de caractère</li>
+<li>Prolonge la chaîne nommée<code>config</code></li>
+<li>Prolonge la chaîne nommée<code>config</code></li>
+<li>Prolonge la chaîne nommée<code>config</code></li>
+</ol>
+</li>
+<li>En utilisant le script déterminer la configuration électronique de l'hélium <span class="arithmatex">\(He\)</span>(Z = 2) et du berrylium <span class="arithmatex">\(Be\)</span>(Z = 4).</li>
+<li>Compléter le script pour la sous-couche 3p </li>
+<li>En utilisant le script déterminer la configuration électronique de l'alluminium <span class="arithmatex">\(A\ell\)</span>(Z = 13).</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span>
+<span class="normal">40</span>
+<span class="normal">41</span>
+<span class="normal">42</span>
+<span class="normal">43</span>
+<span class="normal">44</span>
+<span class="normal">45</span>
+<span class="normal">46</span>
+<span class="normal">47</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Obtenir une configuration électronique (capytale c04e33p95)</span>
+<span class="n">Z</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Que vaut Z (Z &lt; 18) ?&quot;</span><span class="p">))</span>
+<span class="n">ne</span> <span class="o">=</span> <span class="n">Z</span> <span class="c1"># (1)</span>
+<span class="c1"># initialisation: les sous-couches électroniques sont vides</span>
+<span class="n">n1s</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">n2s</span><span class="p">,</span> <span class="n">n2p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+<span class="n">n3s</span><span class="p">,</span> <span class="n">n3p</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span>
+
+<span class="c1"># Remplir sous-couche 1s</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n1s</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">):</span> <span class="c1"># (4)</span>
+    <span class="n">n1s</span> <span class="o">+=</span> <span class="mi">1</span> <span class="c1"># (2)</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>  <span class="c1"># (3)</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n1s</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="s2">&quot; 1s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n1s</span><span class="p">)</span> <span class="c1"># (5)</span>
+
+<span class="c1"># Remplir sous-couche 2s</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n2s</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="n">n2s</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n2s</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 2s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n2s</span><span class="p">)</span>
+
+<span class="c1"># Remplir sous-couche 2p</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n2p</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">):</span>
+    <span class="n">n2p</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n2p</span> <span class="o">==</span> <span class="mi">6</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 2p&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n2p</span><span class="p">)</span>
+
+<span class="c1"># Remplir sous-couche 3s</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n3s</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">):</span>
+    <span class="n">n3s</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n3s</span> <span class="o">==</span> <span class="mi">2</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 3s&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n3s</span><span class="p">)</span>
+
+<span class="c1"># Remplir sous-couche 3p</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">n3p</span> <span class="o">&lt;</span> <span class="mi">6</span><span class="p">):</span>
+    <span class="n">n3p</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">ne</span> <span class="o">-=</span> <span class="mi">1</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">ne</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">n3p</span> <span class="o">==</span> <span class="mi">6</span><span class="p">):</span>
+        <span class="n">config</span> <span class="o">=</span> <span class="n">config</span> <span class="o">+</span> <span class="s2">&quot; 3p&quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">n3p</span><span class="p">)</span>
+
+<span class="k">if</span> <span class="n">ne</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;hors programme&quot;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Pour Z =&quot;</span><span class="p">,</span> <span class="n">Z</span><span class="p">,</span> <span class="s2">&quot;la configuration électronique est&quot;</span><span class="p">,</span> <span class="n">config</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-8">Chapitre 8<a class="headerlink" href="#chapitre-8" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  8 : Fonction périodique (chap12 ex 23 p 241)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="8:1"><input checked="checked" id="__tabbed_8_1" name="__tabbed_8" type="radio" /><div class="tabbed-labels"><label for="__tabbed_8_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Ouvrir le script suivant dans Capytale (<strong>code :</strong>):
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span>
+<span class="normal">15</span>
+<span class="normal">16</span>
+<span class="normal">17</span>
+<span class="normal">18</span>
+<span class="normal">19</span>
+<span class="normal">20</span>
+<span class="normal">21</span>
+<span class="normal">22</span>
+<span class="normal">23</span>
+<span class="normal">24</span>
+<span class="normal">25</span>
+<span class="normal">26</span>
+<span class="normal">27</span>
+<span class="normal">28</span>
+<span class="normal">29</span>
+<span class="normal">30</span>
+<span class="normal">31</span>
+<span class="normal">32</span>
+<span class="normal">33</span>
+<span class="normal">34</span>
+<span class="normal">35</span>
+<span class="normal">36</span>
+<span class="normal">37</span>
+<span class="normal">38</span>
+<span class="normal">39</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
+
+
+<span class="c1"># Création d&#39;une variable temps, t, dont 1000 valeurs sont comprises entre 0 et 0,1 seconde</span>
+<span class="n">t</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mi">1000</span><span class="p">)</span>
+
+<span class="c1"># valeur ....</span>
+<span class="n">f</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">f1</span> <span class="o">=</span> <span class="mi">100</span>
+
+<span class="c1"># Définition des fonctions y et y1 (et y2 à compléter)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">f</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span>
+<span class="n">y1</span> <span class="o">=</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">f1</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span> <span class="o">+</span> <span class="mi">3</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sin</span><span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">f1</span> <span class="o">*</span> <span class="n">t</span><span class="p">)</span>
+
+<span class="c1"># Tracé des courbes sous forme de graphiques empilés dans une grille et mise en place de la légende</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">gcf</span><span class="p">()</span><span class="o">.</span><span class="n">subplots_adjust</span><span class="p">(</span><span class="n">hspace</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span> <span class="c1"># (1)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Acquisition de deux signaux sonores&quot;</span><span class="p">)</span>
+
+<span class="c1"># Tracé de y</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># (2)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;$t$ (en s)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;$y$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+
+<span class="c1"># Tracé de y1</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="c1"># (3)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">y1</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;$t$ (en s)&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;$y_1$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+
+<span class="c1"># Tracé de y2 (à compléter)</span>
+
+<span class="c1"># (4) </span>
+
+<span class="c1"># Affichage de la figure </span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div><ol>
+<li>height space (espace en hauteur) entre lignes de la grille. Au besoin, utiliser <code>wspace</code> comme width space pour régler l'espace en largeur entre colonnes.</li>
+<li>Dans une grille de 2 lignes x  1 colonne, la figure est placée en  1re ligne. À modifier à la question 6.</li>
+<li>Dans une grille de 2 lignes x  1 colonne, la figure est placée en  2e ligne.  À modifier à la question 6.</li>
+<li>On peut également sauvegarder l'image dans le répertoire du script avec <code>plt.savefig("image.png")</code> </li>
+</ol>
+</li>
+<li>Déterminer graphiquement la période de chacune des fonctions correspondant aux courbes</li>
+<li>Calculer la fréquence de chacune de ces deux fonctions.</li>
+<li>Compléter le commentaire de la ligne 8 du programme.</li>
+<li>À l’aide de la représentation temporelle de la fonction <code>y</code>, indiquer ce que représente le nombre 3 dans la ligne 13 du programme.</li>
+<li>Sous le tracé des deux fonctions précédentes, on souhaite tracer une nouvelle fonction <code>y2</code> qui est sinusoïdale, de période T égale à 0,020 s et d’amplitude égale à 4. Modifier le programme  (<code>f2 = ?</code> ; <code>y2 = ?</code> ; Tracé de y2) pour afficher le tracé des trois fonctions. Utiliser <code>plt.subplot(3, 1, 1)</code>, <code>plt.subplot(3, 1, 2)</code> et <code>plt.subplot(3, 1, 3)</code> pour placer les sous figures dans une grille 3x1.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-9">Chapitre 9<a class="headerlink" href="#chapitre-9" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  9 : Décrire des états physiques (chap06 ex 4 p 121)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="9:1"><input checked="checked" id="__tabbed_9_1" name="__tabbed_9" type="radio" /><div class="tabbed-labels"><label for="__tabbed_9_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>On a mesuré la température au cours du temps lors de la solidification du cyclohexane. Ouvrir et tester le script suivant dans Capytale (<strong>code :</strong>):  <br />
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Décrire des états physiques</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="n">t</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">,</span> <span class="mi">8</span><span class="p">,</span> <span class="mi">10</span><span class="p">]</span> <span class="c1"># (en min)</span>
+<span class="n">T</span> <span class="o">=</span> <span class="mf">16.0</span><span class="p">,</span> <span class="mf">11.5</span><span class="p">,</span> <span class="mf">6.5</span><span class="p">,</span> <span class="mf">6.5</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">,</span> <span class="mf">1.51</span>  <span class="c1"># (en °C)</span>
+<span class="c1"># préparation de la zone graphique</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Donner un titre&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;.....(en min)&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;..... (en °C)&quot;</span><span class="p">)</span>
+<span class="c1"># tracé des points de la trajectoire</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">t</span><span class="p">,</span><span class="n">T</span><span class="p">,</span><span class="s1">&#39;ro-&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Syntaxe : Python est sensible à la "casse" c'est-à-dire qu'il distingue les majuscules et les minuscules. Dans ce script que représentent les variables <code>t</code>et <code>T</code>?</li>
+<li>Lignes 7, 8 et 9 donner un titre au graphique et annoter les axes. </li>
+<li>Exécuter le script pour tracer le graphique représentant l’évolution de la température au cours du temps.</li>
+<li>Identifier les états physiques par lesquels passe le cyclohexane au cours du temps.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-12">Chapitre 12<a class="headerlink" href="#chapitre-12" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  10 : Lentille</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="10:1"><input checked="checked" id="__tabbed_10_1" name="__tabbed_10" type="radio" /><div class="tabbed-labels"><label for="__tabbed_10_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Ouvrir et tester le script suivant dans Capytale (<strong>code :</strong>):  <br />
+   <div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename"><span style="color:black">🐍 Script Python</span></span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span>
+<span class="normal">11</span>
+<span class="normal">12</span>
+<span class="normal">13</span>
+<span class="normal">14</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="c1"># Fonction permettant de calculer la taille de l&#39;image</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">calculer_taille_image</span><span class="p">(</span><span class="n">AB</span><span class="p">,</span> <span class="n">OA</span><span class="p">,</span> <span class="n">OAprime</span><span class="p">):</span>
+    <span class="n">AprimeBprime</span> <span class="o">=</span> <span class="n">AB</span> <span class="o">*</span> <span class="n">OAprime</span> <span class="o">/</span> <span class="n">OA</span>
+    <span class="k">return</span> <span class="n">AprimeBprime</span>
+
+
+<span class="c1"># Les valeurs sont fournies par l&#39;utilisateur</span>
+<span class="n">AB</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Donner la taille de l&#39;objet AB en mètre : </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">OA</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Donner la distance OA en mètre : </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+<span class="n">OAprime</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Donner la distance OA&#39; en mètre : </span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">))</span>
+
+<span class="c1"># Calcul et affichage du résultat</span>
+<span class="n">resultat</span> <span class="o">=</span> <span class="n">calculer_taille_image</span><span class="p">(</span><span class="n">AB</span><span class="p">,</span> <span class="n">OA</span><span class="p">,</span> <span class="n">OAprime</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;La taille de l&#39;image A&#39;B&#39; est&quot;</span><span class="p">,</span> <span class="n">resultat</span><span class="p">,</span> <span class="s2">&quot;m.&quot;</span><span class="p">)</span>
+</code></pre></div></td></tr></table></div></li>
+<li>Écrire un nouveau programme comportant la fonction <code>calculer_position_image(AB, OA, AprimeBprime)</code> qui permet de calculer OA’ connaissant AB, OA et A'B' qui seront les valeurs fournies par l'utilisateur. </li>
+<li>Adapter la partie <em>Calcul et affichage du résultat</em> pour afficher la position de l'image.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<h2 id="chapitre-14">Chapitre 14<a class="headerlink" href="#chapitre-14" title="Permanent link">⚓︎</a></h2>
+<div class="admonition example">
+<p class="admonition-title">Exercice  11 : Parafoudre (chap16 ex 28 p320)</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="11:1"><input checked="checked" id="__tabbed_11_1" name="__tabbed_11" type="radio" /><div class="tabbed-labels"><label for="__tabbed_11_1">Énoncé</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li>Réaliser l'exercice dans Capytale</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+                
+    <script src="../js/ide.js"></script> 
+
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Retour en haut de la page
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Pied de page" >
+      
+        
+        <a href="../millimetre/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Papier millimétré" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Papier millimétré
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../tableau-periodique/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Tableau périodique" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Tableau périodique
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "toc.integrate", "header.autohide", "content.code.annotate"], "search": "../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.37e9125f.min.js"></script>
+      
+        <script src="../xtra/config.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../xtra/interpreter.js"></script>
+      
+    
+  </body>
+</html>
