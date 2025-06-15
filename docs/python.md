@@ -74,8 +74,8 @@
            # préparation de la zone graphique
            plt.grid()
            plt.title("Représentation du vecteur vitesse")
-           plt.xlabel('$x$ (m)')
-           plt.ylabel('$y$ (m)')
+           plt.xlabel("$x$ (m)")
+           plt.ylabel("$y$ (m)")
            # tracé des points de la trajectoire
            plt.plot(x,y,'ro')
            # tracé des vecteurs vitesse avec un facteur d'échelle
@@ -304,16 +304,16 @@
            
            # Tracé de y
            plt.subplot(2, 1, 1) # (2)
-           plt.xlabel('$t$ (en s)')
-           plt.ylabel('$y$')
+           plt.xlabel("$t$ (en s)")
+           plt.ylabel("$y$")
            plt.grid()
            plt.plot(t, y, color='blue')
            
            # Tracé de y1
            plt.subplot(2, 1, 2) # (3)
            plt.plot(t, y1, color='red')
-           plt.xlabel('$t$ (en s)')
-           plt.ylabel('$y_1$')
+           plt.xlabel("$t$ (en s)")
+           plt.ylabel("$y_1$")
            plt.grid()
            
            # Tracé de y2 (à compléter)
@@ -356,6 +356,249 @@
            3. Exécuter le script pour tracer le graphique représentant l’évolution de la température au cours du temps.
            4. Identifier les états physiques par lesquels passe le cyclohexane au cours du temps.
 
+
+## Chapitre 10
+!!! example "{{ exercice() }} : Chromatographie sur couche mince (CCM)"
+    === "Énoncé"
+        - Objectifs :
+            - Savoir lire un chromatogramme CCM.
+            - Identifier les constituants d’un mélange par comparaison avec des espèces de référence.
+            - Utiliser un programme Python pour s’entraîner.    
+        - Travail demandé:
+            - Lancer le programme Python dans Capytale (**code: 7e20-6893103**) puis exécuter une cellule après l'autre.
+            - Observer le chromatogramme généré.
+            - Analyser le dépôt de synthèse : d’après les positions des taches migrées du mélange (Synthèse), indiquer si l'espèce A est présente. Indiquer si l'espèce B est présente.
+            - Vérifier vos réponses grâce à la correction automatique proposée par le programme.
+            - Refaire plusieurs fois la procédure.
+            ![image](data/python_ccm.png)
+    === "Script python"
+        1. Import des modules et paramètres de la plaque
+           ```python  linenums="1"
+           import matplotlib.pyplot as plt
+           import random
+           
+           # Paramètres de la plaque
+           largeur_plaque = 4  # cm
+           hauteur_plaque = 8  # cm
+           ligne_depot = 1     # cm
+           
+           # Front de l'éluant (aléatoire à chaque exercice)
+           front = random.uniform(6, 7.5) # (1)
+           
+           # Positions horizontales des dépôts
+           # 1 : Référence A
+           # 2 : Référence B
+           # 3 : Produit de synthèse
+           ```
+            1. La méthode `uniform ()` renvoie un nombre flottant aléatoire entre les deux nombres spécifiés (tous deux inclus).
+        2. Simulation de l'existence et des positions aléatoires des taches
+           ```python  linenums="16"
+           # Rf des références (valeurs réalistes et bien séparées)
+           Rf_A = round(random.uniform(0.2, 0.5), 2)
+           Rf_B = round(random.uniform(0.55, 0.9), 2)
+           
+           # Présence ou non des espèces dans le mélange synthétisé
+           contient_A = random.choice([True, False])
+           contient_B = random.choice([True, False])
+           
+           # ordonnées des taches
+           yA = ligne_depot + Rf_A * (front - ligne_depot)
+           yB = ligne_depot + Rf_B * (front - ligne_depot)
+           ```
+        3. Affichage de la chromatographie
+           ```python  linenums="1"
+           plt.figure(figsize=(4, 8))
+           
+           # Plaque CCM (un rectangle est un polygone fermé)
+           x_rect = [0, largeur_plaque, largeur_plaque,              0, 0] # (1)
+           y_rect = [0,              0, hauteur_plaque, hauteur_plaque, 0] # (2)
+           plt.fill(x_rect, y_rect, facecolor='white', edgecolor='black', linewidth=2) # (3)
+           
+           # Front de l'éluant
+           plt.plot([0, largeur_plaque], [front, front], '--', color='grey', label="Front de l'éluant")
+           
+           # Ligne de dépôts
+           plt.plot([0, largeur_plaque], [ligne_depot, ligne_depot], '-', color='black')
+           
+           # Dépôts
+           plt.scatter(1, ligne_depot, s=400, color='white', edgecolor='black')
+           plt.text(1 - 0.3, 0.5, 'Réf A', fontsize=12)
+           
+           plt.scatter(2, ligne_depot, s=400, color='white', edgecolor='black')
+           plt.text(2 - 0.3, 0.5, 'Réf B', fontsize=12)
+           
+           plt.scatter(3, ligne_depot, s=400, color='white', edgecolor='black')
+           plt.text(3 - 0.5, 0.5, 'Synthèse', fontsize=12)
+           
+           # Tracer les taches migrées
+           plt.scatter(1, yA, s=400, color='lightgrey', edgecolor='black')
+           plt.scatter(2, yB, s=400, color='grey', edgecolor='black')
+           
+           if contient_A:
+               plt.scatter(3, yA, s=400, color='lightgrey', edgecolor='black')
+           if contient_B:
+               plt.scatter(3, yB, s=400, color='grey', edgecolor='black')
+            
+           plt.xlim(0, largeur_plaque)
+           plt.ylim(0, hauteur_plaque)
+           plt.axis('off')
+           plt.title("Chromatographie CCM")
+           plt.legend()
+           plt.show()
+           ```
+            1. liste des abscisses des points du polygone fermé
+            2. liste des ordonnées des points du polygone fermé
+            3. `plt.fill()` attend deux listes : la liste des abscisses et la liste des ordonnées des points du polygone
+        4. Questions
+           ```python  linenums="1"
+           print("\nAnalyse du produit de synthèse :")
+           
+           reponse_A = input("Le produit contient-il l'espèce A ? (oui/non) ")
+           reponse_B = input("Le produit contient-il l'espèce B ? (oui/non) ")
+           ```
+        5. Correction
+           ```python  linenums="1"
+           # Correction
+           if (reponse_A == 'oui' and contient_A) or (reponse_A == 'non' and not contient_A):
+               print("✅ Réponse correcte pour l'espèce A.")
+           else:
+               print("❌ Réponse incorrecte pour l'espèce A.")
+           
+           if (reponse_B == 'oui' and contient_B) or (reponse_B == 'non' and not contient_B):
+               print("✅ Réponse correcte pour l'espèce B.")
+           else:
+               print("❌ Réponse incorrecte pour l'espèce B.")
+           
+           print("Exercice terminé.\n")
+           ```
+       
+## Chapitre 11
+!!! example "{{ exercice() }} : Réfraction"
+    === "Énoncé"
+        - Objectifs :
+            - Savoir simuler un phénomène de réfraction.
+            - Savoir donner un résultat en ayant un regard critique sur la précision.
+            - Utiliser un programme Python pour s’entraîner.    
+        - Travail demandé:
+            - Lancer le programme Python dans Capytale (**code: 892c-6894267**) puis exécuter une cellule après l'autre.
+            - Saisir les paramètres souhaités (angle du rayon incident et indice des milieux) puis simuler le trajet du faisceau lumineux.
+            - Vérifier l'angle de réfraction à l'aide de la loi de Snell-Descartes
+            - Faire la partie complémentaire concernant la précision du résultat.
+            - Vérifier vos réponses grâce à la correction automatique proposée par le programme.
+            - Refaire plusieurs fois la procédure.
+            ![image](data/python_refraction.png)
+
+    === "Script python"
+        1. Import des modules
+           ```python  linenums="1"
+           import numpy as np
+           import matplotlib.pyplot as plt
+           import matplotlib.patches as patches
+           ```
+        2. Définition de nouvelles fonctions
+           ```python  linenums="4"
+           # Fonction de calcul de l'angle de réfraction
+           def calcul_refraction(n1, n2, i_deg):
+               i_rad = np.radians(i_deg)
+               sin_r = n1 / n2 * np.sin(i_rad)
+               
+               if abs(sin_r) > 1:
+                   return None  # Réflexion totale
+               else:
+                   r_rad = np.arcsin(sin_r)
+                   r_deg = np.degrees(r_rad)
+                   return r_deg           
+
+           # Fonction de tracé
+           def tracer_refraction(n1, n2, angle_incident):
+               angle_refracte = calcul_refraction(n1, n2, angle_incident)
+               
+               fig, ax = plt.subplots(figsize=(8, 8))
+               
+               # Tracé du demi-cylindre (face courbe en bas)
+               demi_cercle = patches.Wedge(center=(0, 0), r=1, theta1=180, theta2=360, facecolor='lightblue', edgecolor='black', alpha=0.3)
+               ax.add_patch(demi_cercle)
+               
+               # Surface plane
+               plt.plot([-1, 1], [0, 0], color='k', alpha=0.3)  
+           
+               # Tracé du rapporteur gradué
+               for angle in range(-90, 91, 5):
+                   rad = np.radians(angle)
+                   x = np.sin(rad)
+                   y = np.cos(rad)
+                   ax.plot([0, x], [0, y], color='lightgray', lw=0.5)
+                   ax.plot([0, -x], [0, -y], color='lightgray', lw=0.5)        
+                   if angle % 30 == 0:
+                       plt.text(1.1 * np.sin(rad), 1.1 * np.cos(rad), f"{abs(angle)}°", ha='center', va='center', fontsize=10)
+                       plt.text(-1.1 * np.sin(rad), -1.1 * np.cos(rad), f"{abs(angle)}°", ha='center', va='center', fontsize=10)            
+           
+               # Rayon incident
+               i_rad = np.radians(angle_incident)
+               xi = -2 * np.sin(i_rad)
+               yi = 2 * np.cos(i_rad)
+               ax.plot([xi, 0], [yi, 0], color='red', label="Rayon incident")
+           
+               # Normale
+               ax.plot([0, 0], [-1.2, 1.2], 'k--', alpha=0.5)
+           
+               # Rayon réfracté
+               if angle_refracte is not None:
+                   r_rad = np.radians(angle_refracte)
+                   xr = np.sin(r_rad)
+                   yr = -np.cos(r_rad)
+                   ax.plot([0, xr], [0, yr], color='blue', label="Rayon réfracté")
+                   plt.title(f"i = {angle_incident}° ; r = {round(angle_refracte, 1)}°")
+               else:
+                   plt.title(f"i = {angle_incident}° ; Réflexion totale")
+           
+               ax.set_xlim(-1.5, 1.5)
+               ax.set_ylim(-1.5, 1.5)
+               ax.set_aspect('equal')
+               plt.legend()
+               plt.grid(False)
+               ax.set_xticks([])
+               ax.set_yticks([])
+               plt.show()
+           ```
+        3. Simulation
+           ```python  linenums="67"
+           # Exemple
+           n_air = 1.00
+           n_plexiglas = 1.33
+           angle_incident = 70.0
+           
+           tracer_refraction(n_air, n_plexiglas, angle_incident)
+           
+           ```
+        4. Questions et correction
+           ```python  linenums="73"
+           from random import choice
+           r = calcul_refraction(n_air, n_plexiglas, angle_incident)
+           A = "a) La précision d'un résultat dépend de la précision des données utilisées ? (oui/non) "
+           B = "a) La précision d'un résultat dépend du nombre de décimales affichées par la calculatrice ? (oui/non) "
+           C = f"b) r = {r}° est préférable à r = {r:.1f}° car «c'est plus précis» (oui/non) "
+           D = f"b) r = {r:.1f}° est préférable à r = {r} car prétendre être plus précis est illusoire (oui/non) "
+           Q1, Q2 = choice([A, B]), choice([C, D])
+           
+           print("\nDONNER UN RÉSULTAT NUMÉRIQUE :\n")
+           print(f"L'angle du rayon réfracté est de {r} degrés ou de {r:.1f} degrés ?" )
+           reponse_1 = input(Q1)
+           reponse_2 = input(Q2)
+
+           # Correction
+           if (Q1 == A and reponse_1 == 'oui') or (Q1 == B and reponse_1 == 'non'):
+               print("✅ Réponse 1 correcte\n")
+           else:
+               print("❌ Réponse 1 incorrecte\n")
+           
+           if (Q2 == C and reponse_2 == 'non') or (Q2 == D and reponse_2 == 'oui'):
+               print("✅ Réponse 2 correcte\n")
+           else:
+               print("❌ Réponse 2 incorrecte\n")
+           
+           print("Exercice terminé.\n")     
+           ```
 
 ## Chapitre 12
 
