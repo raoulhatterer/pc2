@@ -16,13 +16,13 @@
     === "Énoncé"
         ![image](data/chap1_non_miscibles.jpg){: .center width="200"}
         
-        1. Identifier la phase acqueuse et la phase organique pour le tube A.
-        2. Identifier la phase acqueuse et la phase organique pour le tube B.
+        1. Identifier la phase aqueuse et la phase organique pour le tube A.
+        2. Identifier la phase aqueuse et la phase organique pour le tube B.
         3. Classer les masses volumiques (ρ<sub>eau</sub> , ρ<sub>alcool</sub> et ρ<sub>huile</sub>) par ordre croissant. 
 
 
 ### 2. Quantifier la composition d'un mélange
-Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient en partant de la notion de physique et mathématique de fraction ( ⚠️ Il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
+Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient en partant de la notion de physique et mathématique de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
 
  - **La proportion en masse** d'une espèce dans un mélange est le quotient de la masse de cette espèce par la masse totale du mélange.
  - **La proportion en volume** d'une espèce dans un mélange est le quotient du volume de cette espèce par le volume total du mélange.
@@ -30,8 +30,8 @@ Pour un mélange, la composition massique (ou volumique) de chaque constituant s
 Remarques: 
 
  - Le résultat est un nombre sans unité. 
- - Lorsqu'ils sont exprimés en pourcent (%), ces rapports sont nommés respectivement **pourcentage massique** et **pourcentage volumique**.
- - Les proportions et les pourcentages en volumes sont surtout utilisées pour les mélanges de liquides ou de gaz (exemple: l'air contient, en volume, environ 78 % de diazote, 21 % de dioxygène et 1 % d'autres gaz).
+ - Lorsqu'ils sont exprimés en *pour cent* (%), ces rapports sont nommés respectivement **pourcentage massique** et **pourcentage volumique**.
+ - Les proportions et les pourcentages en volumes sont surtout utilisés pour les mélanges de liquides ou de gaz (exemple: l'air contient, en volume, environ 78 % de diazote, 21 % de dioxygène et 1 % d'autres gaz).
 
 
 
