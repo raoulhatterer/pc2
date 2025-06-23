@@ -10,7 +10,7 @@
 
 ## Chapitre 1
 ??? abstract "Corps purs et mélanges"
-    - [📚Chapitre I](data/Chapitre I cours eleves.pdf){:target="_blank"}
+    - [📚Chapitre I](Chapitre I.md){:target="_blank"}
     - [⚛️Activité 1  Corps pur et mélange](data/Act01 corps pur et melange.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap 1 pages 28 à 36)"
         ![page 28](data/p28.png)
