@@ -58,11 +58,12 @@ Remarques:
 
 #### b. Masse volumique (densité de matière)
 
-La  masse volumique se note $\rho$ et se lit rho.
-
-![image](data/chap1_rho.jpg){: .center width="300"}
-
-D'autres unités sont possibles.
+!!! tip "Masse volumique "
+    La  masse volumique se note $\rho$ et se lit rho.
+    
+    ![image](data/chap1_rho.jpg){: .center width="300"}
+    
+    D'autres unités sont possibles.
 
 !!! example "{{ exercice() }} :heart:" 
     === "Énoncé"
@@ -93,6 +94,16 @@ D'autres unités sont possibles.
         2. Donner la masse volumique de l'eau de mer.
 
 
+!!! tip "Densité"
+
+    - densité d'un liquide : 
+    <center>$d=\frac{\rho_{liquide}}{\rho_{eau}}$</center>
+
+    - densité d'un gaz :
+    
+    <center>$d=\frac{\rho_{gaz}}{\rho_{air}}$</center>
+
+    Grandeur sans unité.
 
 ### 2. Méthodes chimiques (tests caractéristiques)
 #### a. Test du dioxyde de carbone 
