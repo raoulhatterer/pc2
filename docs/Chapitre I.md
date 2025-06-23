@@ -21,7 +21,7 @@
         3. Classer les masses volumiques (ρ<sub>eau</sub> , ρ<sub>alcool</sub> et ρ<sub>huile</sub>) par ordre croissant. 
 
 
-### 2. Proportions et pourcentages pour quantifier la composition d'un mélange
+### 2. Quantifier la composition d'un mélange
 Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient en partant de la notion de physique et mathématique de fraction ( ⚠️ Il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
 
  - **La proportion en masse** d'une espèce dans un mélange est le quotient de la masse de cette espèce par la masse totale du mélange.
