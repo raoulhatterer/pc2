@@ -9,7 +9,7 @@
 - **Corps pur** : substance constituée d’une seule espèce chimique (exemples : eau distillée $H_2O$, dioxygène pur $O_2$…).
 - **Mélange** : substance constituée de plusieurs espèces chimiques.
     - Mélange homogène : une seule phase visible (exemples : eau salée, air).
-    - Mélange hétérogène : plusieurs phases visibles (exemple : eau + huile).
+    - Mélange hétérogène : plusieurs phases visibles à l'œil nu (exemple : eau + huile).
 
 
 !!! example "{{ exercice() }} : Liquides non miscibles :heart:" 
