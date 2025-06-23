@@ -105,7 +105,7 @@ Révélé par l’eau de chaux : elle devient trouble (précipité blanc de carb
 
 ![image](data/chap1_test_H2.jpg ){width="110"}
 
-Enflammé, le gaz produit une détonation (“aboiement”) caractéristique.
+Enflammé, le gaz produit une détonation (“pop”) caractéristique.
 
 #### c. Test du dioxygène 
 ![image](data/chap1_test_O2.jpg ){width="250"}
