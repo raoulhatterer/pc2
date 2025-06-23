@@ -30,11 +30,18 @@ Pour un mélange, la composition massique (ou volumique) de chaque constituant s
 Remarques: 
 
  - Le résultat est un nombre sans unité. 
- - Lorsqu'ils sont exprimés en *pour cent* (%), ces rapports sont nommés respectivement **pourcentage massique** et **pourcentage volumique**.
+ - Souvent ces proportions sont exprimées en *pour cent* (%) et sont nommés respectivement **pourcentage massique** et **pourcentage volumique**.
  - Les proportions et les pourcentages en volumes sont surtout utilisés pour les mélanges de liquides ou de gaz (exemple: l'air contient, en volume, environ 78 % de diazote, 21 % de dioxygène et 1 % d'autres gaz).
 
+### 3. Déterminer la masse ou le volume de chaque espèce
 
+Si l'on connaît la composition du mélange.
 
+!!! tip "Masse d'une espèce"
+    m<sub>espèce</sub> = pourcentage massique × m<sub>mélange</sub>
+
+!!! tip "Volume d'une espèce"
+    V<sub>espèce</sub> = pourcentage volumique × V<sub>mélange</sub>
 
 
 
