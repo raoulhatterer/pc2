@@ -1,4 +1,4 @@
-# Chapitre 1 : Corps purs et mélanges
+# Chapitre I : Corps purs et mélanges
 
 {{ initexo(0) }}
 
@@ -18,16 +18,16 @@
         
         1. Identifier la phase aqueuse et la phase organique pour le tube A.
         2. Identifier la phase aqueuse et la phase organique pour le tube B.
-        3. Classer les masses volumiques (ρ<sub>eau</sub> , ρ<sub>alcool</sub> et ρ<sub>huile</sub>) par ordre croissant. 
+        3. Classer les densités (d<sub>eau</sub> , d<sub>alcool</sub> et d<sub>huile</sub>) par ordre croissant. 
 
 
 ### 2. Quantifier la composition d'un mélange
-Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient en partant de la notion de physique et mathématique de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
+Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient de façon très logique en partant de la notion de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
 
  - **La proportion en masse** d'une espèce dans un mélange est le quotient de la masse de cette espèce par la masse totale du mélange.
  - **La proportion en volume** d'une espèce dans un mélange est le quotient du volume de cette espèce par le volume total du mélange.
 
-Remarques: 
+Remarques : 
 
  - Le résultat est un nombre sans unité. 
  - Souvent ces proportions sont exprimées en *pour cent* (%) et sont alors nommés respectivement **pourcentage massique** et **pourcentage volumique**.
@@ -37,10 +37,10 @@ Remarques:
 
 Si l'on connaît la composition du mélange.
 
-!!! tip "Masse d'une espèce"
+!!! success "Masse d'une espèce"
     m<sub>espèce</sub> = pourcentage massique × m<sub>mélange</sub>
 
-!!! tip "Volume d'une espèce"
+!!! success "Volume d'une espèce"
     V<sub>espèce</sub> = pourcentage volumique × V<sub>mélange</sub>
 
 
@@ -56,7 +56,7 @@ Si l'on connaît la composition du mélange.
 
 #### a. Température de changement d’état
 
-!!! tip  "On peut définir une valeur de la température de changement d'état d'un corps pur, alors qu'on ne le peut pas pour un mélange."
+!!! success  "On peut définir une valeur de la température de changement d'état d'un corps pur, alors qu'on ne le peut pas pour un mélange."
     Exemple: 
 
     ![image](data/chap1_temperature.jpg){: .center   width="400"}
@@ -65,7 +65,7 @@ Si l'on connaît la composition du mélange.
 
 #### b. Masse volumique (densité de matière)
 
-!!! tip "Masse volumique "
+!!! success "Masse volumique "
     La  masse volumique se note $\rho$ et se lit rho.
     
     ![image](data/chap1_rho.jpg){: .center width="300"}
@@ -101,7 +101,7 @@ Si l'on connaît la composition du mélange.
         2. Donner la masse volumique de l'eau de mer.
 
 
-!!! tip "Densité"
+!!! success "Densité"
 
     - densité d'un liquide : 
     <center>$d=\frac{\rho_{liquide}}{\rho_{eau}}$</center>
@@ -136,12 +136,12 @@ Une allumette incandescente se rallume dans du dioxygène.
 
 Test au sulfate de cuivre anhydre : blanc à sec, devient bleu au contact de l’eau.
 
-## III. La chromatographie
+### 3. La chromatographie
 
-### 1. Principe
+#### a. Principe
 La chromatographie est une méthode permettant de séparer et d'identifier les constituants d’un mélange. La séparation est basée sur la différente affinité des constituants pour la phase fixe (papier ou plaque) et la phase mobile (solvant). Pour un éluant et une phase fixe donnés, une espèce chimique migre de la même façon, qu'elle soit pure ou dans un mélange.
 
-### 2. Chromatographie sur couche mince (CCM)
+#### b. Chromatographie sur couche mince (CCM)
 - Une goutte du mélange est déposée en bas de la plaque.
 - La plaque est plongée dans un solvant (sans que la goutte soit immergée).
 - Les constituants montent à différentes hauteurs.
@@ -150,6 +150,6 @@ La chromatographie est une méthode permettant de séparer et d'identifier les c
 
 
 
-### 3. Révélation d'un chromatogramme
+#### c. Révélation d'un chromatogramme
 
 Les chromatogrammes d'espèces chimiques incolores doivent être révélés afin de repérer la position de ces espèces après élution. La révélation peut se faire sous une lampe émettant un rayonnement ultraviolet ou à l'aide d'un révélateur chimique.
