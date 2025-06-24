@@ -77,10 +77,11 @@ La dilution d'une solution aqueuse consiste à ajouter de l'eau à cette solutio
 
 La solution obtenue (solution fille) est moins concentrée que la solution initiale (solution mère).
 
-La masse de soluté se conserve au cours de la dilution.
 
+!!! success "Masse de soluté"
+    La masse de soluté se conserve au cours de la dilution.
 
-![image](data/chap2_masse_conservee.jpg){: .center width="250"}
+    ![image](data/chap2_masse_conservee.jpg){: .center width="250"}
 
 
 !!! success "Facteur de dilution"
