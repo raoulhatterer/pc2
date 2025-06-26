@@ -41,7 +41,7 @@
 
 ## Chapitre 3        
 ??? abstract "Description des mouvements"
-    - [📚Chapitre III](data/Chapitre III cours eleves.pdf){:target="_blank"}
+    - [📚Chapitre III](cours/Chapitre III.md){:target="_blank"}
     - [⚛️Activité 5 Vitesse d'un système](data/Act05 vitesse systeme.pdf){:target="_blank"}
     - [⚛️Activité 6 Vecteurs déplacement et vitesse](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap9 pages 178 à 186)" 

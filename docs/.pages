@@ -2,3 +2,5 @@ nav:
     - Accueil : index.md
     - Documents : documents.md
     - Cours : cours
+    - Python : python.md             
+    - Tableau périodique : tableau-periodique.md 
