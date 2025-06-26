@@ -12,7 +12,7 @@
     - Mélange hétérogène : plusieurs phases visibles à l'œil nu (exemple : eau + huile).
 
 
-!!! example "{{ exercice() }} : Liquides non miscibles :heart:" 
+!!! example "{{ exercice() }} : liquides non miscibles :heart:" 
     === "Énoncé"
         ![image](data/chap1_non_miscibles.jpg){: .center width="200"}
         
@@ -72,7 +72,7 @@ Si l'on connaît la composition du mélange.
     
     D'autres unités sont possibles.
 
-!!! example "{{ exercice() }} :heart:" 
+!!! example "{{ exercice() }} : utiliser une formule :heart:" 
     === "Énoncé"
         $$\rho = \frac{m}{V}$$
         
@@ -81,7 +81,7 @@ Si l'on connaît la composition du mélange.
         3. Donner l'expression de $m$ en fonction de $\rho$ et $V$.
         4. Donner l'expression de $V$ en fonction de $\rho$ et $m$.
 
-!!! example "{{ exercice() }} : Déterminer la masse volumique d'un solide :heart:" 
+!!! example "{{ exercice() }} : déterminer la masse volumique d'un solide :heart:" 
     === "Énoncé"
         ![image](data/chap1_rho_solide.jpg){: .center width="300"}
 
@@ -93,7 +93,7 @@ Si l'on connaît la composition du mélange.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq4CVP2V4_E?si=38Metg90MOOQBNji" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
 
-!!! example "{{ exercice() }} : Déterminer la masse volumique d'un liquide :heart:" 
+!!! example "{{ exercice() }} : déterminer la masse volumique d'un liquide :heart:" 
     === "Énoncé"
         ![image](data/chap1_rho_liquide.jpg){: .center width="300"}
 

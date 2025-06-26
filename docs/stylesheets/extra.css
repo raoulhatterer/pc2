@@ -16,6 +16,10 @@
     margin: 0 auto;
 }
 
+.img-rounded {
+    border-radius: 15px; /* Ajustez cette valeur pour plus ou moins d'arrondi */
+}
+
 
 th {
     border: 1px solid var(--md-typeset-table-color);

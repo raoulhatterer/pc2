@@ -6,11 +6,18 @@
 
 ## 1. Les solutions 
 
-- Une **solution** est un mélange homogène formé par une espèce chimique majoritaire appelée **solvant**, des espèces minoritaires appelées **solutés**.
-- Lorsque le solvant est l’eau, la solution est appelée **solution aqueuse**.
-- Les solutés peuvent être :
-    - ioniques : présence d'ions en solution (exemple: Na<sup>+</sup>(aq) + Cℓ<sup>-</sup>(aq)) 
-    - ou moléculaires : molécules en solution aqueuse (exemple: I<sub>2</sub>(aq)).
+
+!!! note "Qu'est-ce qu'une solution ?"
+    Une **solution** est un mélange homogène formé par une espèce chimique majoritaire appelée **solvant** et des espèces minoritaires appelées **solutés**.
+
+    
+- Lorsque le solvant est l’eau, la solution est appelée **solution aqueuse**. ![image](data/chap2_solution_aqueuse.jpg){: .center width="100"}  
+
+
+
+- Les **solutés** peuvent être :
+    - **ioniques** : présence d'ions en solution (exemple: Na<sup>+</sup>(aq) + Cℓ<sup>-</sup>(aq)) 
+    - ou **moléculaires** : molécules en solution aqueuse (exemple: I<sub>2</sub>(aq)).
 
 
 !!! success "Que signifie (s) (g) (ℓ) (aq) ?"
@@ -67,6 +74,9 @@ Exemple : Pour préparer une solution de volume V<sub>solution</sub> = 50,0 mL e
 !!! success "Chiffres significatifs"
     Lors d'une multiplication ou d'une division, le résultat doit comporter autant de chiffres significatifs que la donnée qui en possède le moins.
 
+!!! example "{{ exercice() }} : masse de soluté à prélever :heart:" 
+    === "Énoncé"
+    Calculer la masse de soluté (glucose) à prélever pour préparer  V<sub>solution</sub> = 150,0 mL de solution, de concentration en masse t = 18,0 g·L<sup>–1</sup> en glucose. Veiller à utiliser le bon nombre de chiffres significatifs.
 
 
 ## 4. La dilution
@@ -103,7 +113,7 @@ La solution obtenue (solution fille) est moins concentrée que la solution initi
 
     
 
-!!! example "{{ exercice() }} :heart:" 
+!!! example "{{ exercice() }} : dilution :heart:" 
     Une solution mère de concentration t<sub>m</sub> = 10,0 g·L<sup>–1</sup> en soluté est diluée 5 fois pour obtenir un volume V<sub>f</sub> = 100,0 mL de solution fille. 
 
     1. Déterminer le volume de solution mère à prélever.

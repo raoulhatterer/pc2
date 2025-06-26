@@ -36,9 +36,19 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 
 !!! success "Le mouvement du système est..."
     - **uniforme** si la valeur de $\vec v$ ne change pas
-    - **varié** si la valeur de $\vec v$ change (**accéléré** si la valeur de $\vec v$ augmente ; ** ralenti** si elle diminue)
+    - **varié** si la valeur de $\vec v$ change (**accéléré** si la valeur de $\vec v$ augmente ; ** ralenti/décéléré** si elle diminue)
+
+
 
 ## 3. Décrire un mouvement
 
 
 Pour décrire un mouvement, on utilise deux caractéristiques : la forme de la trajectoire et l’évolution de la vitesse. Par exemple, on peut dire que le mouvement d’un système est *rectiligne uniforme*.
+
+!!! example "{{ exercice() }} décrire un mouvement :heart:" 
+    === "Énoncé"
+        Décrire le mouvement de la voiture dans chacune des situations suivantes.
+        
+        ![image](data/chap3_decelere.jpg){ width="300"}  
+        ![image](data/chap3_accelere.jpg){ width="300"}  
+        ![image](data/chap3_uniforme.jpg){ width="300"}
