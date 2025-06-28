@@ -76,3 +76,31 @@ Exemple: l'action mécanique exercée par la Terre sur le ballon est modélisée
         Corriger la proposition ci-dessous, s'il y a lieu de le faire.
         
         ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
+
+
+## 4. Exemples de forces
+
+![image](data/chap4_exemples.png)
+
+
+(*) Lorsque le système étudié est immobile et soumis seulement au poids et à l'action du support.
+
+![image](data/chap4_astronaute.jpg){: .center width="300"}
+
+
+
+La masse de l'astronaute est la même sur la Terre et sur la Lune, mais la valeur de son poids est différente puisque g<sub>T</sub> ≠ g<sub>L</sub>.
+
+
+## 5. Le principe des actions réciproques
+
+Lorsque deux systèmes sont en interaction, ils exercent l'un sur l'autre des actions réciproques modélisées par des forces opposées qui ont :
+
+- la même droite d'action ;
+- des sens opposés ;
+- une même valeur.
+
+Ce principe est valable aussi bien pour des actions de contact que pour des actions à distance, que le système soit en mouvement ou immobile.
+​
+
+![image](data/chap4_fusee.jpg){: .center width="400"}
