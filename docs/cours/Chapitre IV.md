@@ -5,7 +5,7 @@
 
 ## Exemple de situation
 
-Alice s'apprête à smasher le ballon de volley envoyé par Béatrice. On veut représenter les forces qui s'exercent sur le ballon au moment où la photo a été prise.
+Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. On veut représenter les forces qui s'exercent sur le ballon au moment où la photo a été prise.
 
 ![image](data/chap4_voley.jpg){: .center .img-rounded width="300"}
 
@@ -27,6 +27,10 @@ Le DOI (Diagramme Objets-Interactions) est un outil simple mais puissant qui per
 Un diagramme objets-interactions permet de recenser toutes les interactions impliquant le système à un instant t. Les interactions à **distance** (sans contact entre les objets) sont représentées par des **pointillés**, tandis que les interactions de **contact** sont représentées par des **traits pleins**.
 
 
+![image](data/chap4_DOI1.jpg){: .center width="400"}
+
+
+
 ## 3. Modélisation d'une action
 
 - Chaque action est modélisée par une force. 
@@ -45,4 +49,18 @@ Exemple: l'action mécanique exercée par la Terre sur le ballon est modélisée
     • Quand le système est modélisé par un point, ce point est considéré comme point d'application de la force.
 
 
+- Pour l'exemple étudié, on peut représenter deux forces :
+    - Le poids $\vec P$ du ballon qui représente l'action de l'objet Terre sur le système {ballon}.
+    - La force de frottements $\vec f$ qui représente l'action de l'air sur le ballon. 
 
+!!! abstract "Caractéristique du vecteur $\vec P$"
+    - **direction** : verticale  
+    - **sens** : vers la Terre donc vers le bas  
+    - **norme** : donnée par la formule $P = m \times g$   
+
+!!! abstract "Caractéristique du vecteur $\vec f$"
+    - **de direction** : tangente au mouvement  
+    - **de sens** : vers la droite car inverse au sens du mouvement du ballon  
+    - **de norme** : f de valeur inconnue  
+
+![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
