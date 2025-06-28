@@ -104,3 +104,4 @@ Ce principe est valable aussi bien pour des actions de contact que pour des acti
 ​
 
 ![image](data/chap4_fusee.jpg){: .center width="400"}
+
