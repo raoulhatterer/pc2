@@ -57,6 +57,7 @@
 
 ## Chapitre 4        
 ??? abstract "Modéliser une action mécanique"
+    - [📚Chapitre IV](cours/Chapitre IV.md){:target="_blank"}
     - [⚛️Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap10 pages 200 à 206)" 
         ![page 200](data/p200.png)
