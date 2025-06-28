@@ -27,7 +27,13 @@ Le DOI (Diagramme Objets-Interactions) est un outil simple mais puissant qui per
 Un diagramme objets-interactions permet de recenser toutes les interactions impliquant le système à un instant t. Les interactions à **distance** (sans contact entre les objets) sont représentées par des **pointillés**, tandis que les interactions de **contact** sont représentées par des **traits pleins**.
 
 
-![image](data/chap4_DOI1.jpg){: .center width="400"}
+
+
+!!! example "{{ exercice() }} : diagramme objets-interactions" 
+    === "Énoncé"
+        Modifier le DOI ci-dessous, s'il y a lieu de le faire.
+        
+        ![image](data/chap4_DOI1.jpg){: .center width="400"}
 
 
 
@@ -63,4 +69,10 @@ Exemple: l'action mécanique exercée par la Terre sur le ballon est modélisée
     - **de sens** : vers la droite car inverse au sens du mouvement du ballon  
     - **de norme** : f de valeur inconnue  
 
-![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
+
+
+!!! example "{{ exercice() }} : bilan des forces" 
+    === "Énoncé"
+        Corriger la proposition ci-dessous, s'il y a lieu de le faire.
+        
+        ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}

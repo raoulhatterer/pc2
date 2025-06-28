@@ -45,7 +45,7 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 
 Pour décrire un mouvement, on utilise deux caractéristiques : la forme de la trajectoire et l’évolution de la vitesse. Par exemple, on peut dire que le mouvement d’un système est *rectiligne uniforme*.
 
-!!! example "{{ exercice() }} décrire un mouvement :heart:" 
+!!! example "{{ exercice() }} : décrire un mouvement :heart:" 
     === "Énoncé"
         Décrire le mouvement de la voiture dans chacune des situations suivantes.
         
