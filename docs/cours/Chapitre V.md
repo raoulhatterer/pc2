@@ -2,17 +2,43 @@
 
 {{ initexo(0) }}
 
-## 1. Le principe d'inertie
 
-a. Effets d'une force sur le mouvement d'un système
-Une force s'exerçant sur un système peut modifier la valeur de la vitesse et/ou la direction du mouvement de ce système. Elle peut donc modifier le vecteur vitesse v de ce système.
+## Effet d'une force sur le mouvement d'un système
 
 
-Exemple : Au moment de la frappe (photographie A), la raquette de tennis exerce une action de contact sur le système {balle}. Cette action modifie la valeur de la vitesse et la direction du mouvement du système.
-doc. A - Le tennis
+
+<div style="text-align: center;">
+    <video autoplay loop muted width="560" height="315" playsinline style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+        <source src="https://www.salutilescanaries.com/sites/default/files/video-local/2022-06/IC_Home_Voley_v3_1_0.mp4" type="video/mp4">
+    </video>
+</div>
 
 
-La force qui modélise l'action de la raquette sur la balle modifie son vecteur v.
+!!! note "Une force peut modifier le vecteur vitesse $\vec v$"
+    Une force s'exerçant sur un système peut modifier la valeur de la vitesse et/ou la direction du mouvement de ce système. Elle peut donc modifier le vecteur vitesse $\vec v$ de ce système.
+
+### Ceci est valable pour les actions à distance
+
+![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
+
+Le poids modifie la vitesse verticale du ballon. On peut envoyer un ballon vers le haut mais obligatoirement la valeur de sa vitesse ne va cesser de diminuer jusqu'à devenir nulle quand le ballon est au sommet de sa trajectoire puis le ballon redescend en accélérant.
+
+### Ceci est valable pour les actions de contact 
+
+![image](data/chap5_frappe.jpg){: .center .img-rounded width="300"}
+
+
+
+Au moment de la frappe la main exerce une action de contact sur le système `{ballon}`. Cette action modifie la valeur de la vitesse et la direction du mouvement du système.
+La force $\vec F$<sub>main/{ballon}</sub> qui modélise l'action de la main sur le ballon modifie son vecteur $\vec v$.
+
+Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
+
+
+## 2. Le principe d'inertie
+
+
+
 
 b. Principe d'inertie
 

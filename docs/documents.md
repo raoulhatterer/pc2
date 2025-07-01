@@ -71,7 +71,7 @@
 
 ## Chapitre 5
 ??? abstract "Principe d'inertie"
-    - [📚Chapitre V](data/Chapitre V cours eleve.pdf){:target="_blank"}
+    - [📚Chapitre V](data/Chapitre V.md){:target="_blank"}
     - [⚛️Activité 8 Le principe d'inertie](data/Act08 principe d'inertie.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap11 pages 216 à 222)" 
         ![page 216](data/p216.png)
