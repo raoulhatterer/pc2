@@ -5,9 +5,7 @@
 
 ## 1. Objets et système
 
-### 🎯 Exemple de situation
-
-Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. On veut représenter les forces qui s'exercent sur le ballon au moment où la photo a été prise.
+🎯 **Exemple de situation** : Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. On veut représenter les forces qui s'exercent sur le ballon au moment où la photo a été prise.
 
 ![image](data/chap4_voley.jpg){: .center .img-rounded width="300"}
 
@@ -31,12 +29,14 @@ Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé p
         - L’objet constituant le **système étudié** est le `{ballon}`.  
         - Tous les autres objets (`Alice`, `Béatrice`, le `filet et ses poteaux`, l’`air`, la `Terre`, etc.) font partie de l’**environnement extérieur**.
 
-### 🔍 Remarque :
-On ne considère ici que des **objets matériels**.  
-La **force exercée** par Béatrice lors du lancer n’est pas un objet, mais une **interaction**.
+🔍 **Remarques**
+
+- On ne considère ici que des **objets matériels**.  
+
+- La **force exercée** par Béatrice lors du lancer n’est pas un objet, mais une **interaction**.
 De même, la **vitesse du vent** ou celle du ballon sont des **états** de ces objets, pas des objets eux-mêmes.
 
-Cependant, **préciser l’état d’un objet** (ex. : air en mouvement, ballon en chute) peut aider à **repérer les interactions**.
+- Cependant, **préciser l’état d’un objet** (ex. : air en mouvement, ballon en chute) peut aider à **repérer les interactions**.
 
 
 ## 2. Diagramme objets-interactions
@@ -69,7 +69,7 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
 - Chaque action est modélisée par une force. 
 - Une force est représentée par un vecteur. 
 
-**Exemple :** l'action mécanique exercée par la Terre sur le ballon est modélisée par une force $\vec F_{Terre/ballon} = \vec P$ (dont la valeur s'exprime en Newtons) qu'on appelle le poids (à ne pas confondre avec la masse qui s'exprime en kilogrammes).
+🎯 **Exemple** : l'action mécanique exercée par la Terre sur le ballon est modélisée par une force $\vec F_{Terre/ballon} = \vec P$ (dont la valeur s'exprime en Newtons) qu'on appelle le poids (à ne pas confondre avec la masse qui s'exprime en kilogrammes).
 
 !!! note "Le vecteur force $\vec F$"
     Comme tout vecteur, le vecteur force a :  
@@ -81,9 +81,9 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
     • Point où l'on considère que s'exerce la force.   
     • Quand le système est modélisé par un point, ce point est considéré comme point d'application de la force.
 
-### 🔍 Remarque :
+🔍 **Remarque**
 
-Dans la plupart des situations, plusieurs forces agissent en même temps.
+- Dans la plupart des situations, plusieurs forces agissent en même temps.
 Il faut donner un nom différent à chaque vecteur force pour éviter toute confusion.
 
 ## 4. Le principe des actions réciproques
