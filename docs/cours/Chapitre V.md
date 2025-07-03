@@ -19,26 +19,30 @@
 
 🎯 **Exemple  pour les actions à distance**
 
-- Le poids modifie la vitesse verticale du ballon. On peut envoyer un ballon vers le haut mais obligatoirement la valeur de sa vitesse ne va cesser de diminuer jusqu'à devenir nulle quand le ballon est au sommet de sa trajectoire puis le ballon redescend en accélérant.
+Le poids modifie la vitesse verticale du ballon. On peut envoyer un ballon vers le haut mais obligatoirement la valeur de sa vitesse ne va cesser de diminuer jusqu'à devenir nulle quand le ballon est au sommet de sa trajectoire puis le ballon redescend en accélérant.
 
 ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
 
 
 🎯 **Exemple  pour les actions de contact**
 
-- Au moment de la frappe la main exerce une action de contact sur le système `{ballon}`. Cette action modifie la valeur de la vitesse et la direction du mouvement du système.
+Au moment de la frappe la main exerce une action de contact sur le système `{ballon}`. Cette action modifie la valeur de la vitesse et la direction du mouvement du système.
 La force $\vec F$<sub>main/{ballon}</sub> qui modélise l'action de la main sur le ballon modifie son vecteur $\vec v$.
 
 ![image](data/chap5_frappe.jpg){: .center .img-rounded width="300"}
 
-- Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
+🔍 **Remarque**
+
+Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
 
 
 ## 2. Forces qui se compensent
 
 !!! note "Forces qui se compensent"
-    - Deux forces se compensent si elles ont la même droite d'action, des sens opposés et une même valeur. 
-    - La somme des vecteurs représentant ces forces est alors égale au vecteur nul.
+  
+    - **Des forces se compensent si la somme des vecteurs représentant ces forces est égale au vecteur nul.**
+    - La réciproque est vraie.
+    - Pour 2 forces: *Quand deux forces se compensent elles ont la même droite d'action, des sens opposés et une même valeur*. 
 
 ![image](data/chap5_air_hockey.jpg){.center .img-rounded width="300"}
 
@@ -74,22 +78,44 @@ Sur une piste parfaitement lisse une boule de bowling lancée sans effet a un mo
     - Lorsque le vecteur vitesse $\vec v$  d'un système varie (**lorsqu'un système n'est ni immobile ni en mouvement rectiligne uniforme**), on peut en déduire que **les forces qui s'exercent sur ce système ne se compensent pas**.
 
 
-🎯 **Exemple** : lors de son déplacement sur le sable, un ballon de beach volley est soumis à des forces qui ne se compensent pas. Alors son mouvement n'est pas rectiligne uniforme ($\vec v$ n'est pas constant). En effet le ballon ralenti jusqu'à s'arrêter (à ce moment la force de frottement $\vec f\phantom{f}$ disparaît). 
+🎯 **Exemple** : lors de son déplacement sur le sable, un ballon de beach volley est soumis à des forces qui ne se compensent pas.  
 
 
-![image](data/chap5_ballon_sable.jpg){.center .img-rounded width="300"}
+![image](data/chap5_ballon_sable.jpg){.center   .img-rounded width="300"}
 
-## 4. La chute libre verticale
+Les forces ne se compensent pas donc son mouvement n'est pas rectiligne uniforme ($\vec v$ n'est pas constant). En effet le ballon ralenti jusqu'à s'arrêter (à ce moment la force de frottement $\vec f\phantom{f}$ disparaît).
+
+![image](data/chap5_deceleration.jpg){.center  width="300"}
+
+## 4. Schématisation et modélisation
+
+### Schématisation
+
+Une schématisation est une représentation simplifiée (vue de coté ou du dessus suivant la situation, pas de perspective). 
+
+
+![image](data/chap5_schematisation.jpg){.center width="300"}
+
+
+### Modélisation
+
+Le système est modélisé par son centre $C$ et l'on rajoute les forces en présence modélisant les actions subies par le système. 
+
+![image](data/chap5_modelisation.jpg){: .center width="300"}
+
+
+
+## 5. La chute libre verticale
 
 
 !!! success "Chute libre"
     - Un système est en chute libre lorsqu'il n'est soumis qu'à son poids $\vec P$.
     - Le mouvement d'un système en chute libre n'est pas rectiligne uniforme.
 
-    ![image](data/chap5_chute_libre.jpg){.center .img-rounded width="300"}
+    ![image](data/chap5_chute_libre.jpg){.center  width="300"}
 
     - En toute rigueur, l'étude de la chute libre ne peut avoir lieu que dans le vide. 
 
 Dans l'air, une chute sera considérée comme libre si l'on peut négliger les forces exercées par l'air sur le système par rapport à son poids ce qui n'est pas toujours le cas.
 
-![image](data/chap5_pas_chute_libre.jpg){.center .img-rounded width="300"}
+![image](data/chap5_pas_chute_libre.jpg){.center  width="300"}
