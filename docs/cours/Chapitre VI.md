@@ -8,19 +8,20 @@
 
 
 !!! success "Qu'est-ce qu'une espèce chimique"
-    - Une **espèce chimique** est une **substance constituée d'un seul type d'entités chimiques identiques**.  
+    - Une **espèce chimique** est une substance constituée d'un seul type d'**entités chimiques identiques**.   
+    ![image](data/chap6_espece.jpg){: width="300"}
     - Elle est **observable ou identifiable expérimentalement** (par des propriétés physiques ou chimiques).
-    - C'est une **réalité macroscopique**.
+
 
 
 🎯 **Exemples**
 
-| Espèce chimique        | Type                   | Détails                                           |
-|------------------------|------------------------|---------------------------------------------------|
-| O₂ (dioxygène)         | Moléculaire            | Gaz constitué de molécules O₂                     |
-| H₂O (eau)              | Moléculaire            | Liquide constitué de molécules H₂O                |
-| NaCℓ (sel)             | Ionique                | Réseau d'ions Na⁺ et Cℓ⁻                          |
-| Solution de CuCℓ₂      | Ionique en solution    | Contient les ions Cu²⁺ et Cℓ⁻                     |
+| Espèce chimique           | Type                | Détails sur les entités présentes  |
+|---------------------------|---------------------|------------------------------------|
+| O₂ (dioxygène)            | Moléculaire         | Gaz constitué de molécules O₂      |
+| H₂O (eau)                 | Moléculaire         | Liquide constitué de molécules H₂O |
+| NaCℓ (chlorure de sodium) | Ionique             | Réseau d'ions Na⁺ et Cℓ⁻           |
+| Solution de CuCℓ₂         | Ionique en solution | Contient les ions Cu²⁺ et Cℓ⁻      |
 
 
 
@@ -43,7 +44,6 @@
 
 |                      | **Espèce chimique**                              | **Élément chimique**                                       |
 |----------------------|--------------------------------------------------|------------------------------------------------------------|
-| **Niveau**           | Macroscopique (substance observable)             | Microscopique (nombre de protons dans le noyau)            |
 | **Défini par**       | Même type d'entités chimiques                    | Même nombre de protons (même Z)                            |
 | **Peut contenir**    | Atomes, molécules, ions                          | Atomes, ions, noyaux, isotopes                             |
 | **Exemples**         | H₂O, O₂, NaCℓ, Cu²⁺/Cℓ⁻ en solution              | H, C, O, Fe, Cℓ…                                           |
@@ -112,20 +112,27 @@ Le nombre de neutrons est donc égal à A – Z.
 ## 3 - Les ions monoatomiques
 
 !!! success "ion monoatomique"
-    - Un ion monoatomique se forme lorsqu'un atome gagne ou perd un ou plusieurs électrons.
+    - Un ion monoatomique se forme lorsqu'**un atome gagne ou perd un ou plusieurs électrons**.  
+    ![image](data/chap6_ion_lithium.jpg){: .center width="300"}
+    (exemple : lorsqu'un atome de lithium Li perd un électron, l'ion formé Li<sup>+</sup> porte une charge électrique positive +e car il possède 3 protons et seulement 2 électrons.)
+
     - Lors de la formation d'un ion, le noyau reste inchangé.    
 
 
-Anion
-Cation
+### Exemple d'anion
+![image](data/chap6_ion_chlorure.jpg){: width="100"}
+Formé à partir d'un atome de chlore Cℓ qui gagne un électron.      
+
+### Exemple de cation
+![image](data/chap6_ion_magnesium.jpg){: width="100"}
+Formé à partir d'un atome de magnésium Mg qui perd deux électrons. 
 
 
-Formé à partir d'un atome de chlore Cℓ qui gagne un électron.
-Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
 
 
 
-Exemple : Lorsqu'un atome de lithium Li perd un électron, l'ion formé Li<sup>+</sup> porte une charge électrique positive +e car il possède 3 protons et seulement 2 électrons.
+
+
 
 
 ## 4 - Les composés ioniques
