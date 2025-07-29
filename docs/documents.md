@@ -14,12 +14,14 @@
     - [⚛️Activité 1  Corps pur et mélange](data/Act01 corps pur et melange.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap 1 pages 28 à 36)"
         ![page 28](data/p28.png)
-        ![page 25](data/p25.png)
-        ![page 25](data/p25.png)
-        ![page 26](data/p26.png)
-        ![page 28](data/p28.png)
         ![page 29](data/p29.png)
         ![page 30](data/p30.png)
+        ![page 31](data/p31.png)
+        ![page 32](data/p32.png)
+        ![page 33](data/p33.png)
+        ![page 34](data/p34.png)
+        ![page 35](data/p35.png)
+        ![page 36](data/p36.png)        
 
 ## Chapitre 2    
 ??? abstract "Solutions aqueuses"
