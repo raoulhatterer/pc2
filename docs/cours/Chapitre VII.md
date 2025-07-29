@@ -69,6 +69,8 @@
 
 ![image](../data/tableau_periodique.pdf){: .center width="800"}
 
+[Ouvrir dans un nouvel onglet](../data/tableau_periodique.pdf){:target="_blank"}
+
 Le tableau utilisé dans les exercices précédents est une version simplifiée du tableau périodique qui rassemble uniquement les 18 premiers éléments (donc les 3 premières périodes pour lesquelles  les colonnes 3 à 12 sont vides).
 
 ![image](data/chap7_tableau_simplifie.jpg){: .center width="400"}
