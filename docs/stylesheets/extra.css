@@ -78,7 +78,7 @@ td {
 }
 
 
-/* Style pour texte normal sur fond jaune */
+/* Style pour texte en gras sur fond jaune */
 .md-typeset .stabilo-jaune-bold {
     font-weight: bold; 
     background-color: #ffeb3b;  /* Jaune Material Design */
@@ -87,6 +87,53 @@ td {
     border-radius: 3px;
     display: inline-block;
     line-height: 1.5;
+}
+
+/* Style pour texte normal sur fond vert */
+.md-typeset .stabilo-vert {
+    font-weight: normal !important; /* Force le texte à rester normal */
+    background-color: rgb(175, 255, 4); 
+    color: rgba(0,0,0,0.87);   /* Noir avec 87% d'opacité */
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+
+/* Style pour texte en gras sur fond vert fluo */
+.md-typeset .stabilo-vert-bold {
+    font-weight: bold; 
+    background-color: rgb(175, 255, 4); 
+    color: rgba(0,0,0,0.87);   /* Noir avec 87% d'opacité */
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+/* Style pour texte normal sur fond rose */
+.md-typeset .stabilo-rose {
+    font-weight: normal !important;
+    background-color: rgb(255, 153, 204);  /* Rose pastel fluo */
+    color: rgba(0,0,0,0.87);              /* Noir avec 87% d'opacité */
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Effet "vrai stabilo" */
+}
+
+/* Style pour texte en gras sur fond rose */
+.md-typeset .stabilo-rose-bold {
+    font-weight: bold;
+    background-color: rgb(255, 153, 204);
+    color: rgba(0,0,0,0.87);
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 /* Style pour texte normal sur fond jaune pastel */
@@ -111,6 +158,28 @@ td {
     line-height: 1.5;
 }
 
+/* Style pour texte normal sur fond bleu */
+.md-typeset .stabilo-bleu {
+    font-weight: normal !important;
+    background-color: rgb(100, 220, 255);
+    color: rgba(0,0,0,0.87);  /* Noir avec 87% d'opacité */
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+/* Style pour texte en gras sur fond bleu */
+.md-typeset .stabilo-bleu-bold {
+    font-weight: bold;
+    background-color: rgb(100, 220, 255);
+    color: rgba(0,0,0,0.87);  /* Noir avec 87% d'opacité */
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+}
+
 /* Style pour texte normal sur fond bleu pastel */
 .md-typeset .stabilo-bleu-pastel {
     font-weight: normal !important;
@@ -123,7 +192,7 @@ td {
 }
 
 /* Style pour texte en gras sur fond bleu pastel */
-.md-typeset .stabilo-bleu-patel-bold {
+.md-typeset .stabilo-bleu-pastel-bold {
     font-weight: bold;
     background-color: rgb(145, 204, 202);  /* Même bleu pastel */
     color: rgba(0,0,0,0.87);  /* Noir avec 87% d'opacité */
@@ -154,3 +223,11 @@ td {
     display: inline-block;
     line-height: 1.5;
 }
+
+
+
+
+
+
+
+
