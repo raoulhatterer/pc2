@@ -2,6 +2,7 @@ nav:
     - Accueil : index.md
     - Documents : documents.md
     - Cours : cours
+    - Fiches méthodes : fiches-methodes.md
     - Python : python.md
     - Vidéos : videos
     - Tableau périodique : tableau-periodique.md 

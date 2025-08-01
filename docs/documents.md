@@ -11,7 +11,7 @@
 ## Chapitre 1
 ??? abstract "Corps purs et mélanges"
     - [📚Chapitre I](cours/Chapitre I.md){:target="_blank"}
-    - [⚛️Activité 1  Corps pur et mélange](data/Act01 corps pur et melange.pdf){:target="_blank"}
+    - [⚛️Activité 1  Corps pur et mélange (contexte : l’eau de la Méditerranée, mélange ou corps pur ?)](data/Act01 corps pur et melange.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap 1 pages 28 à 36)"
         ![page 28](data/p28.png)
         ![page 29](data/p29.png)
@@ -21,14 +21,16 @@
         ![page 33](data/p33.png)
         ![page 34](data/p34.png)
         ![page 35](data/p35.png)
-        ![page 36](data/p36.png)        
+        ![page 36](data/p36.png)
 
-## Chapitre 2    
+## Chapitre 2
 ??? abstract "Solutions aqueuses"
     - [📚Chapitre II](cours/Chapitre II.md){:target="_blank"}
-    - [⚛️Activité 2 Préparation d'une solution par dissolution](data/Act02 dissolution.pdf){:target="_blank"}
-    - [⚛️Activité 3 Préparation d'une solution par dilution](data/Act03 dilution.pdf){:target="_blank"}    
-    - [⚛️Activité 4 Concentration en masse et masse volumique](data/Act04 vin de Bandol.pdf){:target="_blank"}    
+    - [**fm**{: .stabilo-vert} Protocole de la dissolution](data/fm-PROTOCOLE-DE-LA-DISSOLUTION.pdf){:target="_blank"}
+    - [⚛️Activité 2 Préparation d'une solution par dissolution (contexte : la bouillie bordelaise)](data/Act02 dissolution.pdf){:target="_blank"}
+    - [**fm**{: .stabilo-vert} Protocole de la dilution](data/fm-PROTOCOLE-DE-LA-DILUTION.pdf){:target="_blank"}
+    - [⚛️Activité 3 Préparation d'une solution par dilution (contexte : la bouillie bordelaise)](data/Act03 dilution.pdf){:target="_blank"}    
+    - [⚛️Activité 4 Concentration en masse et masse volumique (contexte : le vin de Bandol)](data/Act04 vin de Bandol.pdf){:target="_blank"}    
     
     ??? question "Exercices du livre (chap2 pages 52 à 60)"
         ![page 52](data/p52.png)
@@ -44,8 +46,8 @@
 ## Chapitre 3        
 ??? abstract "Description des mouvements"
     - [📚Chapitre III](cours/Chapitre III.md){:target="_blank"}
-    - [⚛️Activité 5 Vitesse d'un système](data/Act05 vitesse systeme.pdf){:target="_blank"}
-    - [⚛️Activité 6 Vecteurs déplacement et vitesse](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"}
+    - [⚛️Activité 5 Vitesse d'un système (contexte : circuit du Castellet)](data/Act05 vitesse systeme.pdf){:target="_blank"}
+    - [⚛️Activité 6 Vecteurs déplacement et vitesse (contexte : mini golf)](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap9 pages 178 à 186)" 
         ![page 178](data/p178.png)
         ![page 179](data/p179.png)
@@ -58,7 +60,7 @@
         ![page 186](data/p186.png)
 
 ## Chapitre 4        
-??? abstract "Modéliser une action mécanique"
+??? abstract "Forces et mouvements"
     - [📚Chapitre IV](cours/Chapitre IV.md){:target="_blank"}
     - [⚛️Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap10 pages 200 à 206)" 
@@ -69,12 +71,7 @@
         ![page 204](data/p204.png)
         ![page 205](data/p205.png)
         ![page 206](data/p206.png)
-        
-
-## Chapitre 5
-??? abstract "Principe d'inertie"
-    - [📚Chapitre V](data/Chapitre V.md){:target="_blank"}
-    - [⚛️Activité 8 Le principe d'inertie](data/Act08 principe d'inertie.pdf){:target="_blank"}
+    - [⚛️Activité 8 Principe d'inertie (contexte : parachutiste)](data/Act08 principe d'inertie.pdf){:target="_blank"}        
     ??? question "Exercices du livre (chap11 pages 216 à 222)" 
         ![page 216](data/p216.png)
         ![page 217](data/p217.png)
@@ -83,10 +80,10 @@
         ![page 220](data/p220.png)
         ![page 221](data/p221.png)
         ![page 222](data/p222.png)
-        
-## Chapitre 6 
+
+## Chapitre 5 
 ??? abstract "De l'atome à l’élément chimique"
-    - [📚Chapitre VI](data/Chapitre VI cours Photon eleve.pdf){:target="_blank"}
+    - [📚Chapitre V](cours/Chapitre V.md){:target="_blank"}
     - [⚛️Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
     ??? question "Exercices du livre (chap3 pages 71 à 76)" 
         ![page 71](data/p71.png)
@@ -96,9 +93,9 @@
         ![page 75](data/p75.png)
         ![page 76](data/p76.png)
 
-## Chapitre 7        
+## Chapitre 6
 ??? abstract "Vers des entités plus stables"
-    - [📚Chapitre VII](data/Chapitre VII cours eleve.pdf){:target="_blank"}
+    - [📚Chapitre VI](cours/Chapitre VI.md){:target="_blank"}
     - [⚛️Activité 10 Familles chimiques](data/Act10 familles chimiques.pdf){:target="_blank"}
     - [⚛️Activité 11 Formation des ions](data/Act11 formation des ions.pdf){:target="_blank"}    
     - [⚛️Activité 12 Modèle de Lewis](data/Act12 Le modele de Lewis.pdf){:target="_blank"}    

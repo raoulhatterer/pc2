@@ -1,121 +1,166 @@
-# Chapitre V : Principe d'inertie
+# Chapitre V : Constitution de la matière
 
 {{ initexo(0) }}
 
 
-## 1. Effet d'une force sur le mouvement d'un système
+## 1 - Du macroscopique au microscopique
 
 
 
-<div style="text-align: center;">
-    <video autoplay loop muted width="560" height="315" playsinline style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-        <source src="https://www.salutilescanaries.com/sites/default/files/video-local/2022-06/IC_Home_Voley_v3_1_0.mp4" type="video/mp4">
-    </video>
-</div>
-
-
-!!! note "Une force peut modifier le vecteur vitesse $\vec v$"
-    Une force s'exerçant sur un système peut modifier la valeur de la vitesse et/ou la direction du mouvement de ce système. Elle peut donc modifier le vecteur vitesse $\vec v$ de ce système.
-
-🎯 **Exemple  pour les actions à distance**
-
-Le poids modifie la vitesse verticale du ballon. On peut envoyer un ballon vers le haut mais obligatoirement la valeur de sa vitesse ne va cesser de diminuer jusqu'à devenir nulle quand le ballon est au sommet de sa trajectoire puis le ballon redescend en accélérant.
-
-![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
-
-
-🎯 **Exemple  pour les actions de contact**
-
-Au moment de la frappe la main exerce une action de contact sur le système `{ballon}`. Cette action modifie la valeur de la vitesse et la direction du mouvement du système.
-La force $\vec F$<sub>main/{ballon}</sub> qui modélise l'action de la main sur le ballon modifie son vecteur $\vec v$.
-
-![image](data/chap5_frappe.jpg){: .center .img-rounded width="300"}
-
-🔍 **Remarque**
-
-Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
-
-
-## 2. Forces qui se compensent
-
-!!! note "Forces qui se compensent"
-  
-    - **Des forces se compensent si la somme des vecteurs représentant ces forces est égale au vecteur nul.**
-    - La réciproque est vraie.
-    - Pour 2 forces: *Quand deux forces se compensent elles ont la même droite d'action, des sens opposés et une même valeur*. 
-
-![image](data/chap5_air_hockey.jpg){.center .img-rounded width="300"}
+!!! success "Qu'est-ce qu'une espèce chimique"
+    - Une **espèce chimique** est une substance constituée d'un seul type d'**entités chimiques identiques**.   
+    ![image](data/chap5_espece.jpg){: width="300"}
+    - Elle est **observable ou identifiable expérimentalement** (par des propriétés physiques ou chimiques).
 
 
 
-🎯 **Exemple** : lors de son déplacement sur la table à coussin d'air, le palet de air hockey est soumis à son poids $\vec P$  et la force $\vec F_{table/\{palet\}}$ exercée par la table. Ces forces se compensent : $\vec P + \vec F_{table/\{palet\}} = \vec 0$.
+🎯 **Exemples**
 
-![image](data/chap5_palet.jpg){.center .img-rounded width="300"}
-
-
-
-## 3. Le principe d'inertie
-
-- Le principe d'inertie permet de relier forces et nature du mouvement.
-
-
-!!! success "Principe d'inertie"
-
-    - Lorsque les **forces qui s'exercent sur un système se compensent** alors le vecteur vitesse $\vec v$ du système ne varie pas : **le système reste immobile ou reste en mouvement rectiligne uniforme**.
-
-    - Si le vecteur vitesse $\vec v$  d'un système ne varie pas, on peut en déduire que le système est soumis à des forces qui se compensent.
-
-🎯 **Exemple** : le centre de la boule de bowling est en mouvement rectiligne uniforme donc son poids $\vec P$  et l'action $\vec R$   de la piste se compensent.
-
-![image](data/chap5_bowling.jpg){.center .img-rounded width="300"}
-
-Sur une piste parfaitement lisse une boule de bowling lancée sans effet a un mouvement rectiligne uniforme.
-
-
-!!! success "Contraposée du principe d'inertie"
-    - Lorsque les forces qui s'exercent sur un système ne se compensent pas, alors le vecteur vitesse $\vec v$ varie.
-    
-    - Lorsque le vecteur vitesse $\vec v$  d'un système varie (**lorsqu'un système n'est ni immobile ni en mouvement rectiligne uniforme**), on peut en déduire que **les forces qui s'exercent sur ce système ne se compensent pas**.
-
-
-🎯 **Exemple** : lors de son déplacement sur le sable, un ballon de beach volley est soumis à des forces qui ne se compensent pas.  
-
-
-![image](data/chap5_ballon_sable.jpg){.center   .img-rounded width="300"}
-
-Les forces ne se compensent pas donc son mouvement n'est pas rectiligne uniforme ($\vec v$ n'est pas constant). En effet le ballon ralenti jusqu'à s'arrêter (à ce moment la force de frottement $\vec f\phantom{f}$ disparaît).
-
-![image](data/chap5_deceleration.jpg){.center  width="300"}
-
-## 4. Schématisation et modélisation
-
-### Schématisation
-
-Une schématisation est une représentation simplifiée (vue de coté ou du dessus suivant la situation, pas de perspective). 
-
-
-![image](data/chap5_schematisation.jpg){.center width="300"}
-
-
-### Modélisation
-
-Le système est modélisé par son centre $C$ et l'on rajoute les forces en présence modélisant les actions subies par le système. 
-
-![image](data/chap5_modelisation.jpg){: .center width="300"}
+| Espèce chimique           | Type                | Détails sur les entités présentes  |
+|---------------------------|---------------------|------------------------------------|
+| O₂ (dioxygène)            | Moléculaire         | Gaz constitué de molécules O₂      |
+| H₂O (eau)                 | Moléculaire         | Liquide constitué de molécules H₂O |
+| NaCℓ (chlorure de sodium) | Ionique             | Réseau d'ions Na⁺ et Cℓ⁻           |
+| Solution de CuCℓ₂         | Ionique en solution | Contient les ions Cu²⁺ et Cℓ⁻      |
 
 
 
-## 5. La chute libre verticale
+!!! success "Qu'est-ce qu'un élément chimique"
+    - Un **élément chimique** est une **abstraction** qui regroupe l’ensemble des **entités microscopiques** (atomes, ions, noyaux) ayant le **même nombre de protons** dans leur noyau, c’est-à-dire le **même numéro atomique (Z)**.  
+    -  C’est une notion qui permet notamment de **classer les entités de la matière dans le tableau périodique**.
 
 
-!!! success "Chute libre"
-    - Un système est en chute libre lorsqu'il n'est soumis qu'à son poids $\vec P$.
-    - Le mouvement d'un système en chute libre n'est pas rectiligne uniforme.
+🎯 **Exemples**
 
-    ![image](data/chap5_chute_libre.jpg){.center  width="300"}
+| Élément chimique | Numéro atomique (Z)  | Exemples d'entités associées                  |
+|------------------|----------------------|-----------------------------------------------|
+| Carbone (C)      | 6                    | ¹²C, ¹³C, C dans CO₂, CH₄                     |
+| Fer (Fe)         | 26                   | Fe, Fe²⁺, Fe³⁺                                |
+| Chlore (Cℓ)      | 17                   | Cℓ, Cℓ⁻, Cℓ dans HCℓ, Cℓ₂, NaCℓ               |
 
-    - En toute rigueur, l'étude de la chute libre ne peut avoir lieu que dans le vide. 
 
-Dans l'air, une chute sera considérée comme libre si l'on peut négliger les forces exercées par l'air sur le système par rapport à son poids ce qui n'est pas toujours le cas.
 
-![image](data/chap5_pas_chute_libre.jpg){.center  width="300"}
+⚖️ **Comparaison**
+
+|                      | **Espèce chimique**                              | **Élément chimique**                                       |
+|----------------------|--------------------------------------------------|------------------------------------------------------------|
+| **Défini par**       | Même type d'entités chimiques                    | Même nombre de protons (même Z)                            |
+| **Peut contenir**    | Atomes, molécules, ions                          | Atomes, ions, noyaux, isotopes                             |
+| **Exemples**         | H₂O, O₂, NaCℓ, Cu²⁺/Cℓ⁻ en solution              | H, C, O, Fe, Cℓ…                                           |
+
+
+
+- **En TP** de chimie, on manipule des **espèces chimiques** (solides, liquides, gaz, solutions), c’est-à-dire des substances constituées d’un seul type d’entités chimiques.
+- **Les équations chimiques**, elles, reposent sur la **conservation des éléments chimiques**, même si leurs formes peuvent changer (**atome, ion, molécule…**).
+- Au cours d’une réaction chimique, les **espèces chimiques** se transforment, mais les **éléments chimiques** sont conservés.
+
+
+
+
+## 2 - Les atomes
+
+### a. Constitution d'un atome
+Un atome est constitué d'un noyau chargé positivement et d'électrons chargés négativement en mouvement désordonné autour de ce noyau.
+
+![image](data/chap5_atome.jpg){: .center width="500"}
+
+
+!!! success "Charge élémentaire"
+    La charge électrique  e, de valeur   e = 1,60 × 10<sup>–19</sup> C, est appelée charge élémentaire (Coulomb).
+
+
+??? success "Un atome est électriquement neutre"
+    - Les charges électriques du proton (+e) et de l'électron (–e) sont opposées.
+    - Un atome est électriquement neutre car il possède autant de protons que d'électrons.
+
+??? success " L'atome a une structure lacunaire"
+    - L'ordre de grandeur du rayon d'un atome est de 10<sup>–10</sup> m. 
+    - L'ordre de grandeur du rayon du noyau est d'environ 10<sup>–15</sup> m. 
+    - Le rayon d'un atome est donc environ 10<sup>5</sup> fois plus grand que celui de son noyau.   
+    - L'espace existant entre les électrons mais aussi entre les électrons et le noyau est vide.
+
+
+
+!!! Info
+    L'ordre de grandeur d'un nombre écrit en notation scientifique est la puissance de 10 la plus proche de ce nombre.
+
+
+
+
+
+
+### b. Noyau
+
+L'écriture conventionnelle du noyau d'un atome de symbole **X** est: 
+
+![image](data/chap5_symbole.jpg){: .center width="500"}
+
+Le nombre de neutrons est donc égal à A – Z.
+
+
+🎯 **Exemple :** le noyau d'un atome de cuivre de notation $_{29}^{63}\textbf{Cu}$ possède 29 protons et 63 – 29 = 34 neutrons.
+
+### c. Masses 
+- La masse d'un neutron est environ égale à celle d'un proton (m<sub>neutron</sub> = m<sub>proton</sub> = m<sub>nucléon</sub> = 1,67× 10<sup>-27</sup>kg). 
+- La masse d'un électron est négligeable devant celle d'un nucléon (elle est 1836 fois plus faible).
+
+!!! success "La masse d'un atome est proche de celle de son noyau"
+    - m<sub>atome</sub> ≈ A × m<sub>nucléon</sub>
+    - Voilà pourquoi le nombre **A** de nucléons est appelé le *nombre de masse*
+
+
+## 3 - Les ions monoatomiques
+
+!!! success "ion monoatomique"
+    - Un ion monoatomique se forme lorsqu'**un atome gagne ou perd un ou plusieurs électrons**.  
+    ![image](data/chap5_ion_lithium.jpg){: .center width="300"}
+    (exemple : lorsqu'un atome de lithium Li perd un électron, l'ion formé Li<sup>+</sup> porte une charge électrique positive +e car il possède 3 protons et seulement 2 électrons.)
+
+    - Lors de la formation d'un ion, le noyau reste inchangé.    
+
+
+### Exemple d'anion
+![image](data/chap5_ion_chlorure.jpg){: width="100"}
+Formé à partir d'un atome de chlore Cℓ qui gagne un électron.      
+
+### Exemple de cation
+![image](data/chap5_ion_magnesium.jpg){: width="100"}
+Formé à partir d'un atome de magnésium Mg qui perd deux électrons. 
+
+
+
+
+
+
+
+
+
+## 4 - Les composés ioniques
+
+!!! warning "Tout échantillon de matière est électriquement neutre"
+
+!!! success "Solution ionique"
+    - Certaines solutions aqueuses comportent des ions : on parle alors de **solutions ioniques**.  
+    - Lorsqu'on analyse une solution ionique, on constate qu'elle est toujours **électriquement neutre**.  
+    - Il est donc **impossible de trouver une solution contenant uniquement des anions ou uniquement des cations**.  
+    - Une solution ionique contient à la fois des **anions** et des **cations**, en des proportions telles que **la somme des charges soit nulle**.  
+    - Les **charges positives des cations** compensent exactement les **charges négatives des anions**.
+
+**Si l’on évapore l’eau** d'une solution ionique, les ions s’organisent pour former un **réseau cristallin régulier**, appelé **composé ionique**.
+
+!!! success "Composé ionique"
+    - Des espèces ioniques (cations et anions) s'associent pour former un **composé ionique** de **charge globale nulle**.
+    - À l'état solide, ces ions forment un **réseau régulier** dont la charge totale est nulle.
+
+**Si l'on dissout un composé ionique dans de l'eau**, le réseau cristallin est dissocié : les ions (anions et cations) se retrouvent en solution. **La solution ionique obtenue est également neutre**.
+
+!!! note "Formule d’un composé ionique"
+
+    - La formule d'un composé ionique comporte d’abord le **symbole du cation**, puis celui de l’**anion** (sans les indications de charge).
+    - Si **les conditions de neutralité** font qu'un ion doit apparaître plus d'une fois, **la formule va comporter des indices** (en bas à droite des symboles) qui indiquent le rapport minimal entre les ions pour assurer la neutralité. 
+
+
+🎯 **Exemples :**
+
+- Le chlorure de sodium **NaCℓ** est un composé ionique formé par l’association d’ions **Na⁺** et **Cℓ⁻**, en nombre **égal** (1 pour 1). La charge totale est donc **nulle** : `(+1) + (–1) = 0`
+- Le chlorure de cuivre(II) **CuCℓ₂** est un composé ionique formé par l’association d'**un ion Cu²⁺** et de **deux ions Cℓ⁻**. La charge totale est également **nulle** : `(+2) + 2 × (–1) = 0`
