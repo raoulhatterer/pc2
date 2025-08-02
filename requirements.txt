@@ -9,4 +9,4 @@ mkdocs-sqlite-console==2.0.2
 mkdocs-with-pdf==0.9.3
 selenium==4.3.0
 setuptools
-git+https://github.com/Epithumia/mkdocs-sqlite-console.git
+# git+https://github.com/Epithumia/mkdocs-sqlite-console.git
