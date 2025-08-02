@@ -1,7 +1,7 @@
 nav:
     - Accueil : index.md
     - Documents : documents.md
-    - Cours : cours
+    - Cours en ligne : cours
     - Fiches méthodes : fiches-methodes.md
     - Python : python.md
     - Vidéos : videos

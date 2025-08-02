@@ -42,7 +42,7 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 !!! warning "Attention"
     **La valeur de $\vec v$ se note $v$** (sans flèche) et non pas $\vec v$ !
     
-🎯 **Exemple :** $v=5$ m∙s<sup>-1</sup> est JUSTE (alors que  $\vec v=5$ m∙s<sup>-1</sup> est FAUX !)
+🎯 **Exemple :** **$v=5$ m∙s<sup>-1</sup> est JUSTE**{: .stabilo-vert} (alors que  **$\vec v=5$ m∙s<sup>-1</sup> est FAUX !**{: .stabilo-rouge-fluo})
 
 
 ## 3. Décrire un mouvement

@@ -100,11 +100,11 @@ La solution obtenue (solution fille) est moins concentrée que la solution initi
     - Le volume de solution fille est F fois plus grand que le volume de solution mère.
     - Par conséquent, le **facteur de dilution F** peut s'écrire de deux façons : 
     <center>
-    $\displaystyle F = \frac{t_m}{​t_f}\quad$      et      $\quad \displaystyle F = \frac{V_f}{V_m}$​
+    **$\displaystyle F = \frac{t_m}{​t_f}$**{:.stabilo-vert}$\quad$ et $\quad$ **$\displaystyle F = \frac{V_f}{V_m}$​**{: .stabilo-vert}
     </center>
 
 
-    - Le facteur de dilution est toujours supérieur à 1.
+    - Le facteur de dilution est un nombre sans unité qui est toujours supérieur à 1.
 
 
 !!! success "Volume de solution mère à prélever"

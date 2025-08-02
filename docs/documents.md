@@ -12,16 +12,33 @@
 ??? abstract "Corps purs et mélanges"
     - [📚Chapitre I](cours/Chapitre I.md){:target="_blank"}
     - [⚛️Activité 1  Corps pur et mélange (contexte : l’eau de la Méditerranée, mélange ou corps pur ?)](data/Act01 corps pur et melange.pdf){:target="_blank"}
-    ??? question "Exercices du livre (chap 1 pages 28 à 36)"
-        ![page 28](data/p28.png)
-        ![page 29](data/p29.png)
-        ![page 30](data/p30.png)
-        ![page 31](data/p31.png)
-        ![page 32](data/p32.png)
-        ![page 33](data/p33.png)
-        ![page 34](data/p34.png)
-        ![page 35](data/p35.png)
-        ![page 36](data/p36.png)
+
+!!! warning "Je dois savoir et savoir faire"
+    - Définir : Espèce chimique, corps pur, mélanges homogènes et hétérogènes.
+    - Citer et réaliser les tests chimiques de présence d’eau, de dihydrogène, de dioxygène, de dioxyde de carbone.
+    - Citer la valeur de la masse volumique de l’eau liquide et calculer la masse volumique d’un échantillon.
+    - Mesurer des volumes et des masses pour estimer la composition de mélanges.
+    - Capacité mathématique : utiliser les pourcentages et les fractions.
+
+??? success "Pour réviser"
+    - QCM page 25 ; 
+    - Exercices corrigés dans le livre et en classe 
+    - Exercices résolus 1 et 2 p. 26, 27
+    - Je prépare l’évaluation p. 36.
+??? question "Exercices du livre (chap 1 pages 28 à 36)"
+    ![page 28](data/p28.png)
+    ![page 29](data/p29.png)
+    ![page 30](data/p30.png)
+    ![page 31](data/p31.png)
+    ![page 32](data/p32.png)
+    ![page 33](data/p33.png)
+    ![page 34](data/p34.png)
+    ![page 35](data/p35.png)
+    ![page 36](data/p36.png)
+
+
+
+
 
 ## Chapitre 2
 ??? abstract "Solutions aqueuses"
@@ -85,6 +102,7 @@
 ??? abstract "De l'atome à l’élément chimique"
     - [📚Chapitre V](cours/Chapitre V.md){:target="_blank"}
     - [⚛️Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
+    - [⚛️Activité 10 Noyau des atomes (contexte : datation au carbone 14)](data/Act10 noyaux des atomes.pdf){:target="_blank"}    
     ??? question "Exercices du livre (chap3 pages 71 à 76)" 
         ![page 71](data/p71.png)
         ![page 72](data/p72.png)
@@ -96,9 +114,9 @@
 ## Chapitre 6
 ??? abstract "Vers des entités plus stables"
     - [📚Chapitre VI](cours/Chapitre VI.md){:target="_blank"}
-    - [⚛️Activité 10 Familles chimiques](data/Act10 familles chimiques.pdf){:target="_blank"}
-    - [⚛️Activité 11 Formation des ions](data/Act11 formation des ions.pdf){:target="_blank"}    
-    - [⚛️Activité 12 Modèle de Lewis](data/Act12 Le modele de Lewis.pdf){:target="_blank"}    
+    - [⚛️Activité 11 Familles chimiques (contexte : famille de l'ion chlorure)](data/Act11 famille ion chlorure.pdf){:tatget="_blank"}
+    - [⚛️Activité 12 Ions monoatomiques](data/Act12 ions monoatomiques.pdf){:target="_blank"}    
+    - [⚛️Activité 13 Lewis](data/Act13 lewis.pdf){:target="_blank"}        
     ??? question "Exercices du livre (chap4 pages 90 à 98)" 
         ![page 90](data/p90.png)
         ![page 91](data/p91.png)
@@ -109,6 +127,19 @@
         ![page 96](data/p96.png)
         ![page 97](data/p97.png)
         ![page 98](data/p98.png)
+
+## Chapitre 7
+??? abstract "La quantité de matière"
+    ??? question "Exercices du livre (chap5 pages 105 à 110)" 
+        ![page 105](data/p105.png)
+        ![page 106](data/p106.png)
+        ![page 107](data/p107.png)
+        ![page 108](data/p108.png)
+        ![page 109](data/p109.png)
+        ![page 110](data/p110.png)
+        
+    
+    
 
  
 ## Chapitre 8 

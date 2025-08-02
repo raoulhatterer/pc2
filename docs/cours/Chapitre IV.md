@@ -81,7 +81,7 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
 !!! warning "Attention"
     **La valeur de $\vec F$ se note $F$** (sans flèche) et non pas $\vec F$ !
     
-🎯 **Exemple :** $F=5$ N est JUSTE (alors que  $\vec F=5$ N est FAUX !)
+🎯 **Exemple :** **$F=5$ N est JUSTE**{: .stabilo-vert} (alors que  **$\vec F=5$ N est FAUX !**{: .stabilo-rouge-fluo>})
 
 
 
@@ -288,6 +288,10 @@ Le système est modélisé par son centre $C$ et l'on rajoute les forces en pré
 
     - En toute rigueur, l'étude de la chute libre ne peut avoir lieu que dans le vide. 
 
-Dans l'air, une chute sera considérée comme libre si l'on peut négliger les forces exercées par l'air sur le système par rapport à son poids (ce qui n'est pas toujours le cas).
+Dans l'air, une chute sera **considérée comme libre** si l'on peut négliger les forces exercées par l'air sur le système par rapport à son poids (ce qui n'est pas toujours le cas).
 
 ![image](data/chap4_pas_chute_libre.jpg){.center  width="300"}
+
+
+
+🎯 **Exemple** : Pour la modélisation ci-dessus, si le schéma est à l'échelle alors la chute n'est pas libre. Par contre, si c'est un schéma de principe et qu’il est précisé dans l'énoncé que les forces de frottements avec l'air sont négligeables par rapport au poids alors on pourra considérer qu'il y a chute libre.

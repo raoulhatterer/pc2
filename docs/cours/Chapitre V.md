@@ -81,8 +81,8 @@ Un atome est constitué d'un noyau chargé positivement et d'électrons chargés
 
 
 
-!!! Info
-    L'ordre de grandeur d'un nombre écrit en notation scientifique est la puissance de 10 la plus proche de ce nombre.
+!!! Info "Ordre de grandeur"
+    L'ordre de grandeur d'un nombre écrit en notation scientifique est la **puissance de 10 la plus proche** de ce nombre.
 
 
 

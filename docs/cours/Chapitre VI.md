@@ -9,7 +9,7 @@
 
 
 !!! success "Configuration électronique d'un atome"
-    - Les `Z` électrons d'un atome se répartissent en couches électroniques (notées n = 1, 2, 3, etc. mais les couches suivantes sont hors programme), elles-mêmes composées d'une ou plusieurs sous-couches (notées s, p, d, f). 
+    - **Les `Z` électrons d'un atome se répartissent en couches électroniques** (notées n = 1, 2, 3, etc. mais les couches suivantes sont hors programme), elles-mêmes **composées d'une ou plusieurs sous-couches** (notées s, p, d, f). 
     - La configuration électronique d'un atome (à l'état fondamental) décrit la répartition de ses électrons sur les différentes sous-couches.
     - **Le nombre d'électrons présents sur une sous-couche est noté en exposant**.  
     - **Lorsqu'une sous-couche est pleine (on dit aussi saturée), les électrons restants occupent la sous-couche suivante** puis, si nécessaire, celle d'après.

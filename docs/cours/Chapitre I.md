@@ -21,6 +21,8 @@
         3. Classer les densités (d<sub>eau</sub> , d<sub>alcool</sub> et d<sub>huile</sub>) par ordre croissant. 
 
 
+[**Exercices n° 2, 3©, 4 p. 28**{: .exo}](../data/p28.png)
+
 ### 2. Quantifier la composition d'un mélange
 Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient de façon très logique en partant de la notion de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
 
@@ -45,8 +47,14 @@ Si l'on connaît la composition du mélange.
 
 
 
+[**Exercices n° 5©, 6 p. 29**{: .exo}](../data/p29.png) et [**exercice 27 p. 33**{: .exo}](../data/p33.png)
+
 
 ## II. Identifier les espèces chimiques
+
+!!! note "Principe"
+    Pour identifier une espèce chimique inconnue, le chimiste compare ses caractéristiques à celles d'espèces connues, répertoriées dans des tables.
+
 ### 1. Méthodes physiques
 
 <figure markdown="span">
@@ -57,13 +65,15 @@ Si l'on connaît la composition du mélange.
 #### a. Température de changement d’état
 
 !!! success  "On peut définir une valeur de la température de changement d'état d'un corps pur, alors qu'on ne le peut pas pour un mélange."
-    Exemple: 
+    Exemple : 
 
     ![image](data/chap1_temperature.jpg){: .center   width="400"}
     
+    Remarque : une température de fusion (cas d'un solide) peut se mesurer avec un banc Kofler et une température d'ébullition (cas d'un liquide) dépend fortement de la pression.
+    
+[**Exercices n° 7©, 8 p. 29**{: .exo}](../data/p29.png) et [**exercice 28 p. 33**{: .exo}](../data/p33.png)
 
-
-#### b. Masse volumique (densité de matière)
+#### b. Masse volumique et densité de matière
 
 !!! success "Masse volumique "
     La  masse volumique se note $\rho$ et se lit rho.
@@ -111,6 +121,9 @@ Si l'on connaît la composition du mélange.
     <center>$d=\frac{\rho_{gaz}}{\rho_{air}}$</center>
 
     Grandeur sans unité.
+    
+    
+[**Exercices n° 9©, 10, 12 p. 29**{: .exo}](../data/p29.png) et [**20 p. 31**{: .exo}](../data/p31.png) et  [**26 p. 33**{: .exo}](../data/p33.png) et  [**31 p. 34**{: .exo}](../data/p34.png)
 
 ### 2. Méthodes chimiques (tests caractéristiques)
 #### a. Test du dioxyde de carbone 
@@ -132,11 +145,16 @@ Une allumette incandescente se rallume dans du dioxygène.
 
 #### d. Test de la présence d’eau
 
-![image](data/chap1_test_H2O.png){width="300"}
+![image](data/chap1_test_H2O.png){width="150"}
 
 Test au sulfate de cuivre anhydre : blanc à sec, devient bleu au contact de l’eau.
 
+[**Exercice 13© p. 30**{: .exo}](../data/p30.png) et [**exercice 25© p. 32**{: .exo}](../data/p32.png)
+
 ### 3. La chromatographie
+
+!!! note 
+    Cette technique sera étudiée de façon plus complète plus tard dans l'année.
 
 #### a. Principe
 La chromatographie est une méthode permettant de séparer et d'identifier les constituants d’un mélange. La séparation est basée sur la différente affinité des constituants pour la phase fixe (papier ou plaque) et la phase mobile (solvant). Pour un éluant et une phase fixe donnés, une espèce chimique migre de la même façon, qu'elle soit pure ou dans un mélange.
