@@ -5,7 +5,8 @@
 
 
 !!! tip
-    L'icône représentant 3 traits horizontaux permet d'accéder au menu.
+    - L'icône représentant 3 traits horizontaux permet d'accéder au menu.
+    - Si certains éléments (formules...) s'affichent mal, rafraîchissez la page. 
 
 !!! success "Consignes"
     - Cours: Veillez à toujours avoir imprimé le chapitre suivant à l'avance ainsi lorsque l'on passera à un nouveau chapitre vous l'aurez à votre disposition.

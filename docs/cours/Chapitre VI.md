@@ -206,7 +206,7 @@ Il convient de connaître le nom et la formule des quelques ions monoatomiques i
 
 ![image](data/chap6_CH4.jpg){: width="70"}
 
-🎯 **Exemple :** Pour rompre toutes les liaisons de la molécule CH<sub>4</sub>, il faut fournir l'énergie E = 4×E<sub>CH</sub> , soit E=1 652 kJ/mol.
+🎯 **Exemple :** Pour rompre toutes les liaisons de la molécule CH<sub>4</sub>, il faut fournir l'énergie E = 4×E<sub>CH</sub> , soit E = 1 652 kJ/mol.
 
 
 
