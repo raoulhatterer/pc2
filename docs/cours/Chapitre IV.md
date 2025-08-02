@@ -77,6 +77,15 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
     • **un sens** : celui de la force ;  
     • **une norme** : $\left|\left| \vec F \right|\right|$ proportionnelle à $F$, la valeur de la force qui est en Newtons (N).  
 
+
+!!! warning "Attention"
+    **La valeur de $\vec F$ se note $F$** (sans flèche) et non pas $\vec F$ !
+    
+🎯 **Exemple :** $F=5$ N est JUSTE (alors que  $\vec F=5$ N est FAUX !)
+
+
+
+
 !!! note "Point d'application d'une force"
     • Point où l'on considère que s'exerce la force.   
     • Quand le système est modélisé par un point, ce point est considéré comme point d'application de la force.
@@ -110,11 +119,12 @@ Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agi
     === "Énoncé"
          - Pour l'exemple étudié, on peut représenter deux forces :
             - Le poids $\vec P$ du ballon qui représente l'action de l'objet Terre sur le système {ballon}.
+            - **La valeur du poids est donnée par la formule $P = m \times g$**{: .stabilo-jaune} :heart:
             - La force de frottements $\vec f\phantom{f}$ qui représente l'action de l'air sur le ballon.
          - Compléter les caractéristiques du vecteur $\vec P$
              - **direction** : ?
              - **sens** : ?
-             - **norme** : donnée par la formule $P = m \times g$   
+             - **norme** : ?
            - Caractéristique du vecteur $\vec f\phantom{f}$
              - **de direction** : tangente au mouvement  
              - **de sens** : inverse au sens du mouvement du ballon  
@@ -125,7 +135,7 @@ Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agi
         !!! abstract "Caractéristique du vecteur $\vec P$"
             - **direction** : verticale  
             - **sens** : vers la Terre donc vers le bas  
-            - **norme** : donnée par la formule $P = m \times g$   
+            - **norme** : proportionnelle à P
   
 
 
@@ -184,6 +194,7 @@ Le poids modifie la vitesse verticale du ballon. On peut envoyer un ballon vers 
 
 ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
 
+Tandis que le ballon progresse vers le haut et vers la gauche, il n'y a aucune force qui l'entraîne vers le haut ou vers la gauche. Cette force a existé lors du contact, mais n'existe plus lors du vol du ballon.
 
 🎯 **Exemple  pour les actions de contact**
 

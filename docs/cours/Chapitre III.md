@@ -36,8 +36,13 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 
 !!! success "Le mouvement du système est..."
     - **uniforme** si la valeur de $\vec v$ ne change pas
-    - **varié** si la valeur de $\vec v$ change (**accéléré** si la valeur de $\vec v$ augmente ; ** ralenti/décéléré** si elle diminue)
+    - **varié** si la valeur de $\vec v$ change (**accéléré** si la valeur de $\vec v$ augmente ; **ralenti/décéléré** si elle diminue)
 
+
+!!! warning "Attention"
+    **La valeur de $\vec v$ se note $v$** (sans flèche) et non pas $\vec v$ !
+    
+🎯 **Exemple :** $v=5$ m∙s<sup>-1</sup> est JUSTE (alors que  $\vec v=5$ m∙s<sup>-1</sup> est FAUX !)
 
 
 ## 3. Décrire un mouvement

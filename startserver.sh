@@ -1,11 +1,37 @@
 # script permettant de démarrer le serveur mkdocs pc2
 
-#1. Activation de l'environnement virtuel 
+#1. Activation de l'environnement virtuel
 source /Users/raoul/.virtualenvs/mkDocs_env/bin/activate
+
 #2. Affichage du répertoire courant
-pwd
-#3. Démarrage du serveur
+echo "Répertoire courant : $(pwd)"
+
+#3. Détection des packages mkdocs obsolètes
+echo "Vérification des packages MkDocs obsolètes..."
+outdated_mkdocs_packages=$(pip list --outdated | grep "mkdocs" | cut -d ' ' -f 1)
+
+if [ -z "$outdated_mkdocs_packages" ]; then
+  echo "Aucun package MkDocs obsolète n'a été trouvé. Tout est à jour."
+else
+  echo "Les packages MkDocs suivants sont obsolètes :"
+  echo "-------------------------------------------"
+  # Affiche la liste complète des packages obsolètes avec leurs versions
+  pip list --outdated | grep "mkdocs"
+  echo "-------------------------------------------"
+  echo "Pour les mettre à jour, veuillez d'abord activer votre environnement virtuel, puis exécuter la ou les commandes suivantes :"
+  echo ""
+  # Génère et affiche les commandes d'upgrade spécifiques
+  for pkg in $outdated_mkdocs_packages; do
+    echo "pip install --upgrade $pkg"
+  done
+fi
+
+#4. Démarrage du serveur
+echo ""
+echo "Démarrage du serveur MkDocs..."
 mkdocs serve
+
+
 
 
 

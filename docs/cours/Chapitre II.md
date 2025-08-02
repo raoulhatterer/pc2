@@ -95,20 +95,24 @@ La solution obtenue (solution fille) est moins concentrée que la solution initi
 
 
 !!! success "Facteur de dilution"
-    Lors d'une dilution, la solution mère est diluée F fois. La solution mère est F fois plus concentrée en soluté que la solution fille. Le volume de solution fille est F fois plus grand que le volume de solution mère.
-    
-
+    - Lors d'une dilution, la solution mère est diluée F fois. 
+    - La solution mère est F fois plus concentrée en soluté que la solution fille. 
+    - Le volume de solution fille est F fois plus grand que le volume de solution mère.
+    - Par conséquent, le **facteur de dilution F** peut s'écrire de deux façons : 
     <center>
     $\displaystyle F = \frac{t_m}{​t_f}\quad$      et      $\quad \displaystyle F = \frac{V_f}{V_m}$​
     </center>
 
-    F est appelé facteur de dilution. Le facteur de dilution est toujours supérieur à 1.
+
+    - Le facteur de dilution est toujours supérieur à 1.
 
 
 !!! success "Volume de solution mère à prélever"
-    $\displaystyle V_m = \frac{V_f}{F}$
+    Pour réaliser une dilution, il faut connaître le **volume de solution mère à prélever** devant être versé dans la fiole qui contiendra la solution fille.
+    <center>
+    $\displaystyle V_m = \frac{V_f}{F}\quad$  parfois noté $V_{mp}$
+    </center>
 
-    Le volume prélevé de solution mère est versé dans la fiole de la solution fille.
     
 
     
