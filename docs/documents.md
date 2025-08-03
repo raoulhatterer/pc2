@@ -44,7 +44,16 @@
     - [**fm**{: .stabilo-vert} Protocole de la dilution](data/fm-PROTOCOLE-DE-LA-DILUTION.pdf){:target="_blank"}
     - [⚛️ Activité 3](data/Act03 dilution.pdf){:target="_blank"} Préparation d'une solution par dilution (contexte : la bouillie bordelaise)
     - [⚛️ Activité 4](data/Act04 vin de Bandol.pdf){:target="_blank"} Concentration en masse et masse volumique (contexte : le vin de Bandol)
-    
+
+??? success "Pour réviser"
+    - QCM page 49.
+    - Exercices résolus 1 et 2 p. 50, 51.
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre II.md)). 
+    - Exercices 39, 40 p. 60.
+    - Exercices corrigés en classe.
+
+
+
 ??? question "Exercices du livre (chap2 pages 52 à 60)"
     ![page 52](data/p52.png)
     ![page 53](data/p53.png)

@@ -4,14 +4,14 @@
 
 
 
-## 1. Les solutions 
+## I. Les solutions 
 
 
 !!! note "Qu'est-ce qu'une solution ?"
     Une **solution** est un mélange homogène formé par une espèce chimique majoritaire appelée **solvant** et des espèces minoritaires appelées **solutés**.
 
     
-- Lorsque le solvant est l’eau, la solution est appelée **solution aqueuse**. ![image](data/chap2_solution_aqueuse.jpg){: .center width="100"}  
+- Lorsque le solvant est l'eau, la solution est appelée **solution aqueuse**. ![image](data/chap2_solution_aqueuse.jpg){: .center width="100"}  
 
 
 
@@ -21,18 +21,21 @@
 
 
 !!! success "Que signifie (s) (g) (ℓ) (aq) ?"
-    Il s'agit de l'état dans lequel peuvent se trouver des espèces chimiques :
+    Il s'agit de l'**état** dans lequel peuvent se trouver des espèces chimiques :
 
-    - (s) signifie solide
-    - (g) signifie gazeux    
-    - (ℓ)  signifie liquide 
+    - (s) signifie état solide
+    - (g) signifie état gazeux
+    - (ℓ)  signifie état liquide 
     - (aq) signifie que les espèces sont dissoutes en solutions aqueuses. Attention à ne pas confondre avec (ℓ).
 
 
-## 2. La concentration en masse
+[**Exercices n° 1©, 2 p. 52**{: .exo}](../data/p52.png)
+
+
+## II. La concentration en masse
 
 !!! success "Définition"
-    La concentration en masse **t** d’une solution en une espèce chimique dissoute est donné par:
+    La concentration en masse **t** d'une solution en une espèce chimique dissoute est donné par:
     ![image](data/chap2_t.jpg){: .center width="350"}
 
 
@@ -49,8 +52,11 @@ Pour un même volume, la solution B contient plus de soluté que la solution A. 
     
     ![image](data/chap2_distinction.jpg){: .center width="400"}
 
+[**Exercice n° 3© p.52**{: .exo}](../data/p52.png) et [**exercices 4, 5©, 6 p. 53**{: .exo}](../data/p53.png) et [**exercice 26 p. 56**{: .exo}](../data/p56.png)
 
-## 3. La dissolution
+## III. Préparer une solution aqueuse
+
+### 1. La dissolution
 
 Une dissolution est le processus par lequel un soluté est dissous dans un solvant pour former un mélange homogène.
 
@@ -79,7 +85,7 @@ Exemple : Pour préparer une solution de volume V<sub>solution</sub> = 50,0 mL e
     Calculer la masse de soluté (glucose) à prélever pour préparer  V<sub>solution</sub> = 150,0 mL de solution, de concentration en masse t = 18,0 g·L<sup>–1</sup> en glucose. Veiller à utiliser le bon nombre de chiffres significatifs.
 
 
-## 4. La dilution
+### 2. La dilution
 
 La dilution d'une solution aqueuse consiste à ajouter de l'eau à cette solution dans le but d'en diminuer sa concentration en soluté.
 
@@ -122,3 +128,17 @@ La solution obtenue (solution fille) est moins concentrée que la solution initi
 
     1. Déterminer le volume de solution mère à prélever.
     2. Déterminer la concentration de la solution fille.
+
+
+[**Exercice n° 9© p.53**{: .exo}](../data/p53.png) et [**exercice 13© p.54**{: .exo}](../data/p54.png) et [**exercices 18, 20 p. 55**{: .exo}](../data/p55.png) et [**Exercices n° 29, 31 p. 57**{: .exo}](../data/p57.png)
+
+## IV. Dosage par étalonnage
+
+- Doser par étalonnage une espèce chimique dans une solution, c'est déterminer sa concentration en masse en utilisant un ensemble de solutions étalons de concentrations connues.
+- Si l'espèce chimique dosée est colorée, ces solutions constituent une **échelle de teintes** et on peut estimer la concentration en masse cherchée par **comparaison visuelle** et ainsi déterminer un **encadrement de la concentration en masse** recherchée.
+
+![image](data/chap2_teinte.jpg){: .center  width="300"}
+
+- Sinon, on mesure une grandeur physique, par exemple la masse volumique qui varie avec la concentration de chaque solution étalon, et on trace une **courbe d'étalonnage**. En mesurant la valeur de cette grandeur dans la solution dosée, **on obtient graphiquement** la valeur de la concentration recherchée.
+
+[**Exercice 35© p. 58**{: .exo}](../data/p58.png)
