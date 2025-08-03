@@ -11,12 +11,12 @@
 ## [Chapitre 1](cours/Chapitre I.md)
 ??? abstract "Corps purs et mélanges"
     - [📚 Chapitre I](data/Chap-I.pdf){:target="_blank"}    
-    - [⚛️ Activité 1](data/Act01 corps pur et melange.pdf){:target="_blank"}  Corps pur et mélange (contexte : l’eau de la Méditerranée, mélange ou corps pur ?)
+    - [⚛️ Activité 1](data/Act01 corps pur et melange.pdf){:target="_blank"}  Corps pur et mélange (contexte : l'eau de la Méditerranée, mélange ou corps pur ?)
 
 !!! warning "Je dois savoir et savoir faire"
     - Définir : Espèce chimique, corps pur, mélanges homogènes et hétérogènes.
-    - Citer et réaliser les tests chimiques de présence d’eau, de dihydrogène, de dioxygène, de dioxyde de carbone.
-    - Citer la valeur de la masse volumique de l’eau liquide et calculer la masse volumique d’un échantillon.
+    - Citer et réaliser les tests chimiques de présence d'eau, de dihydrogène, de dioxygène, de dioxyde de carbone.
+    - Citer la valeur de la masse volumique de l'eau liquide et calculer la masse volumique d'un échantillon.
     - Mesurer des volumes et des masses pour estimer la composition de mélanges.
     - Capacité mathématique : utiliser les pourcentages et les fractions.
 
@@ -24,7 +24,7 @@
     - QCM page 25 ; 
     - Exercices corrigés dans le livre et en classe 
     - Exercices résolus 1 et 2 p. 26, 27
-    - Je prépare l’évaluation p. 36.
+    - Je prépare l'évaluation p. 36.
 ??? question "Exercices du livre (chap 1 pages 28 à 36)"
     ![page 28](data/p28.png)
     ![page 29](data/p29.png)
@@ -97,10 +97,19 @@
     ![page 222](data/p222.png)
 
 ## [Chapitre 5](cours/Chapitre V.md)
-??? abstract "De l'atome à l’élément chimique"
+??? abstract "De l'atome à l'élément chimique"
     - [📚 Chapitre V](./data/Chap-V.pdf){:target="_blank"}    
     - [⚛️ Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
     - [⚛️ Activité 10 Noyau des atomes (contexte : datation au carbone 14)](data/Act10 noyaux des atomes.pdf){:target="_blank"}    
+
+
+!!! warning "Je dois savoir et savoir faire"
+    - Définir : élément, atome, ion (anion, cation), proton, neutron, électron.
+    - Établir l'écriture conventionnelle d'un noyau à partir de sa composition et inversement.
+    - Exploiter l'électroneutralité de la matière pour associer des espèces ioniques.
+    - Capacité mathématique : utiliser les puissances de 10 et l'écriture scientifique.
+
+
 
 ??? question "Exercices du livre (chap3 pages 71 à 76)" 
     ![page 71](data/p71.png)
@@ -116,6 +125,14 @@
     - [⚛️ Activité 11](data/Act11 famille ion chlorure.pdf){:tatget="_blank"} Familles chimiques (contexte : famille de l'ion chlorure)
     - [⚛️ Activité 12](data/Act12 ions monoatomiques.pdf){:target="_blank"} Ions monoatomiques
     - [⚛️ Activité 13](data/Act13 lewis.pdf){:target="_blank"} Lewis
+
+!!! warning "Je dois savoir et savoir faire"
+    - Déterminer le nombre d'électrons de valence d'un atome à partir de sa configuration électronique ou de sa position dans le tableau périodique et inversement.
+    - Identifier les familles d'éléments chimiques à partir du tableau périodique.
+    - Déterminer la charge électrique d'un ion monoatomique courant à partir du tableau périodique.
+    - Dessiner et exploiter le schéma de Lewis d'une molécule simple.
+    - Associer l'énergie de liaison entre deux atomes et l'énergie nécessaire pour rompre cette liaison.
+
 
 ??? question "Exercices du livre (chap4 pages 90 à 98)" 
     ![page 90](data/p90.png)
@@ -133,6 +150,12 @@
     - [📚 Chapitre VII](data/Chap-VII.pdf){:target="_blank"} 
     - [⚛️ Activité 14](data/Act14.pdf){:tatget="_blank"}
 
+!!! warning "Je dois savoir et savoir faire"
+    - Calculer la masse d'une entité : atome, ion ou molécule.
+    - Définir la mole.
+    - Déterminer le nombre d'entités N et la quantité de matière n d'une espèce.
+
+
 ??? question "Exercices du livre (chap5 pages 105 à 110)" 
     ![page 105](data/p105.png)
     ![page 106](data/p106.png)
@@ -146,6 +169,14 @@
     - [📚Chapitre VIII](data/Chap-VIII.pdf){:target="_blank"}
     - [⚛️Activité 15](data/Act15 vitesse du son.pdf){:target="_blank"}
     - [⚛️Activité 14 Analyse d'un son](data/Act14 analyse d'un son.pdf){:target="_blank"}
+
+!!! warning "Je dois savoir et savoir faire"
+    - Définir un son (signal périodique),
+    - Calculer la vitesse de propagation d'un son.
+    - Définir la période et la fréquence d'un son.
+    - Comparer la hauteur, le timbre et l'intensité sonore de différents sons.
+
+
 
 ??? question "Exercices du livre (chap12 pages 237 à 246)" 
     ![page 237](data/p237.png) 
@@ -164,6 +195,11 @@
     - [📚Chapitre IX](data/Chap-IX.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
 
+!!! warning "Je dois savoir et savoir faire"
+    - Nommer les différents changements d'état et préciser s'il est endothermique ou exothermique.
+    - Écrire l'équation d'une transformation physique.
+    - Calculer la chaleur échangée au cours d'un changement d'état ou lors d'un transfert de chaleur quelconque.
+
 ??? question "Exercices du livre (chap6 pages 120 à 126)"
     ![page 120](data/p120.png)
     ![page 121](data/p121.png)
@@ -181,6 +217,14 @@
     - [⚛️Activité 18 Transformations chimiques et effet thermique](data/Act18 transformations chimiques et effet thermique.pdf){:target="_blank"}            
     - [⚛️Activité 19 Arôme de banane](data/Act19 preparation d'un arome.pdf){:target="_blank"}                
 
+<a id="chapitre-10"></a>
+!!! warning "Je dois savoir et savoir faire"
+    - Écrire l'équation d'une transformation chimique.
+    - Identifier le réactif limitant à partir des quantités de matière des réactifs.
+    - Déterminer le caractère endothermique ou exothermique d'une transformation chimique.
+    - Réaliser le schéma légendé du montage du chauffage à reflux et d'une CCM.
+    - Exploiter une CCM.
+
 ??? question "Exercices du livre (chap7 pages 140 à 148)"
     ![page 140](data/p140.png)
     ![page 141](data/p141.png)
@@ -197,6 +241,12 @@
 ??? abstract "Propagation de la lumière"
     - [📚 Chapitre XI](data/Chap-XI.pdf){:target="_blank"}
     - [⚛️ Activité 20 Lois de Snell-Descartes](data/Act20 Snell Descartes.pdf){:target="_blank"}    
+
+!!! warning "Je dois savoir et savoir faire"
+    - Définir : réflexion ; réfraction ; réflexion totale ; lentille convergente et divergente.
+    - Repérer sur un schéma et dessiner : rayon incident, rayon réfléchi, rayon réfracté.
+    - Écrire et utiliser la loi de Snell-Descartes et la relation de grandissement pour une lentille.
+
 
 ??? question "Exercices du livre (chap14 pages 279 à 286) Réfraction et réflexion de la lumière"
     ![page 279](data/p279.png)

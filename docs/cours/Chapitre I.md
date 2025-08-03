@@ -154,7 +154,7 @@ Test au sulfate de cuivre anhydre : blanc à sec, devient bleu au contact de l�
 ### 3. La chromatographie
 
 !!! note 
-    Cette technique sera étudiée de façon plus complète plus tard dans l'année.
+    Cette technique sera étudiée de façon plus complète [plus tard dans l'année](../documents.md#chapitre-10).
 
 #### a. Principe
 La chromatographie est une méthode permettant de séparer et d'identifier les constituants d’un mélange. La séparation est basée sur la différente affinité des constituants pour la phase fixe (papier ou plaque) et la phase mobile (solvant). Pour un éluant et une phase fixe donnés, une espèce chimique migre de la même façon, qu'elle soit pure ou dans un mélange.
