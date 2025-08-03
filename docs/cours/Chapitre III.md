@@ -2,19 +2,38 @@
 
 {{ initexo(0) }}
 
-## 1. Le déplacement d'un système
+## I. Le déplacement d'un système
 
 L'objet dont on étudie le mouvement est appelé le système.
 Pour simplifier, au lycée, on se limite à l'étude d'un seul point du système : son centre des masses.
 
 ![image](data/chap3_deplacement.jpg){width="800"}
 
+[**Exercices n°6, 9©, 10 p. 179**{: .exo}](../data/p179.png)
+
+
+### Référentiels usuels :heart:
+
+| Référentiel               | terrestre                                                         | géocentrique                                                                                                   | héliocentrique                                            |
+|---------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Point d'origine du repère | un point à la surface de la Terre                                 | le centre de la Terre                                                                                          | le centre du Soleil                                       |
+| Axes du repère        | 3 axes perpendiculaires dont un correspond à la verticale du lieu | 3 axes qui pointent en direction de 3 étoiles différentes (le repère ne tourne pas sur lui même avec la Terre) | 3 axes qui pointent en direction de 3 étoiles différentes |
+| Exemple d'utilisation     | étude des mouvements à la surface de la Terre                     | étude des mouvements des satellites de la Terre                                                                | étude du mouvement des planètes du système solaire        |
+
+[**Exercice n°3© p. 178**{: .exo}](../data/p178.png) 
+
+### Mouvements usuels :heart:
+
 !!! success "Le mouvement du système est..."
+    - **stationnaire** si le système est immobile par rapport au référentiel choisi ;  
     - **rectiligne** si sa trajectoire est une portion de droite ;  
     - **circulaire** si sa trajectoire est une portion de cercle ;  
     - **curviligne** dans les autres cas.  
 
-## 2. Le vecteur vitesse entre deux positions M et M'
+[**Exercice n°8 p. 179**{: .exo}](../data/p179.png)
+
+
+## II. Le vecteur vitesse entre deux positions M et M'
 
 
 !!! note "Vecteur vitesse moyenne" 
@@ -45,10 +64,13 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 🎯 **Exemple :** **$v=5$ m∙s<sup>-1</sup> est JUSTE**{: .stabilo-vert} (alors que  **$\vec v=5$ m∙s<sup>-1</sup> est FAUX !**{: .stabilo-rouge-fluo})
 
 
-## 3. Décrire un mouvement
 
 
-Pour décrire un mouvement, on utilise deux caractéristiques : la forme de la trajectoire et l’évolution de la vitesse. Par exemple, on peut dire que le mouvement d’un système est *rectiligne uniforme*.
+
+## III. Décrire un mouvement
+
+
+Pour décrire un mouvement, on utilise deux caractéristiques : **la forme de la trajectoire** et **l'évolution de la vitesse**. Par exemple, on peut dire que le mouvement d'un système est *rectiligne uniforme*.
 
 !!! example "{{ exercice() }} : décrire un mouvement :heart:" 
     === "Énoncé"
@@ -57,3 +79,9 @@ Pour décrire un mouvement, on utilise deux caractéristiques : la forme de la t
         ![image](data/chap3_decelere.jpg){ width="300"}  
         ![image](data/chap3_accelere.jpg){ width="300"}  
         ![image](data/chap3_uniforme.jpg){ width="300"}
+
+[**Exercices n°13©, 17©, 18 p. 180**{: .exo}](../data/p180.png) et
+[**21©, 22 p. 181**{: .exo}](../data/p181.png) et
+[**24 p. 182**{: .exo}](../data/p182.png) et
+[**30 p. 183**{: .exo}](../data/p183.png) et 
+[**36 p. 185**{: .exo}](../data/p185.png)

@@ -21,7 +21,7 @@
         3. Classer les densités (d<sub>eau</sub> , d<sub>alcool</sub> et d<sub>huile</sub>) par ordre croissant. 
 
 
-[**Exercices n° 2, 3©, 4 p. 28**{: .exo}](../data/p28.png)
+[**Exercices n°2, 3©, 4 p. 28**{: .exo}](../data/p28.png)
 
 ### 2. Quantifier la composition d'un mélange
 Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient de façon très logique en partant de la notion de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
@@ -47,7 +47,7 @@ Si l'on connaît la composition du mélange.
 
 
 
-[**Exercices n° 5©, 6 p. 29**{: .exo}](../data/p29.png) et [**exercice 27 p. 33**{: .exo}](../data/p33.png)
+[**Exercices n°5©, 6 p. 29**{: .exo}](../data/p29.png) et [**27 p. 33**{: .exo}](../data/p33.png)
 
 
 ## II. Identifier les espèces chimiques
@@ -71,7 +71,7 @@ Si l'on connaît la composition du mélange.
     
     Remarque : une température de fusion (cas d'un solide) peut se mesurer avec un banc Kofler et une température d'ébullition (cas d'un liquide) dépend fortement de la pression.
     
-[**Exercices n° 7©, 8 p. 29**{: .exo}](../data/p29.png) et [**exercice 28 p. 33**{: .exo}](../data/p33.png)
+[**Exercices n°7©, 8 p. 29**{: .exo}](../data/p29.png) et [**28 p. 33**{: .exo}](../data/p33.png)
 
 #### b. Masse volumique et densité de matière
 
@@ -123,7 +123,7 @@ Si l'on connaît la composition du mélange.
     Grandeur sans unité.
     
     
-[**Exercices n° 9©, 10, 12 p. 29**{: .exo}](../data/p29.png) et [**20 p. 31**{: .exo}](../data/p31.png) et  [**26 p. 33**{: .exo}](../data/p33.png) et  [**31 p. 34**{: .exo}](../data/p34.png)
+[**Exercices n°9©, 10, 12 p. 29**{: .exo}](../data/p29.png) et [**20 p. 31**{: .exo}](../data/p31.png) et  [**26 p. 33**{: .exo}](../data/p33.png) et  [**31 p. 34**{: .exo}](../data/p34.png)
 
 ### 2. Méthodes chimiques (tests caractéristiques)
 #### a. Test du dioxyde de carbone 
@@ -149,7 +149,7 @@ Une allumette incandescente se rallume dans du dioxygène.
 
 Test au sulfate de cuivre anhydre : blanc à sec, devient bleu au contact de l’eau.
 
-[**Exercice 13© p. 30**{: .exo}](../data/p30.png) et [**exercice 25© p. 32**{: .exo}](../data/p32.png)
+[**Exercice n°13© p. 30**{: .exo}](../data/p30.png) et [**25© p. 32**{: .exo}](../data/p32.png)
 
 ### 3. La chromatographie
 

@@ -29,7 +29,7 @@
     - (aq) signifie que les espèces sont dissoutes en solutions aqueuses. Attention à ne pas confondre avec (ℓ).
 
 
-[**Exercices n° 1©, 2 p. 52**{: .exo}](../data/p52.png)
+[**Exercices n°1©, 2 p. 52**{: .exo}](../data/p52.png)
 
 
 ## II. La concentration en masse
@@ -52,7 +52,7 @@ Pour un même volume, la solution B contient plus de soluté que la solution A. 
     
     ![image](data/chap2_distinction.jpg){: .center width="400"}
 
-[**Exercice n° 3© p.52**{: .exo}](../data/p52.png) et [**exercices 4, 5©, 6 p. 53**{: .exo}](../data/p53.png) et [**exercice 26 p. 56**{: .exo}](../data/p56.png)
+[**Exercice n°3© p. 52**{: .exo}](../data/p52.png) et [**4, 5©, 6 p. 53**{: .exo}](../data/p53.png) et [**26 p. 56**{: .exo}](../data/p56.png)
 
 ## III. Préparer une solution aqueuse
 
@@ -130,7 +130,7 @@ La solution obtenue (solution fille) est moins concentrée que la solution initi
     2. Déterminer la concentration de la solution fille.
 
 
-[**Exercice n° 9© p.53**{: .exo}](../data/p53.png) et [**exercice 13© p.54**{: .exo}](../data/p54.png) et [**exercices 18, 20 p. 55**{: .exo}](../data/p55.png) et [**Exercices n° 29, 31 p. 57**{: .exo}](../data/p57.png)
+[**Exercice n°9© p. 53**{: .exo}](../data/p53.png) et [**13© p. 54**{: .exo}](../data/p54.png) et [**18, 20 p. 55**{: .exo}](../data/p55.png) et [**29, 31 p. 57**{: .exo}](../data/p57.png)
 
 ## IV. Dosage par étalonnage
 
@@ -141,4 +141,4 @@ La solution obtenue (solution fille) est moins concentrée que la solution initi
 
 - Sinon, on mesure une grandeur physique, par exemple la masse volumique qui varie avec la concentration de chaque solution étalon, et on trace une **courbe d'étalonnage**. En mesurant la valeur de cette grandeur dans la solution dosée, **on obtient graphiquement** la valeur de la concentration recherchée.
 
-[**Exercice 35© p. 58**{: .exo}](../data/p58.png)
+[**Exercice n°35© p. 58**{: .exo}](../data/p58.png)

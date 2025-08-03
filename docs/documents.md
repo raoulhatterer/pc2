@@ -49,10 +49,8 @@
     - QCM page 49.
     - Exercices résolus 1 et 2 p. 50, 51.
     - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre II.md)). 
-    - Exercices 39, 40 p. 60.
+    - **Exercices 39, 40 p. 60.**{: .stabilo-jaune}
     - Exercices corrigés en classe.
-
-
 
 ??? question "Exercices du livre (chap2 pages 52 à 60)"
     ![page 52](data/p52.png)
@@ -71,6 +69,13 @@
     - [⚛️ Activité 5](data/Act05 vitesse systeme.pdf){:target="_blank"} Vitesse d'un système (contexte : circuit du Castellet)
     - [⚛️ Activité 6](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"} Vecteurs déplacement et vitesse (contexte : mini golf)
 
+??? success "Pour réviser"
+    - QCM page 175.
+    - Exercices résolus 1, 2 p. 176, 177
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre III.md)). 
+    - **Exercices 38, 39 , 40 p. 186.**{: .stabilo-jaune}
+    - Exercices corrigés en classe.
+
 ??? question "Exercices du livre (chap9 pages 178 à 186)" 
     ![page 178](data/p178.png)
     ![page 179](data/p179.png)
@@ -86,15 +91,23 @@
 ??? abstract "Forces et mouvements"
     - [📚 Chapitre IV](./data/Chap-IV.pdf){:target="_blank"}
     - [⚛️ Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
-    ??? question "Exercices du livre (chap10 pages 200 à 206)" 
-        ![page 200](data/p200.png)
-        ![page 201](data/p201.png)
-        ![page 202](data/p202.png)
-        ![page 203](data/p203.png)
-        ![page 204](data/p204.png)
-        ![page 205](data/p205.png)
-        ![page 206](data/p206.png)
     - [⚛️ Activité 8 Principe d'inertie (contexte : parachutiste)](data/Act08 principe d'inertie.pdf){:target="_blank"}        
+
+??? success "Pour réviser"
+    - QCM pages 197 et 213.
+    - Exercices résolus 1 et 2 p. 198, 199 et 1 et 2 p. 214, 215
+    - Exercices corrigés dans le livre et en classe
+    - **Exercices 32, 33, 34 p. 206 et 26, 27, 28 p. 222**{: .stabilo-jaune}
+
+??? question "Exercices du livre (chap10 pages 200 à 206)" 
+    ![page 200](data/p200.png)
+    ![page 201](data/p201.png)
+    ![page 202](data/p202.png)
+    ![page 203](data/p203.png)
+    ![page 204](data/p204.png)
+    ![page 205](data/p205.png)
+    ![page 206](data/p206.png)
+
 
 ??? question "Exercices du livre (chap11 pages 216 à 222)" 
     ![page 216](data/p216.png)
