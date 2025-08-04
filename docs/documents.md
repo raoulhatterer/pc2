@@ -118,6 +118,12 @@
     ![page 221](data/p221.png)
     ![page 222](data/p222.png)
 
+
+
+
+
+
+
 ## [Chapitre 5](cours/Chapitre V.md)
 ??? abstract "De l'atome à l'élément chimique"
     - [📚 Chapitre V](./data/Chap-V.pdf){:target="_blank"}    
@@ -131,7 +137,11 @@
     - Exploiter l'électroneutralité de la matière pour associer des espèces ioniques.
     - Capacité mathématique : utiliser les puissances de 10 et l'écriture scientifique.
 
-
+??? success "Pour réviser"
+    - QCM page 69 ; 
+    - Exercices corrigés dans le livre et en classe 
+    - Exercice résolu 1 p. 70
+    - Je prépare l’évaluation p. 32, 33 p. 76.
 
 ??? question "Exercices du livre (chap3 pages 71 à 76)" 
     ![page 71](data/p71.png)
@@ -140,6 +150,10 @@
     ![page 74](data/p74.png)
     ![page 75](data/p75.png)
     ![page 76](data/p76.png)
+
+
+
+
 
 ## [Chapitre 6](cours/Chapitre VI.md)
 ??? abstract "Vers des entités plus stables"
@@ -155,6 +169,11 @@
     - Dessiner et exploiter le schéma de Lewis d'une molécule simple.
     - Associer l'énergie de liaison entre deux atomes et l'énergie nécessaire pour rompre cette liaison.
 
+??? success "Pour réviser"
+    - QCM page 87.
+    - Exercices corrigés dans le livre et en classe.
+    - Exercices résolus 1, 2, 3 p. 88, 89.
+    - Je prépare l’évaluation 42, 43 p. 98.
 
 ??? question "Exercices du livre (chap4 pages 90 à 98)" 
     ![page 90](data/p90.png)
@@ -167,6 +186,11 @@
     ![page 97](data/p97.png)
     ![page 98](data/p98.png)
 
+
+
+
+
+
 ## [Chapitre 7](cours/Chapitre VII.md)
 ??? abstract "La quantité de matière"
     - [📚 Chapitre VII](data/Chap-VII.pdf){:target="_blank"} 
@@ -177,6 +201,12 @@
     - Définir la mole.
     - Déterminer le nombre d'entités N et la quantité de matière n d'une espèce.
 
+
+??? success "Pour réviser"
+    - QCM page 103  
+    - Exercices résolus 1 p. 104  
+    - Exercices corrigés dans le livre et en classe  
+    - Préparer l'évaluation : 21, 22 p. 110  
 
 ??? question "Exercices du livre (chap5 pages 105 à 110)" 
     ![page 105](data/p105.png)
@@ -295,7 +325,7 @@
 
 ## [Chapitre 12](cours/Chapitre XII.md)
 ??? abstract "La lumière" 
-    - [📚Chapitre XIII](data/Chapitre XIII cours eleves.pdf){:target="_blank"}
+    - [📚Chapitre XII](data/Chap-XII.pdf){:target="_blank"}
     - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
 
 ??? question "Exercices du livre (chap 13 pages 258 à 266)"
