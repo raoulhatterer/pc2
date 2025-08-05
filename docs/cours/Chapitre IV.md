@@ -41,7 +41,7 @@ De même, la **vitesse du vent** ou celle du ballon sont des **états** de ces o
 
 ## 2. Diagramme objets-interactions
 
-Le DOI (Diagramme Objets-Interactions) est un outil simple mais puissant qui permet de visualiser les interactions entre objets. Il facilite l'analyse des forces en ne conservant que celles qui s'appliquent au système étudié (ce qui permet d'éviter la confusion entre action et réaction) quand on effectue [le bilan des forces](#5-bilan-des-forces).
+Le DOI (Diagramme Objets-Interactions) est un outil simple mais puissant qui permet de visualiser les interactions entre objets. Il facilite l'analyse des forces en ne conservant que celles qui s'appliquent au système étudié (ce qui permet d'éviter la confusion entre action et réaction) quand on effectue [le bilan des forces](#bilan-des-forces).
 
 Un diagramme objets-interactions permet de recenser toutes les interactions impliquant le système à un instant t. Les interactions à **distance** (sans contact entre les objets) sont représentées par des **pointillés**, tandis que les interactions de **contact** sont représentées par des **traits pleins**.
 
@@ -66,8 +66,8 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
 
 ## 3. Modélisation d'une action par un vecteur force
 
-- Chaque action est modélisée par une force. 
-- Une force est représentée par un vecteur. 
+- Chaque **action** est modélisée par une **force**. 
+- Une force est représentée par un **vecteur**. 
 
 🎯 **Exemple** : l'action mécanique exercée par la Terre sur le ballon est modélisée par une force $\vec F_{Terre/ballon} = \vec P$ (dont la valeur s'exprime en Newtons) qu'on appelle le poids (à ne pas confondre avec la masse qui s'exprime en kilogrammes).
 
@@ -78,8 +78,9 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
     • **une norme** : $\left|\left| \vec F \right|\right|$ proportionnelle à $F$, la valeur de la force qui est en Newtons (N).  
 
 
-!!! warning "Attention"
-    **La valeur de $\vec F$ se note $F$** (sans flèche) et non pas $\vec F$ !
+!!! warning "Ne jamais confondre un vecteur force avec sa valeur"
+    - C'est deux notions différentes
+    - **La valeur de $\vec F$ se note $F$** (sans flèche) et non pas $\vec F$ !
     
 🎯 **Exemple :** **$F=5$ N est JUSTE**{: .stabilo-vert} (alors que  **$\vec F=5$ N est FAUX !**{: .stabilo-rouge-fluo>})
 
@@ -90,12 +91,32 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
     • Point où l'on considère que s'exerce la force.   
     • Quand le système est modélisé par un point, ce point est considéré comme point d'application de la force.
 
-🔍 **Remarque**
-
-- Dans la plupart des situations, plusieurs forces agissent en même temps.
+🔍 **Remarque :** Dans la plupart des situations, plusieurs forces agissent en même temps.
 Il faut donner un nom différent à chaque vecteur force pour éviter toute confusion.
 
-## 4. Le principe des actions réciproques
+
+
+
+## 4. Schématisation et modélisation
+
+### a. Schématisation
+
+Une schématisation est une représentation simplifiée (vue de coté ou du dessus suivant la situation, pas de perspective). 
+
+
+![image](data/chap4_schematisation.jpg){.center width="300"}
+
+
+### b. Modélisation
+
+Le système est modélisé par son centre $C$ et l'on rajoute les forces en présence modélisant les actions subies par le système. 
+
+![image](data/chap4_modelisation.jpg){: .center width="300"}
+
+
+
+
+## 5. Le principe des actions réciproques
 
 Lorsque deux systèmes sont en interaction, ils exercent l'un sur l'autre des actions réciproques modélisées par des forces opposées qui ont :
 
@@ -107,17 +128,43 @@ Ce principe s’applique aussi bien aux actions de contact qu’aux actions à d
 
 ![image](data/chap4_fusee.jpg){: .center width="400"}
 
-## 5. Bilan des forces
+
+[**Exercice n°5© p.201**{: .exo}](../data/p201.png)
+
+
+<a id="bilan-des-forces"></a>
+## 6. Bilan des forces
 
 Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agit alors de ne conserver que les forces qui agissent sur le système étudié, sans les confondre avec les forces qui s’exercent sur d'autres objets.
 
-!!! warning
+!!! warning "Quelles forces traiter ?"
     - $\vec F_{obj./{syst.}}$ : il faut la traiter
     - $\vec F_{syst./{obj.}}$ : on n'en parle pas
 
+
+
+
+
+!!! example "{{ exercice() }} : représentation des forces" 
+    === "Énoncé"
+        Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. Le ballon qui se déplace vers la gauche est au sommet de sa trajectoire.   
+        Corriger la proposition ci-dessous, s'il y a lieu de le faire.
+        
+        ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
+    === "Correction"
+        Représentation juste car les caractéristiques de la force de frottements sont les suivantes :
+        !!! abstract "Caractéristique du vecteur $\vec f\phantom{f}$"
+            - **de direction** : tangente au mouvement  
+            - **de sens** : vers la droite car inverse au sens du mouvement du ballon  
+            - **de norme** : $f$ de valeur inconnue  
+    
+
+
+
+
 !!! example "{{ exercice() }} : caractéristiques des forces" 
     === "Énoncé"
-         - Pour l'exemple étudié, on peut représenter deux forces :
+         - Pour l'exemple étudié à l'exercice précédent, on a représenté deux forces :
             - Le poids $\vec P$ du ballon qui représente l'action de l'objet Terre sur le système {ballon}.
             - **La valeur du poids est donnée par la formule $P = m \times g$**{: .stabilo-jaune} :heart:
             - La force de frottements $\vec f\phantom{f}$ qui représente l'action de l'air sur le ballon.
@@ -139,22 +186,11 @@ Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agi
   
 
 
-!!! example "{{ exercice() }} : représentation des forces" 
-    === "Énoncé"
-        Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. Le ballon qui se déplace vers la gauche est au sommet de sa trajectoire.   
-        Corriger la proposition ci-dessous, s'il y a lieu de le faire.
-        
-        ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
-    === "Correction"
-        Représentation juste car les caractéristiques de la force de frottements sont les suivantes :
-        !!! abstract "Caractéristique du vecteur $\vec f\phantom{f}$"
-            - **de direction** : tangente au mouvement  
-            - **de sens** : vers la droite car inverse au sens du mouvement du ballon  
-            - **de norme** : $f$ de valeur inconnue  
-    
 
 
-## 6. Exemples de forces
+
+
+## 7. Exemples de forces
 
 ![image](data/chap4_exemples.png)
 
@@ -169,8 +205,13 @@ La masse de l'astronaute est la même sur la Terre et sur la Lune, mais la valeu
 
 
 
+[**Exercice n°9©, 10 p.201**{: .exo}](../data/p201.png)
+et [**14, 16, 17, 18, 19© p.202**{: .exo}](../data/p202.png)
+et [**21 p.203**{: .exo}](../data/p203.png)
+et [**29 p.205**{: .exo}](../data/p205.png)
 
-## 7. Effet d'une force sur le mouvement d'un système
+
+## 8. Effet d'une force sur le mouvement d'un système
 
 
 
@@ -208,7 +249,7 @@ La force $\vec F$<sub>main/{ballon}</sub> qui modélise l'action de la main sur 
 Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
 
 
-## 8. Forces qui se compensent
+## 9. Forces qui se compensent
 
 !!! note "Forces qui se compensent"
   
@@ -226,7 +267,7 @@ Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</s
 
 
 
-## 9. Le principe d'inertie
+## 10. Le principe d'inertie
 
 - Le principe d'inertie permet de relier forces et nature du mouvement.
 
@@ -259,21 +300,7 @@ Les forces ne se compensent pas donc son mouvement n'est pas rectiligne uniforme
 
 ![image](data/chap4_deceleration.jpg){.center  width="300"}
 
-## 10. Schématisation et modélisation
 
-### a. Schématisation
-
-Une schématisation est une représentation simplifiée (vue de coté ou du dessus suivant la situation, pas de perspective). 
-
-
-![image](data/chap4_schematisation.jpg){.center width="300"}
-
-
-### b. Modélisation
-
-Le système est modélisé par son centre $C$ et l'on rajoute les forces en présence modélisant les actions subies par le système. 
-
-![image](data/chap4_modelisation.jpg){: .center width="300"}
 
 
 
@@ -295,3 +322,9 @@ Dans l'air, une chute sera **considérée comme libre** si l'on peut négliger l
 
 
 🎯 **Exemple** : Pour la modélisation ci-dessus, si le schéma est à l'échelle alors la chute n'est pas libre. Par contre, si c'est un schéma de principe et qu’il est précisé dans l'énoncé que les forces de frottements avec l'air sont négligeables par rapport au poids alors on pourra considérer qu'il y a chute libre.
+
+
+
+[**Exercice n°5©, 8, 9 p. 217**{: .exo}](../data/p217.png)
+et [**13 p. 218**{: .exo}](../data/p218.png)
+et [**23, 24 p. 221**{: .exo}](../data/p221.png)
