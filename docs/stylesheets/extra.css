@@ -325,6 +325,22 @@ td {
     box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+
+/* Version en blanc sur fond violet*/
+.md-typeset .stabilo-violet {
+    font-weight: normal;
+    background-color: rgb(97, 42, 145);
+    color: white;
+    padding: 0.1em 0.4em;
+    border-radius: 3px;
+    display: inline-block;
+    line-height: 1.5;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+
+
+
 /* Exercice en blanc sur fond vert  */
 .md-typeset .exo {
     font-weight: normal;

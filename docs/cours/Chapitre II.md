@@ -75,7 +75,7 @@ Lors d'une dissolution, le soluté se disperse dans le solvant.
     Pour préparer par dissolution une solution aqueuse de volume V<sub>solution</sub> et de concentration en masse de soluté **t**, il faut prélever une masse de soluté m<sub>soluté</sub> à dissoudre dans de l'eau :
     ![image](data/chap2_msolute.jpg){: .center width="350"}
 
-Exemple : Pour préparer une solution de volume V<sub>solution</sub> = 50,0 mL et de concentration en masse t = 18,0 g·L<sup>–1</sup> en glucose, la masse de soluté à peser est m<sub>glucose</sub> = t × V<sub>solution</sub> = 18,0 g·L<sup>–1</sup> × 50,0 × 10<sup>–3</sup> L = 0,900 g.
+🎯 **Exemple :** Pour préparer une solution de volume V<sub>solution</sub> = 50,0 mL et de concentration en masse t = 18,0 g·L<sup>–1</sup> en glucose, la masse de soluté à peser est m<sub>glucose</sub> = t × V<sub>solution</sub> = 18,0 g·L<sup>–1</sup> × 50,0 × 10<sup>–3</sup> L = 0,900 g.
 
 !!! success "Chiffres significatifs"
     Lors d'une multiplication ou d'une division, le résultat doit comporter autant de chiffres significatifs que la donnée qui en possède le moins.

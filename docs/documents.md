@@ -229,6 +229,11 @@
     - Comparer la hauteur, le timbre et l'intensité sonore de différents sons.
 
 
+??? success "Pour réviser"
+    - QCM p. 235  
+    - Exercices résolus 1 p. 236  
+    - Exercices corrigés dans le livre et en classe  
+    - Préparer l'évaluation : 37, 38 p. 246
 
 ??? question "Exercices du livre (chap12 pages 237 à 246)" 
     ![page 237](data/p237.png) 

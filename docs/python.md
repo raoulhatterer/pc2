@@ -111,7 +111,7 @@
 
 
 
-## Chapitre 5
+
 !!! example "{{ exercice() }} : Galilée et la chute des corps (chap11 ex 14 p 218)"
     === "Énoncé"
         1. Ouvrir le script suivant dans Capytale (**code :**):
@@ -132,35 +132,12 @@
        
 
 
+
+
+
+
+
 ## Chapitre 6
-!!! example "{{ exercice() }} : Masse approchée d'un atome (chap03 ex 9 p 72)"
-    === "Énoncé"
-        1. Ouvrir le script suivant dans Capytale (**code :**):
-           ```python  linenums="1"
-           # Masse approchée d'un atome
-           Z = int(input("Nombre de protons: "))
-           rep = int(input("Nombre d'électrons: "))
-           if rep != Z:
-               print("Faux. Un atome est neutre donc il a autant d'électrons que de protons.")
-           N = int(input("Nombre de neutrons: "))
-           m_nucleon = 1.67E-27
-           m_electron = m_nucleon / 1836
-           m_noyau = m_nucleon * (Z + N)
-           m_atome = m_noyau + m_electron * Z
-           print("masse du noyau :", m_noyau)
-           print("masse de l'atome :", m_atome)
-
-           ```
-           2. Syntaxe : indiquer la signification de `!=` dans le test effectué à la ligne 4.
-           3. Exécuter le script pour répondre à l'exercice 9 p 72.
-           4. Quel est le calcul simple permettant d'obtenir la masse approchée d'un atome ? Pourquoi parle-t-on de masse approchée ?
-           
-
-
-
-
-
-## Chapitre 7
 !!! example "{{ exercice() }} : Obtenir une configuration électronique (chap04 ex 33 p 95)"
     === "Énoncé"
         1. Ouvrir le script suivant dans Capytale (**code :**):
@@ -276,7 +253,34 @@
             print("Pour Z =", Z, "la configuration électronique est", config)
      
         ```
-     
+
+
+## Chapitre 7
+!!! example "{{ exercice() }} : Masse approchée d'un atome (chap03 ex 9 p 72)"
+    === "Énoncé"
+        1. Ouvrir le script suivant dans Capytale (**code :**):
+           ```python  linenums="1"
+           # Masse approchée d'un atome
+           Z = int(input("Nombre de protons: "))
+           rep = int(input("Nombre d'électrons: "))
+           if rep != Z:
+               print("Faux. Un atome est neutre donc il a autant d'électrons que de protons.")
+           N = int(input("Nombre de neutrons: "))
+           m_nucleon = 1.67E-27
+           m_electron = m_nucleon / 1836
+           m_noyau = m_nucleon * (Z + N)
+           m_atome = m_noyau + m_electron * Z
+           print("masse du noyau :", m_noyau)
+           print("masse de l'atome :", m_atome)
+
+           ```
+           2. Syntaxe : indiquer la signification de `!=` dans le test effectué à la ligne 4.
+           3. Exécuter le script pour répondre à l'exercice 9 p 72.
+           4. Quel est le calcul simple permettant d'obtenir la masse approchée d'un atome ? Pourquoi parle-t-on de masse approchée ?
+           
+
+
+
 
 ## Chapitre 8
 !!! example "{{ exercice() }} : Fonction périodique (chap12 ex 23 p 241)"
@@ -600,7 +604,7 @@
            print("Exercice terminé.\n")     
            ```
 
-## Chapitre 12
+
 
 !!! example "{{ exercice() }} : Lentille"
     === "Énoncé"
@@ -626,7 +630,10 @@
 
 
 
-## Chapitre 14
+## Chapitre 12
+
+
+## Chapitre 13
 
 !!! example "{{ exercice() }} : Parafoudre (chap16 ex 28 p320)"
     === "Énoncé"
