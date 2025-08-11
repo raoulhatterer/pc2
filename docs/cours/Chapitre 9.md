@@ -90,24 +90,53 @@ Exemples :
 - Lors d'un **chauffage**, le corps capte de l'énergie du milieu extérieur : transformation **endothermique**.  
   L'agitation des particules augmente, les liaisons peuvent se rompre, le désordre augmente.
 
+![image](data/chap9_endothermique.jpg){: .center width="400"}
+
+!!! success "Changements d'état endothermiques"
+    **fusion**, **vaporisation**, **sublimation** : transformations lors desquelles **le système reçoit de l'énergie** du milieu extérieur par transfert thermique
+
 - Lors d'un **refroidissement**, le corps perd de l'énergie : transformation **exothermique**.  
   L'agitation des particules diminue, les liaisons se créent, l'ordre augmente.
 
-Résumé :
-- **Endothermiques** : fusion, vaporisation, sublimation → le système reçoit de l'énergie par transfert thermique.
-- **Exothermiques** : solidification, liquéfaction, condensation → le système cède de l'énergie par transfert thermique.
+![image](data/chap9_exothermique.jpg){: .center width="400"}
 
-[**Exercices : 7, 8, 14 p. 121, 122**{: .exo}]
+!!! success "Changements d'état exothermiques"
+    **solidification**, **liquéfaction**, **condensation** : transformations lors desquelles **le système cède de l'énergie** au milieu extérieur par transfert thermique
+
+
+
+[**Exercices : 7©, 8 p. 121**{: .exo}](../data/p121.png) et
+[**14© p. 122**{: .exo}](../data/p122.png)
 
 ### 2. Énergie massique de changement d'état
 
 L'énergie acquise ou perdue lors d'un changement d'état provient d'un transfert thermique avec un autre système.  
 On note ce transfert thermique **Q**.
 
-Relation :
-$$ L = \frac{Q}{m} $$
+
+De même que les températures de changement d'état sont répertoriées dans des tables pour diverses substances, les valeurs de l'énergie (ou enthalpie) massique de changement d'état (notée L) le sont également. Ces valeurs correspondent à l'**énergie nécessaire pour qu'un kilogramme d'une substance donnée change d'état**. 
+
+
+
+| Substance            | Température de Fusion (°C) | L<sub>f</sub> (kJ/kg) | Température de Vaporisation (°C) | L<sub>v</sub> (kJ/kg) |
+|:---------------------|:---------------------------|:----------------------|:---------------------------------|:----------------------|
+| **Eau**              | 0                          | 333                   | 100                              | 2257                  |
+| **Alcool éthylique** | -114                       | 109                   | 78                               | 855                   |
+| **Mercure**          | -39                        | 11,8                  | 357                              | 295                   |
+| **Azote**            | -210                       | 25,7                  | -196                             | 200                   |
+| **Aluminium**        | 660                        | 397                   | 2467                             | 10890                 |
+| **Fer**              | 1535                       | 270                   | 2750                             | 6340                  |
+| **Plomb**            | 327                        | 24,7                  | 1750                             | 858                   |
+
+
+Elles sont essentielles pour les calculs de l'énergie échangée lors d'un changement d'état.
+
+#### Relations :
+
+**$Q = m \times L$**{: .stabilo-jaune} ou **$\displaystyle L = \frac{Q}{m}$**{: .stabilo-jaune}
 
 avec :
+
 - $Q$ en joules (J),
 - $m$ en kilogrammes (kg),
 - $L$ en joules par kilogramme (J·kg⁻¹)
