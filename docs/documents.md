@@ -8,7 +8,7 @@
 
 {# écrire `cache/` ou `data/` pour cacher ou non un fichier #} 
 
-## [Chapitre 1](cours/Chapitre I.md)
+## [Chapitre I](cours/Chapitre 1.md)
 ??? abstract "Corps purs et mélanges"
     - [📚 Chapitre I](data/Chap-I.pdf){:target="_blank"}    
     - [⚛️ Activité 1](data/Act01 corps pur et melange.pdf){:target="_blank"}  Corps pur et mélange (contexte : l'eau de la Méditerranée, mélange ou corps pur ?)
@@ -36,7 +36,7 @@
     ![page 35](data/p35.png)
     ![page 36](data/p36.png)
 
-## [Chapitre 2](cours/Chapitre II.md)
+## [Chapitre II](cours/Chapitre 2.md)
 ??? abstract "Solutions aqueuses"
     - [📚 Chapitre II](./data/Chap-II.pdf){:target="_blank"}    
     - [**fm**{: .stabilo-vert} Protocole de la dissolution](data/fm-PROTOCOLE-DE-LA-DISSOLUTION.pdf){:target="_blank"}
@@ -63,7 +63,7 @@
     ![page 59](data/p59.png)
     ![page 60](data/p60.png)
 
-## [Chapitre 3](cours/Chapitre III.md)
+## [Chapitre III](cours/Chapitre 3.md)
 ??? abstract "Description des mouvements"
     - [📚 Chapitre III](data/Chap-III.pdf){:target="_blank"}    
     - [⚛️ Activité 5](data/Act05 vitesse systeme.pdf){:target="_blank"} Vitesse d'un système (contexte : circuit du Castellet)
@@ -87,7 +87,7 @@
     ![page 185](data/p185.png)
     ![page 186](data/p186.png)
 
-## [Chapitre 4](cours/Chapitre IV.md)
+## [Chapitre IV](cours/Chapitre 4.md)
 ??? abstract "Forces et mouvements"
     - [📚 Chapitre IV](./data/Chap-IV.pdf){:target="_blank"}
     - [⚛️ Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
@@ -124,7 +124,7 @@
 
 
 
-## [Chapitre 5](cours/Chapitre V.md)
+## [Chapitre V](cours/Chapitre 5.md)
 ??? abstract "De l'atome à l'élément chimique"
     - [📚 Chapitre V](./data/Chap-V.pdf){:target="_blank"}    
     - [⚛️ Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
@@ -155,7 +155,7 @@
 
 
 
-## [Chapitre 6](cours/Chapitre VI.md)
+## [Chapitre VI](cours/Chapitre 6.md)
 ??? abstract "Vers des entités plus stables"
     - [📚 Chapitre VI](data/Chap-VI.pdf){:target="_blank"} 
     - [⚛️ Activité 11](data/Act11 famille ion chlorure.pdf){:tatget="_blank"} Familles chimiques (contexte : famille de l'ion chlorure)
@@ -191,7 +191,7 @@
 
 
 
-## [Chapitre 7](cours/Chapitre VII.md)
+## [Chapitre VII](cours/Chapitre 7.md)
 ??? abstract "La quantité de matière"
     - [📚 Chapitre VII](data/Chap-VII.pdf){:target="_blank"} 
     - [⚛️ Activité 14](data/Act14.pdf){:tatget="_blank"}
@@ -216,7 +216,7 @@
     ![page 109](data/p109.png)
     ![page 110](data/p110.png)
 
-## [Chapitre 8](cours/Chapitre VIII.md)
+## [Chapitre VIII](cours/Chapitre 8.md)
 ??? abstract "Émission et perception d'un son"
     - [📚Chapitre VIII](data/Chap-VIII.pdf){:target="_blank"}
     - [⚛️Activité 15](data/Act15 vitesse du son.pdf){:target="_blank"}
@@ -247,7 +247,7 @@
     ![page 245](data/p245.png)
     ![page 246](data/p246.png)
 
-## [Chapitre 9](cours/Chapitre IX.md)
+## [Chapitre IX](cours/Chapitre 9.md)
 ??? abstract "Transformations physiques"
     - [📚Chapitre IX](data/Chap-IX.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
@@ -266,7 +266,7 @@
     ![page 125](data/p125.png)
     ![page 126](data/p126.png)
 
-## [Chapitre 10](cours/Chapitre X.md)
+## [Chapitre X](cours/Chapitre 10.md)
 ??? abstract "Transformations chimiques"
     - [📚Chapitre X](data/Chap-X.pdf){:target="_blank"}
     - [⚛️Activité 16 Trouver le réactif limitant](data/Act16 reactifs limitant.pdf){:target="_blank"}    
@@ -293,7 +293,7 @@
     ![page 147](data/p147.png)
     ![page 148](data/p148.png)
         
-## [Chapitre 11](cours/Chapitre XI.md)
+## [Chapitre XI](cours/Chapitre 11.md)
 
 ??? abstract "Propagation de la lumière"
     - [📚 Chapitre XI](data/Chap-XI.pdf){:target="_blank"}
@@ -328,7 +328,7 @@
 
 
 
-## [Chapitre 12](cours/Chapitre XII.md)
+## [Chapitre XII](cours/Chapitre 12.md)
 ??? abstract "La lumière" 
     - [📚Chapitre XII](data/Chap-XII.pdf){:target="_blank"}
     - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
@@ -346,7 +346,7 @@
 
 
 
-## [Chapitre 13](cours/Chapitre XIII.md) 
+## [Chapitre XIII](cours/Chapitre 13.md) 
 ??? abstract "Les lois de l'électricité"
     - [📚Chapitre XIII](data/Chap-XIII.pdf){:target="_blank"}
     - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
