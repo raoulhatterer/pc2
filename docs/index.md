@@ -6,7 +6,7 @@
 
 !!! tip
     - Si le menu est caché, l'icône représentant 3 traits horizontaux permet d'y accéder.
-    - **Si certains éléments du cours s'affichent mal**{: .stabilo-jaune} (formules manquantes ou incomplètes...) : **rafraîchissez la page**{: .stabilo-jaune}
+    - **Rafraîchissez la page si certains éléments du cours s'affichent mal**{: .stabilo-jaune} (formules manquantes ou incomplètes...). 
 
 # Consignes
 !!! note "Version pdf du cours"

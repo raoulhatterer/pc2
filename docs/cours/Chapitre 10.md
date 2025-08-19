@@ -1,0 +1,162 @@
+# Chapitre X : Transformations chimiques
+
+{{ initexo(0) }}
+
+## I. Modélisation d'une transformation chimique
+
+!!! success "Qu'est-ce qu'une transformation chimique ?"
+    Une **transformation chimique** est le passage d'un système chimique d'un **état initial** (avant que les espèces chimiques ne réagissent entre elles) à un **état final** (lorsque le système n'évolue plus).
+
+!!! success "Qu'est-ce qu'un système chimique ?"
+    Le système chimique est l'**ensemble des espèces chimiques que l'on étudie**.
+
+Lors de son évolution, la composition du système chimique est modifiée. À l'échelle macroscopique, on observe par exemple un changement de couleur, un dégagement gazeux, une variation de température ou de pression...
+
+Certaines modifications peuvent être mises en évidence grâce à des tests d'identification.
+
+### 2. Modélisation d'une transformation chimique
+
+Lors d'une transformation chimique :
+
+- certaines espèces chimiques sont **consommées** → ce sont les **réactifs**,
+- d'autres espèces chimiques **se forment** → ce sont les **produits**.
+
+!!! success "Réactif"
+    Espèce chimique consommée partiellement ou totalement. **Sa quantité de matière diminue**.
+    
+!!! success "Produit" 
+    Espèce chimique formée. **Sa quantité de matière augmente**.
+
+!!! success "Espèce spectatrice"
+    Espèce chimique présente à l'état initial, dont la quantité de matière n'évolue pas.
+
+🎯 **Exemple :** combustion complète du méthane dans l'air (principalement composé de N<sub>2</sub> et O<sub>2</sub>). Du dioxyde de carbone et de l'eau se forment.
+
+- Réactifs : méthane (CH<sub>4</sub>) et dioxygène (O<sub>2</sub>)  
+- Produits : dioxyde de carbone (CO<sub>2</sub>) et eau (H<sub>2</sub>O)  
+- Espèce spectatrice : diazote (N<sub>2</sub>)
+
+Une transformation chimique est modélisée par une **réaction chimique**.  
+On représente l'évolution par une **flèche** : réactifs à gauche, produits à droite.
+
+Le méthane réagit avec le dioxygène pour former du dioxyde de carbone et de l'eau ; la combustion complète du méthane s'écrit donc :
+
+- En toutes lettres : *méthane + dioxygène → dioxyde de carbone + eau*
+- En symboles : CH<sub>4</sub> + 2 O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O
+
+### 3. Écriture de l'équation chimique
+
+L'**équation chimique** est l'écriture symbolique d'une réaction chimique.  
+Elle doit être **ajustée** avec des nombres stœchiométriques entiers (les plus petits possibles) pour respecter les lois de conservation.
+
+!!! success "Lois de conservation"
+    Lors d'une réaction chimique, il y a conservation :
+
+    - **des éléments chimiques :** même nombre de chaque atome des deux côtés ;
+    - **de la charge électrique globale :** la charge électrique globale des réactifs est identique à celle des produits.
+
+L'équation de la réaction chimique traduit le bilan de matière qui indique les proportions, en mol, dans lesquelles
+les réactifs sont consommés et les produits se forment.
+
+
+🎯 **Exemple 1 :** combustion complète du méthane  
+CH<sub>4</sub> (g) + 2 O<sub>2</sub> (g) → CO<sub>2</sub> (g) + 2 H<sub>2</sub>O (g)
+
+| Élément     | Réactifs | Produits |
+|-------------|----------|----------|
+| Carbone C   | 1        | 1        |
+| Hydrogène H | 4        | 4        |
+| Oxygène O   | 4        | 4        |
+
+🎯 **Exemple 2 :** réaction du zinc avec une solution d'acide chlorhydrique  
+Zn (s) + 2 H<sup>+</sup> (aq) → Zn<sup>2+</sup> (aq) + H<sub>2</sub> (g)
+
+| Élément     | Réactifs | Produits |
+|-------------|----------|----------|
+| Zinc Zn     | 1        | 1        |
+| Hydrogène H | 2        | 2        |
+
+La charge électrique globale est conservée.
+
+[**Exercices : 2, 5, 6, 7, 8 p. 140 à 142**{: .exo}]
+
+---
+
+## II. Réactif limitant d'une transformation chimique
+
+Une transformation chimique s'arrête quand au moins un réactif est totalement consommé.  
+- **Réactif limitant** : réactif consommé en premier.  
+- **Réactif en excès** : réactif restant partiellement à la fin.  
+
+!!! success "Identifier le réactif limitant"
+    Le réactif limitant d'une transformation chimique est celui pour lequel le rapport de sa quantité de matière initiale sur son nombre stœchiométrique est le plus petit.
+
+    Donc, pour une équation ajustée de la forme : **$a\,A + b\,B \;\;\rightarrow\;\; c\,C + d\,D$**{: .stabilo-jaune}
+    
+    - si **$\dfrac{n_i(A)}{a} < \dfrac{n_i(B)}{b}$**{: .stabilo-jaune} alors **A est le réactif limitant** ;
+    - si **$\dfrac{n_i(A)}{a} > \dfrac{n_i(B)}{b}$**{: .stabilo-jaune} alors **B est le réactif limitant** ;    
+    - si **$\dfrac{n_i(A)}{a} = \dfrac{n_i(B)}{b}$**{: .stabilo-jaune} alors **les deux réactifs sont limitants** car ils ont été introduits dans des proportions stochiométriques. 
+    
+🎯 **Exemple :**
+
+Soit l'équation ajustée suivante : Zn (s) + 2 H<sup>+</sup> (aq) → Zn<sup>2+</sup> (aq) + H<sub>2</sub> (g)
+
+Les quantités initiales sont : 
+n<sub>i</sub>(Zn) = 3,0 × 10<sup>−2</sup> mol et
+n<sub>i</sub>(H<sup>+</sup>) = 1,0 × 10<sup>−2</sup> mol.
+
+
+Cherchons le(s) réactif(s) limitant(s).
+
+Calculs :  $\dfrac{n_i(Zn)}{1} = 3,0 \times 10^{-2}$ mol tandis que $\dfrac{n_i(H^+)}{2} = 5,0 \times 10^{-3}$ mol. 
+
+
+Comparaison et conclusion :  $\dfrac{n_i(Zn)}{1} > \dfrac{n_i(H^+)}{2}$  donc l'ion  hydrogène H<sup>+</sup> (aq) est le réactif limitant.
+
+[**Exercices : 10, 14 p. 142**{: .exo}]
+
+---
+
+## III. Effets thermiques d'une transformation chimique
+
+- Briser des liaisons nécessite de l'énergie (amorce pour une combustion).  
+- Former de nouvelles liaisons libère de l'énergie.  
+- Bilan global → absorption ou libération d'énergie thermique.  
+
+- **Réaction endothermique** : absorbe de l'énergie → la température du système diminue.  
+- **Réaction exothermique** : libère de l'énergie → la température du système augmente.  
+
+[**Exercices : 11, 12 p. 142**{: .exo}]
+
+---
+
+## IV. Synthèse d'une espèce chimique
+
+**Synthèse** : fabriquer une espèce chimique à partir d'autres, par une transformation chimique.  
+
+- Intérêt : remplacer l'extraction naturelle (coût, écologie).  
+- Réalisation au laboratoire : suivre un protocole opératoire (recette).  
+- Chauffage à reflux : permet une réaction plus rapide et limite les pertes de matière (⚠️ sécurité).  
+- Identification : par mesures de constantes physiques (masse volumique, température de fusion...) ou par chromatographie (CCM).  
+
+!!! note
+    Une espèce synthétisée au laboratoire est **identique** à celle présente dans la nature.
+
+[**Exercices : 15, 16, 17, 22, 23 p. 143, 144 et 32, 34 p. 146, 147**{: .exo}]
+
+---
+
+## Je dois savoir et savoir faire
+- Écrire l'équation d'une transformation chimique.
+- Identifier le réactif limitant.
+- Déterminer si une transformation est endothermique ou exothermique.
+- Réaliser un schéma de montage du chauffage à reflux et d'une CCM.
+- Exploiter une CCM.
+
+---
+
+## Pour réviser
+- QCM p. 137  
+- Exercices résolus 1, 2 et 3 p. 138, 139  
+- Exercices corrigés en classe  
+- Je prépare l'évaluation : exercices 35, 36 p. 148

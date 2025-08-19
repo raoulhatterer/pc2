@@ -1,4 +1,4 @@
-# Chapitre IX : Transformation physique
+# Chapitre IX : Transformations physiques
 
 {{ initexo(0) }}
 
