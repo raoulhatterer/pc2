@@ -23,11 +23,16 @@ Dans la vie courante ou dans l'environnement, on peut citer :
 - des **fusions** : par exemple lors de la formation du magma dans le manteau terrestre ;
 - des **solidifications** : par exemple lorsque de la lave devient une roche solide après une éruption.
 
-![image](data/chap9_3etats.jpg){: .center width="600"}
+![image](data/chap9_transformations.jpg){: .center width="600"}
 
 La **sublimation** (transformation d'un solide en gaz) et la **condensation** (transformation d'un gaz en solide) sont, par exemple, utilisées au laboratoire pour purifier des espèces chimiques.
 
 ### 2. Modélisation microscopique
+
+
+![image](data/chap9_etats.png){: .center width="400"}
+
+
 
 - **État gazeux** : dispersé.  
   Un gaz est composé d'entités chimiques libres les unes par rapport aux autres, sans liaison entre elles. Elles se choquent sans cesse. Les particules sont agitées et espacées.
@@ -43,7 +48,11 @@ La **sublimation** (transformation d'un solide en gaz) et la **condensation** (t
 !!! success "Lors d'un changement d'état" 
     Au niveau microscopique, lors d'un changement d'état physique, **l'agitation des entités** est modifiée jusqu'à ce que les liaisons entre les particules s'affaiblissent, se cassent ou se créent.  
     
-Exemple : lors de la solidification d'un liquide, les entités ralentissent, les liaisons entre les molécules deviennent plus fortes ; les particules sont alors quasi immobiles et liées entre elles.
+    
+![image](data/chap9_equilibre.png){: .center width="600"}        
+    
+    
+🎯 **Exemple :** lors de la solidification d'un liquide, les entités ralentissent, les liaisons entre les molécules deviennent plus fortes ; les particules sont alors quasi immobiles et liées entre elles.
 
 !!! success "Observation de paliers lors du changement d'état des corps purs"
     Dans le cas d'un corps pur, les changements d'état ont lieu à **température constante** lorsque la pression est maintenue constante. Cela permet de caractériser des espèces chimiques. Les deux états coexistent lors du changement d'état.
@@ -56,7 +65,7 @@ Exemple : lors de la solidification d'un liquide, les entités ralentissent, les
 Un changement d'état d'un corps pur est modélisé par une réaction dont l'équation utilise le même formalisme que pour une transformation chimique.  
 L'état physique est précisé par une lettre entre parenthèses.
 
-Exemples :
+🎯 **Exemples :**
 
 - Fusion du gallium : Ga (s) → Ga (ℓ)
 - Vaporisation de l'eau : H<sub>2</sub>O (ℓ) → H<sub>2</sub>O (g)
@@ -146,17 +155,3 @@ avec :
 
 [**Exercices : 11, 12, 13, 15, 19, 24 p. 121 à 125**{: .exo}]
 
----
-
-## Je dois savoir et savoir faire
-- Nommer les différents changements d’état et préciser s’ils sont endothermiques ou exothermiques.
-- Écrire l’équation d’une transformation physique.
-- Calculer la chaleur échangée lors d’un changement d’état ou d’un transfert thermique quelconque.
-
----
-
-## Pour réviser
-- QCM p. 117  
-- Exercices résolus 1, 2 et 3 p. 118, 119  
-- Exercices corrigés dans le livre et en classe  
-- Je prépare l’évaluation : exercices 26, 27, 28 p. 126

@@ -24,6 +24,7 @@ else
   for pkg in $outdated_mkdocs_packages; do
     echo "pip install --upgrade $pkg"
   done
+  echo "Puis modifiez requirements.txt"
 fi
 
 #4. Démarrage du serveur

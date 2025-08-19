@@ -3,7 +3,14 @@
 {{ initexo(0) }}
 
 
-## 1 - Du macroscopique au microscopique
+## 1 - Du macroscopique au (sub)microscopique
+
+![image](data/chap5_representations.png){: .center width="500"}
+
+- **Niveau macroscopique :** ce qu'on observe directement (ex. un verre d'eau, la glace qui fond).
+- **Niveau microscopique (au sens « visible avec un microscope optique ») :** cellules, bactéries, grains de pollen…
+- **Niveau submicroscopique :** atomes, ions, molécules → entités trop petites pour être vues même au microscope optique ; on les représente par des modèles.
+
 
 
 
@@ -26,8 +33,8 @@
 
 
 !!! success "Qu'est-ce qu'un élément chimique"
-    - Un **élément chimique** est une **abstraction** qui regroupe l’ensemble des **entités microscopiques** (atomes, ions, noyaux) ayant le **même nombre de protons** dans leur noyau, c’est-à-dire le **même numéro atomique (Z)**.  
-    -  C’est une notion qui permet notamment de **classer les entités de la matière dans le tableau périodique**.
+    - Un **élément chimique** est une **abstraction** qui regroupe l'ensemble des **entités microscopiques** (atomes, ions, noyaux) ayant le **même nombre de protons** dans leur noyau, c'est-à-dire le **même numéro atomique (Z)**.  
+    -  C'est une notion qui permet notamment de **classer les entités de la matière dans le tableau périodique**.
 
 
 🎯 **Exemples**
@@ -50,9 +57,9 @@
 
 
 
-- **En TP** de chimie, on manipule des **espèces chimiques** (solides, liquides, gaz, solutions), c’est-à-dire des substances constituées d’un seul type d’entités chimiques.
+- **En TP** de chimie, on manipule des **espèces chimiques** (solides, liquides, gaz, solutions), c'est-à-dire des substances constituées d'un seul type d'entités chimiques.
 - **Les équations chimiques**, elles, reposent sur la **conservation des éléments chimiques**, même si leurs formes peuvent changer (**atome, ion, molécule…**).
-- Au cours d’une réaction chimique, les **espèces chimiques** se transforment, mais les **éléments chimiques** sont conservés.
+- Au cours d'une réaction chimique, les **espèces chimiques** se transforment, mais les **éléments chimiques** sont conservés.
 
 
 
@@ -146,7 +153,7 @@ Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
     - Une solution ionique contient à la fois des **anions** et des **cations**, en des proportions telles que **la somme des charges soit nulle**.  
     - Les **charges positives des cations** compensent exactement les **charges négatives des anions**.
 
-**Si l’on évapore l’eau** d'une solution ionique, les ions s’organisent pour former un **réseau cristallin régulier**, appelé **composé ionique**.
+**Si l'on évapore l'eau** d'une solution ionique, les ions s'organisent pour former un **réseau cristallin régulier**, appelé **composé ionique**.
 
 !!! success "Composé ionique"
     - Des espèces ioniques (cations et anions) s'associent pour former un **composé ionique** de **charge globale nulle**.
@@ -154,13 +161,13 @@ Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
 
 **Si l'on dissout un composé ionique dans de l'eau**, le réseau cristallin est dissocié : les ions (anions et cations) se retrouvent en solution. **La solution ionique obtenue est également neutre**.
 
-!!! note "Formule d’un composé ionique"
+!!! note "Formule d'un composé ionique"
 
-    - La formule d'un composé ionique comporte d’abord le **symbole du cation**, puis celui de l’**anion** (sans les indications de charge).
+    - La formule d'un composé ionique comporte d'abord le **symbole du cation**, puis celui de l'**anion** (sans les indications de charge).
     - Si **les conditions de neutralité** font qu'un ion doit apparaître plus d'une fois, **la formule va comporter des indices** (en bas à droite des symboles) qui indiquent le rapport minimal entre les ions pour assurer la neutralité. 
 
 
 🎯 **Exemples :**
 
-- Le chlorure de sodium **NaCℓ** est un composé ionique formé par l’association d’ions **Na⁺** et **Cℓ⁻**, en nombre **égal** (1 pour 1). La charge totale est donc **nulle** : `(+1) + (–1) = 0`
-- Le chlorure de cuivre(II) **CuCℓ₂** est un composé ionique formé par l’association d'**un ion Cu²⁺** et de **deux ions Cℓ⁻**. La charge totale est également **nulle** : `(+2) + 2 × (–1) = 0`
+- Le chlorure de sodium **NaCℓ** est un composé ionique formé par l'association d'ions **Na⁺** et **Cℓ⁻**, en nombre **égal** (1 pour 1). La charge totale est donc **nulle** : `(+1) + (–1) = 0`
+- Le chlorure de cuivre(II) **CuCℓ₂** est un composé ionique formé par l'association d'**un ion Cu²⁺** et de **deux ions Cℓ⁻**. La charge totale est également **nulle** : `(+2) + 2 × (–1) = 0`

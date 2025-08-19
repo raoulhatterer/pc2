@@ -141,7 +141,7 @@
     - QCM page 69 ; 
     - Exercices corrigés dans le livre et en classe 
     - Exercice résolu 1 p. 70
-    - Je prépare l’évaluation p. 32, 33 p. 76.
+    - Je prépare l'évaluation p. 32, 33 p. 76.
 
 ??? question "Exercices du livre (chap3 pages 71 à 76)" 
     ![page 71](data/p71.png)
@@ -173,7 +173,7 @@
     - QCM page 87.
     - Exercices corrigés dans le livre et en classe.
     - Exercices résolus 1, 2, 3 p. 88, 89.
-    - Je prépare l’évaluation 42, 43 p. 98.
+    - Je prépare l'évaluation 42, 43 p. 98.
 
 ??? question "Exercices du livre (chap4 pages 90 à 98)" 
     ![page 90](data/p90.png)
@@ -256,6 +256,12 @@
     - Nommer les différents changements d'état et préciser s'il est endothermique ou exothermique.
     - Écrire l'équation d'une transformation physique.
     - Calculer la chaleur échangée au cours d'un changement d'état ou lors d'un transfert de chaleur quelconque.
+
+??? success "Pour réviser"
+    - QCM p. 117  
+    - Exercices résolus 1, 2 et 3 p. 118, 119  
+    - Exercices corrigés dans le livre et en classe  
+    - Préparer l'évaluation : exercices 26, 27, 28 p. 126
 
 ??? question "Exercices du livre (chap6 pages 120 à 126)"
     ![page 120](data/p120.png)
