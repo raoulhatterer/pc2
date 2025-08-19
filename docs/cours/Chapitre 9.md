@@ -153,5 +153,8 @@ avec :
 !!! note
     L'énergie massique reçue par un système lors du changement d'un état 1 à un état 2 est égale à l'énergie massique cédée lors du changement inverse.
 
-[**Exercices : 11, 12, 13, 15, 19, 24 p. 121 à 125**{: .exo}]
+[**Exercices n°11©, 12 p. 121**{: .exo}](../data/p121.png) et 
+[**13, 15 p. 122**{: .exo}](../data/p122.png) et
+[**19 p. 123**{: .exo}](../data/p123.png) et
+[**24 p. 125**{: .exo}](../data/p125.png) 
 
