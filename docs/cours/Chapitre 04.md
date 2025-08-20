@@ -1,17 +1,17 @@
-# Chapitre IV : Forces et mouvements
+# Chapitre IV : Forces et mouvements
 
 {{ initexo(0) }}
 
 
 ## 1. Objets et système
 
-🎯 **Exemple de situation** : Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. On veut représenter les forces qui s'exercent sur le ballon au moment où la photo a été prise.
+🎯 **Exemple de situation** : Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. On veut représenter les forces qui s'exercent sur le ballon au moment où la photo a été prise.
 
 ![image](data/chap4_voley.jpg){: .center .img-rounded width="300"}
 
 
 !!! note "Qu'est-ce qu'un objet ?"
-    Pour un physicien, **un objet** est toute portion de matière ou ensemble matériel que l'on choisit d'étudier ou de modéliser dans une situation donnée. Cela peut être : une balle, une personne, une voiture, la roue d’une voiture, une planète, une goutte d’eau, un parachutiste avec son parachute (comme un tout), le parachutiste (suspendu à un parachute), le parachute (auquel un parachutiste est suspendu) …  
+    Pour un physicien, **un objet** est toute portion de matière ou ensemble matériel que l'on choisit d'étudier ou de modéliser dans une situation donnée. Cela peut être : une balle, une personne, une voiture, la roue d’une voiture, une planète, une goutte d’eau, un parachutiste avec son parachute (comme un tout), le parachutiste (suspendu à un parachute), le parachute (auquel un parachutiste est suspendu) …  
     Le physicien est libre de choisir les objets qui lui paraissent pertinents. 
 
 
@@ -22,7 +22,7 @@
 
 
 
-!!! example "{{ exercice() }} : système et environnement extérieur (pour l'exemple)"
+!!! example "{{ exercice() }} : système et environnement extérieur (pour l'exemple)"
     === "Énoncé"
         Déterminer le système et l'environnement extérieur pour l'exemple de la situation étudiée.
     === "Correction"
@@ -36,7 +36,7 @@
 - La **force exercée** par Béatrice lors du lancer n’est pas un objet, mais une **interaction**.
 De même, la **vitesse du vent** ou celle du ballon sont des **états** de ces objets, pas des objets eux-mêmes.
 
-- Cependant, **préciser l’état d’un objet** (ex. : air en mouvement, ballon en chute) peut aider à **repérer les interactions**.
+- Cependant, **préciser l’état d’un objet** (ex. : air en mouvement, ballon en chute) peut aider à **repérer les interactions**.
 
 
 ## 2. Diagramme objets-interactions
@@ -48,7 +48,7 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
 
 
 
-!!! example "{{ exercice() }} : diagramme objets-interactions" 
+!!! example "{{ exercice() }} : diagramme objets-interactions" 
     === "Énoncé"
         Modifier le DOI ci-dessous, s'il y a lieu de le faire pour la situation étudiée.
         
@@ -69,10 +69,10 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
 - Chaque **action** est modélisée par une **force**. 
 - Une force est représentée par un **vecteur**. 
 
-🎯 **Exemple** : l'action mécanique exercée par la Terre sur le ballon est modélisée par une force $\vec F_{Terre/ballon} = \vec P$ (dont la valeur s'exprime en Newtons) qu'on appelle le poids (à ne pas confondre avec la masse qui s'exprime en kilogrammes).
+🎯 **Exemple** : l'action mécanique exercée par la Terre sur le ballon est modélisée par une force $\vec F_{Terre/ballon} = \vec P$ (dont la valeur s'exprime en Newtons) qu'on appelle le poids (à ne pas confondre avec la masse qui s'exprime en kilogrammes).
 
 !!! note "Le vecteur force $\vec F$"
-    Comme tout vecteur, le vecteur force a :  
+    Comme tout vecteur, le vecteur force a :  
     • **une direction** : celle de la droite d'action de la force ;  
     • **un sens** : celui de la force ;  
     • **une norme** : $\left|\left| \vec F \right|\right|$ proportionnelle à $F$, la valeur de la force qui est en Newtons (N).  
@@ -82,7 +82,7 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
     - C'est deux notions différentes
     - **La valeur de $\vec F$ se note $F$** (sans flèche) et non pas $\vec F$ !
     
-🎯 **Exemple :** **$F=5$ N est JUSTE**{: .stabilo-vert} (alors que  **$\vec F=5$ N est FAUX !**{: .stabilo-rouge-fluo>})
+🎯 **Exemple :** **$F=5$ N est JUSTE**{: .stabilo-vert} (alors que  **$\vec F=5$ N est FAUX !**{: .stabilo-rouge-fluo>})
 
 
 
@@ -91,7 +91,7 @@ Un diagramme objets-interactions permet de recenser toutes les interactions impl
     • Point où l'on considère que s'exerce la force.   
     • Quand le système est modélisé par un point, ce point est considéré comme point d'application de la force.
 
-🔍 **Remarque :** Dans la plupart des situations, plusieurs forces agissent en même temps.
+🔍 **Remarque :** Dans la plupart des situations, plusieurs forces agissent en même temps.
 Il faut donner un nom différent à chaque vecteur force pour éviter toute confusion.
 
 
@@ -118,7 +118,7 @@ Le système est modélisé par son centre $C$ et l'on rajoute les forces en pré
 
 ## 5. Le principe des actions réciproques
 
-Lorsque deux systèmes sont en interaction, ils exercent l'un sur l'autre des actions réciproques modélisées par des forces opposées qui ont :
+Lorsque deux systèmes sont en interaction, ils exercent l'un sur l'autre des actions réciproques modélisées par des forces opposées qui ont :
 
 - la même droite d'action ;
 - des sens opposés ;
@@ -135,24 +135,24 @@ Ce principe s’applique aussi bien aux actions de contact qu’aux actions à d
 <a id="bilan-des-forces"></a>
 ## 6. Bilan des forces
 
-Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agit alors de ne conserver que les forces qui agissent sur le système étudié, sans les confondre avec les forces qui s’exercent sur d'autres objets.
+Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agit alors de ne conserver que les forces qui agissent sur le système étudié, sans les confondre avec les forces qui s’exercent sur d'autres objets.
 
 !!! warning "Quelles forces traiter ?"
-    - $\vec F_{obj./{syst.}}$ : il faut la traiter
-    - $\vec F_{syst./{obj.}}$ : on n'en parle pas
+    - $\vec F_{obj./{syst.}}$ : il faut la traiter
+    - $\vec F_{syst./{obj.}}$ : on n'en parle pas
 
 
 
 
 
-!!! example "{{ exercice() }} : représentation des forces" 
+!!! example "{{ exercice() }} : représentation des forces" 
     === "Énoncé"
         Alice (à gauche de l'image) s'apprête à smasher le ballon de volley envoyé par Béatrice. Le ballon qui se déplace vers la gauche est au sommet de sa trajectoire.   
         Corriger la proposition ci-dessous, s'il y a lieu de le faire.
         
         ![image](data/chap4_forces.jpg){: .center .img-rounded width="300"}
     === "Correction"
-        Représentation juste car les caractéristiques de la force de frottements sont les suivantes :
+        Représentation juste car les caractéristiques de la force de frottements sont les suivantes :
         !!! abstract "Caractéristique du vecteur $\vec f\phantom{f}$"
             - **de direction** : tangente au mouvement  
             - **de sens** : vers la droite car inverse au sens du mouvement du ballon  
@@ -162,11 +162,11 @@ Lorsque l’on étudie un système, on effectue le bilan des forces : il s’agi
 
 
 
-!!! example "{{ exercice() }} : caractéristiques des forces" 
+!!! example "{{ exercice() }} : caractéristiques des forces" 
     === "Énoncé"
-         - Pour l'exemple étudié à l'exercice précédent, on a représenté deux forces :
+         - Pour l'exemple étudié à l'exercice précédent, on a représenté deux forces :
             - Le poids $\vec P$ du ballon qui représente l'action de l'objet Terre sur le système {ballon}.
-            - **La valeur du poids est donnée par la formule $P = m \times g$**{: .stabilo-jaune} :heart:
+            - **La valeur du poids est donnée par la formule $P = m \times g$**{: .stabilo-jaune} :heart:
             - La force de frottements $\vec f\phantom{f}$ qui représente l'action de l'air sur le ballon.
          - Compléter les caractéristiques du vecteur $\vec P$
              - **direction** : ?
@@ -246,7 +246,7 @@ La force $\vec F$<sub>main/{ballon}</sub> qui modélise l'action de la main sur 
 
 🔍 **Remarque**
 
-Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
+Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</sub> disparaît, mais sa conséquence demeure : le ballon est reparti avec un vecteur $\vec v$ modifié.  
 
 
 ## 9. Forces qui se compensent
@@ -261,7 +261,7 @@ Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</s
 
 
 
-🎯 **Exemple** : lors de son déplacement sur la table à coussin d'air, le palet de air hockey est soumis à son poids $\vec P$  et la force $\vec F_{table/\{palet\}}$ exercée par la table. Ces forces se compensent : $\vec P + \vec F_{table/\{palet\}} = \vec 0$.
+🎯 **Exemple** : lors de son déplacement sur la table à coussin d'air, le palet de air hockey est soumis à son poids $\vec P$  et la force $\vec F_{table/\{palet\}}$ exercée par la table. Ces forces se compensent : $\vec P + \vec F_{table/\{palet\}} = \vec 0$.
 
 ![image](data/chap4_palet.jpg){.center .img-rounded width="300"}
 
@@ -274,11 +274,11 @@ Aussitôt que le ballon quitte la main cette force $\vec F$<sub>main/{ballon}</s
 
 !!! success "Principe d'inertie"
 
-    - Lorsque les **forces qui s'exercent sur un système se compensent** alors le vecteur vitesse $\vec v$ du système ne varie pas : **le système reste immobile ou reste en mouvement rectiligne uniforme**.
+    - Lorsque les **forces qui s'exercent sur un système se compensent** alors le vecteur vitesse $\vec v$ du système ne varie pas : **le système reste immobile ou reste en mouvement rectiligne uniforme**.
 
     - Si le vecteur vitesse $\vec v$  d'un système ne varie pas, on peut en déduire que le système est soumis à des forces qui se compensent.
 
-🎯 **Exemple** : le centre de la boule de bowling est en mouvement rectiligne uniforme donc son poids $\vec P$  et l'action $\vec R$   de la piste se compensent.
+🎯 **Exemple** : le centre de la boule de bowling est en mouvement rectiligne uniforme donc son poids $\vec P$  et l'action $\vec R$   de la piste se compensent.
 
 ![image](data/chap4_bowling.jpg){.center .img-rounded width="300"}
 
@@ -291,7 +291,7 @@ Sur une piste parfaitement lisse une boule de bowling lancée sans effet a un mo
     - Lorsque le vecteur vitesse $\vec v$  d'un système varie (**lorsqu'un système n'est ni immobile ni en mouvement rectiligne uniforme**), on peut en déduire que **les forces qui s'exercent sur ce système ne se compensent pas**.
 
 
-🎯 **Exemple** : lors de son déplacement sur le sable, un ballon de beach volley est soumis à des forces qui ne se compensent pas.  
+🎯 **Exemple** : lors de son déplacement sur le sable, un ballon de beach volley est soumis à des forces qui ne se compensent pas.  
 
 
 ![image](data/chap4_ballon_sable.jpg){.center   .img-rounded width="300"}
@@ -321,7 +321,7 @@ Dans l'air, une chute sera **considérée comme libre** si l'on peut négliger l
 
 
 
-🎯 **Exemple** : Pour la modélisation ci-dessus, si le schéma est à l'échelle alors la chute n'est pas libre. Par contre, si c'est un schéma de principe et qu’il est précisé dans l'énoncé que les forces de frottements avec l'air sont négligeables par rapport au poids alors on pourra considérer qu'il y a chute libre.
+🎯 **Exemple** : Pour la modélisation ci-dessus, si le schéma est à l'échelle alors la chute n'est pas libre. Par contre, si c'est un schéma de principe et qu’il est précisé dans l'énoncé que les forces de frottements avec l'air sont négligeables par rapport au poids alors on pourra considérer qu'il y a chute libre.
 
 
 

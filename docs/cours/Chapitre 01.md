@@ -1,4 +1,4 @@
-# Chapitre I : Corps purs et mélanges
+# Chapitre I : Corps purs et mélanges
 
 {{ initexo(0) }}
 
@@ -6,13 +6,13 @@
 
 ### 1. Définitions
 	
-- **Corps pur** : substance constituée d’une seule espèce chimique (exemples : eau distillée $H_2O$, dioxygène pur $O_2$…).
-- **Mélange** : substance constituée de plusieurs espèces chimiques.
-    - Mélange homogène : une seule phase visible (exemples : eau salée, air).
-    - Mélange hétérogène : plusieurs phases visibles à l'œil nu (exemple : eau + huile).
+- **Corps pur** : substance constituée d’une seule espèce chimique (exemples : eau distillée $H_2O$, dioxygène pur $O_2$…).
+- **Mélange** : substance constituée de plusieurs espèces chimiques.
+    - Mélange homogène : une seule phase visible (exemples : eau salée, air).
+    - Mélange hétérogène : plusieurs phases visibles à l'œil nu (exemple : eau + huile).
 
 
-!!! example "{{ exercice() }} : liquides non miscibles :heart:" 
+!!! example "{{ exercice() }} : liquides non miscibles :heart:" 
     === "Énoncé"
         ![image](data/chap1_non_miscibles.jpg){: .center width="200"}
         
@@ -24,12 +24,12 @@
 [**Exercices n°2, 3©, 4 p. 28**{: .exo}](../data/p28.png)
 
 ### 2. Quantifier la composition d'un mélange
-Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient de façon très logique en partant de la notion de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
+Pour un mélange, la composition massique (ou volumique) de chaque constituant s'obtient de façon très logique en partant de la notion de fraction ( ⚠️ il est indispensable d'avoir les mêmes unités au numérateur et au dénominateur) :
 
  - **La proportion en masse** d'une espèce dans un mélange est le quotient de la masse de cette espèce par la masse totale du mélange.
  - **La proportion en volume** d'une espèce dans un mélange est le quotient du volume de cette espèce par le volume total du mélange.
 
-Remarques : 
+Remarques : 
 
  - Le résultat est un nombre sans unité. 
  - Souvent ces proportions sont exprimées en *pour cent* (%) et sont alors nommés respectivement **pourcentage massique** et **pourcentage volumique**.
@@ -50,6 +50,7 @@ Si l'on connaît la composition du mélange.
 [**Exercices n°5©, 6 p. 29**{: .exo}](../data/p29.png) et [**27 p. 33**{: .exo}](../data/p33.png)
 
 
+
 ## II. Identifier les espèces chimiques
 
 !!! note "Principe"
@@ -65,11 +66,11 @@ Si l'on connaît la composition du mélange.
 #### a. Température de changement d’état
 
 !!! success  "On peut définir une valeur de la température de changement d'état d'un corps pur, alors qu'on ne le peut pas pour un mélange."
-    Exemple : 
+    Exemple : 
 
     ![image](data/chap1_temperature.jpg){: .center   width="400"}
     
-    Remarque : une température de fusion (cas d'un solide) peut se mesurer avec un banc Kofler et une température d'ébullition (cas d'un liquide) dépend fortement de la pression.
+    Remarque : une température de fusion (cas d'un solide) peut se mesurer avec un banc Kofler et une température d'ébullition (cas d'un liquide) dépend fortement de la pression.
     
 [**Exercices n°7©, 8 p. 29**{: .exo}](../data/p29.png) et [**28 p. 33**{: .exo}](../data/p33.png)
 
@@ -82,7 +83,7 @@ Si l'on connaît la composition du mélange.
     
     D'autres unités sont possibles.
 
-!!! example "{{ exercice() }} : utiliser une formule :heart:" 
+!!! example "{{ exercice() }} : utiliser une formule :heart:" 
     === "Énoncé"
         $$\rho = \frac{m}{V}$$
         
@@ -91,7 +92,7 @@ Si l'on connaît la composition du mélange.
         3. Donner l'expression de $m$ en fonction de $\rho$ et $V$.
         4. Donner l'expression de $V$ en fonction de $\rho$ et $m$.
 
-!!! example "{{ exercice() }} : déterminer la masse volumique d'un solide :heart:" 
+!!! example "{{ exercice() }} : déterminer la masse volumique d'un solide :heart:" 
     === "Énoncé"
         ![image](data/chap1_rho_solide.jpg){: .center width="300"}
 
@@ -103,7 +104,7 @@ Si l'on connaît la composition du mélange.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq4CVP2V4_E?si=38Metg90MOOQBNji" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
 
-!!! example "{{ exercice() }} : déterminer la masse volumique d'un liquide :heart:" 
+!!! example "{{ exercice() }} : déterminer la masse volumique d'un liquide :heart:" 
     === "Énoncé"
         ![image](data/chap1_rho_liquide.jpg){: .center width="300"}
 
@@ -113,10 +114,10 @@ Si l'on connaît la composition du mélange.
 
 !!! success "Densité"
 
-    - densité d'un liquide : 
+    - densité d'un liquide : 
     <center>$d=\frac{\rho_{liquide}}{\rho_{eau}}$</center>
 
-    - densité d'un gaz :
+    - densité d'un gaz :
     
     <center>$d=\frac{\rho_{gaz}}{\rho_{air}}$</center>
 
@@ -130,7 +131,7 @@ Si l'on connaît la composition du mélange.
 
 ![image](data/chap1_test_CO2.jpg){width="500"}
 
-Révélé par l’eau de chaux : elle devient trouble (précipité blanc de carbonate de calcium).
+Révélé par l’eau de chaux : elle devient trouble (précipité blanc de carbonate de calcium).
 
 #### b. Test du dihydrogène 
 
@@ -147,14 +148,18 @@ Une allumette incandescente se rallume dans du dioxygène.
 
 ![image](data/chap1_test_H2O.png){width="150"}
 
-Test au sulfate de cuivre anhydre : blanc à sec, devient bleu au contact de l’eau.
+Test au sulfate de cuivre anhydre : blanc à sec, devient bleu au contact de l’eau.
 
 [**Exercice n°13© p. 30**{: .exo}](../data/p30.png) et [**25© p. 32**{: .exo}](../data/p32.png)
 
+
+
 ### 3. La chromatographie
 
+<a id="chromatographie"></a>
+
 !!! note 
-    Cette technique sera étudiée de façon plus complète [plus tard dans l'année](../documents.md#chapitre-10).
+    Cette technique sera étudiée de façon plus complète [plus tard dans l'année](./Chapitre 10.md#chromatographie).
 
 #### a. Principe
 La chromatographie est une méthode permettant de séparer et d'identifier les constituants d’un mélange. La séparation est basée sur la différente affinité des constituants pour la phase fixe (papier ou plaque) et la phase mobile (solvant). Pour un éluant et une phase fixe donnés, une espèce chimique migre de la même façon, qu'elle soit pure ou dans un mélange.
@@ -164,7 +169,7 @@ La chromatographie est une méthode permettant de séparer et d'identifier les c
 - La plaque est plongée dans un solvant (sans que la goutte soit immergée).
 - Les constituants montent à différentes hauteurs.
 
-![image](data/chap1_ccm.jpg){: .center width="500"}
+![image](data/chap1_ccm.jpg){: .center width="250"}
 
 
 

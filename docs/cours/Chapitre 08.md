@@ -1,4 +1,4 @@
-# Chapitre VIII : Émission et perception d'un son  
+# Chapitre VIII : Émission et perception d'un son  
 
 {{ initexo(0) }}
 
@@ -16,21 +16,21 @@
 
 ### 2. Propagation du son
 
-On entend un son en étant à distance de la source qui l'a créé : entre la source sonore et l'oreille, il y a **propagation du son**.
+On entend un son en étant à distance de la source qui l'a créé : entre la source sonore et l'oreille, il y a **propagation du son**.
 
 !!! success "Onde sonore"
     - La vibration initiale est transmise **de proche en proche au niveau microscopique** entre molécules ou atomes du milieu de propagation qui oscillent autour de leur position initiale.
-    -  Comme une « ola » dans un stade : la vague se déplace, mais les supporters ne l'accompagnent pas dans son déplacement latéral.
+    -  Comme une « ola » dans un stade : la vague se déplace, mais les supporters ne l'accompagnent pas dans son déplacement latéral.
 
     On parle de **signal sonore** ou **d'onde sonore** qui se propage depuis la source. 
 
 
-- **L'onde sonore nécessite un milieu de propagation (solide, liquide ou gazeux)** pour se déplacer : air, bois, métal, eau… 
+- **L'onde sonore nécessite un milieu de propagation (solide, liquide ou gazeux)** pour se déplacer : air, bois, métal, eau… 
 - En l'absence de milieu matériel, donc **dans le vide**, **il ne peut y avoir propagation du son**. → Par exemple, sur la Lune, qui n'a pas d'atmosphère, les sons ne se propagent pas.
 
 
 !!! success "Le son est une onde mécanique"
-    Un **signal sonore** est un phénomène de :
+    Un **signal sonore** est un phénomène de :
     
     - **déplacement d'une perturbation de proche en proche sans transport effectif de matière** (définition d'une onde)
     - **dans un milieu matériel** (définition d'une onde mécanique)
@@ -38,7 +38,7 @@ On entend un son en étant à distance de la source qui l'a créé : entre la so
 
 ### 3. Vitesse de propagation
 
-Dans un **milieu donné**, le son se propage avec une **vitesse caractéristique**, appelée **célérité**, qui dépend :
+Dans un **milieu donné**, le son se propage avec une **vitesse caractéristique**, appelée **célérité**, qui dépend :
 
 - de la **nature du milieu**
 - de la **température**
@@ -62,7 +62,7 @@ Dans l'air, à environ 20 °C, la célérité du son est proche de **340 m·
 
 ### Acquisition
 
-À l'aide d'un **microphone**, on peut transformer un **signal sonore** en **signal électrique**, visualisable :
+À l'aide d'un **microphone**, on peut transformer un **signal sonore** en **signal électrique**, visualisable :
 
 - sur un **oscilloscope** (les **tensions observées** sont proportionnelles à l'**intensité** de l'onde sonore) ;
 
@@ -79,24 +79,24 @@ Le signal affiché permet alors **d'analyser** le son.
 
 ### Analyse
 
-Un **signal sonore est périodique** si son enregistrement présente une **répétition régulière** d'un même motif. Remarque : il s'agit d'un cas particulier car les signaux sonores ne sont pas forcément périodiques. 
+Un **signal sonore est périodique** si son enregistrement présente une **répétition régulière** d'un même motif. Remarque : il s'agit d'un cas particulier car les signaux sonores ne sont pas forcément périodiques. 
 
-🎯 Exemple de signal sonore périodique :
+🎯 Exemple de signal sonore périodique :
 
 ![image](data/chap8_frequence.jpg){: .center  width="900"}
 
 !!! success "La période" 
-    - Par lecture graphique :
+    - Par lecture graphique :
         - La **période T** d'un signal périodique se lit sur un **graphique** représentant le signal (temps en abscisse).  
         - C'est la durée du plus court **motif qui se répète à l'identique**.  
         - Elle s'exprime en **seconde (s)**.
 
-    - Par calcul (si la fréquence est donnée) : **$\displaystyle T=\frac{1}{f}$**{: .stabilo-jaune} où $f$ est en hertz.
+    - Par calcul (si la fréquence est donnée) : **$\displaystyle T=\frac{1}{f}$**{: .stabilo-jaune} où $f$ est en hertz.
 
 !!! success "La fréquence"
     - La **fréquence f** du son est le **nombre de périodes par seconde**.
     - Elle s'exprime en **hertz (Hz)**.
-    - Par calcul : **$\displaystyle f=\frac{1}{T}$**{: .stabilo-jaune} où $T$ est en secondes.
+    - Par calcul : **$\displaystyle f=\frac{1}{T}$**{: .stabilo-jaune} où $T$ est en secondes.
 
 
 [**Exercices n°6, 8 p. 238**{: .exo}](../data/p238.png) et
@@ -114,7 +114,7 @@ L'**oreille humaine** ne perçoit que certaines **fréquences**.
 
 !!! success "Domaine de fréquences audibles"
     - Le domaine des **sons audibles** est compris entre **20 Hz** et **20 kHz** (ce domaine varie selon les individus et **diminue avec l'âge**).
-    - Un son trop **grave** (f < 20 Hz : **infrasons**) ou trop **aigu** (f > 20 kHz : **ultrasons**) n'est pas entendu.
+    - Un son trop **grave** (f < 20 Hz : **infrasons**) ou trop **aigu** (f > 20 kHz : **ultrasons**) n'est pas entendu.
 
 
 
@@ -130,15 +130,15 @@ L'**oreille humaine** ne perçoit que certaines **fréquences**.
 
 En musique, des sons de **même hauteur** correspondent à la **même note**. 
 
-🎯 **Exemple :** Le Sol₃ à 196 Hz est la note de la corde de Sol à vide sur de nombreux instruments à cordes, notamment :
+🎯 **Exemple :** Le Sol₃ à 196 Hz est la note de la corde de Sol à vide sur de nombreux instruments à cordes, notamment :
 
-- la guitare : la 3e corde (en partant du bas) est accordée en Sol₃ ;
-- le violon : la 2e corde est un Sol₃ ;
-- l'alto : la 2e corde est également un Sol₃ ;
-- le banjo et la mandoline : ces instruments possèdent aussi une corde accordée à cette fréquence.
+- la guitare : la 3e corde (en partant du bas) est accordée en Sol₃ ;
+- le violon : la 2e corde est un Sol₃ ;
+- l'alto : la 2e corde est également un Sol₃ ;
+- le banjo et la mandoline : ces instruments possèdent aussi une corde accordée à cette fréquence.
 Cette fréquence peut aussi être trouvée sur d'autres instruments comme certains bols chantants tibétains.
 
-Cependant, deux instruments jouant la **même note** restent **distincts à l'oreille** : leur **timbre** est **différent**.
+Cependant, deux instruments jouant la **même note** restent **distincts à l'oreille** : leur **timbre** est **différent**.
 
 
 ![image](data/chap8_timbre.jpg){: .center width="300"}
@@ -149,7 +149,7 @@ Cependant, deux instruments jouant la **même note** restent **distincts à l'or
 
 
 
-!!! example "{{ exercice() }} : hauteur d'un son"
+!!! example "{{ exercice() }} : hauteur d'un son"
     === "Énoncé"
         - La contrebasse, couvre une large plage de fréquence allant d'environ 40 Hz à 2 kHz. 
         - Les fréquences minimales et maximales audibles d'un violon peuvent varier, mais on peut considérer une plage allant de 196 Hz (Sol) à environ 2637 Hz (Mi)

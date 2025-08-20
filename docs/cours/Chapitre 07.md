@@ -1,4 +1,4 @@
-# Chapitre VII : La quantité de matière
+# Chapitre VII : La quantité de matière
 
 {{ initexo(0) }}
 
@@ -9,10 +9,10 @@
 ### 1. Masse d'une entité chimique
 
 !!! success "Masse d'un atome ou masse d'un ion"
-    Comme nous l'avions déjà établi, la masse d'un atome ou de l'ion monoatomique correspondant est pratiquement égale à celle de leur noyau : $m_{\text{atome}} \simeq m_{\text{ion}} \simeq A \times m_n${: .stabilo-jaune}  
+    Comme nous l'avions déjà établi, la masse d'un atome ou de l'ion monoatomique correspondant est pratiquement égale à celle de leur noyau : $m_{\text{atome}} \simeq m_{\text{ion}} \simeq A \times m_n${: .stabilo-jaune}  
     où $m_n$ est la masse d'un nucléon (m<sub>neutron</sub> = m<sub>proton</sub> = m<sub>nucléon</sub> = 1,67× 10<sup>-27</sup>kg si arrondi avec 3 chiffres significatifs). 
 
-!!! example "{{ exercice() }} : masse d'un atome de carbone 12" 
+!!! example "{{ exercice() }} : masse d'un atome de carbone 12" 
     === "Énoncé"
         - La masse réelle d'un atome de carbone 12 est m<sub>C-12</sub> = 1,992&nbsp;646&nbsp;879 × 10<sup>-26</sup> kg
         - Calculer la masse de 12 nucléons et vérifiez que vous obtenez approximativement la même valeur.
@@ -39,7 +39,7 @@ Une espèce chimique est formée d'un nombre considérable d'entités chimiques 
 
 
 
-!!! example "{{ exercice() }} : nombre de molécules de butane dans une cartouche de butane"
+!!! example "{{ exercice() }} : nombre de molécules de butane dans une cartouche de butane"
     === "Énoncé"
         Sachant qu'une molécule de butane a une masse de $9,67 \times 10^{-26}$ kg et qu'une cartouche de butane contient 190g de butane, calculer le nombre de molécules de butane présentes dans la cartouche.
     === "Correction"
@@ -47,14 +47,14 @@ Une espèce chimique est formée d'un nombre considérable d'entités chimiques 
 
 
 
-!!! example "{{ exercice() }} : nombre d'atomes de carbone dans 12g de carbone" 
+!!! example "{{ exercice() }} : nombre d'atomes de carbone dans 12g de carbone" 
     === "Énoncé"
         - L'entité choisie dans cet exercice est l'atome de carbone 12. 
         - La masse de l'entité {atome de carbone 12} est m<sub>C-12</sub> = 1,992&nbsp;646&nbsp;879 × 10<sup>-26</sup> kg.
         - Calculer le nombre d'atomes de carbone présents dans une masse de 12g de carbone.
     === "Correction"
-        - Masse de l'échantillon : m<sub>échantillon</sub> = 12&nbsp;g = 0,012&nbsp;kg
-        - Masse d'un atome de carbone&nbsp;12 : m<sub>C-12<\sub> = 1,992&nbsp;646&nbsp;879 × 10<sup>-26</sup>&nbsp;kg
+        - Masse de l'échantillon : m<sub>échantillon</sub> = 12&nbsp;g = 0,012&nbsp;kg
+        - Masse d'un atome de carbone&nbsp;12 : m<sub>C-12<\sub> = 1,992&nbsp;646&nbsp;879 × 10<sup>-26</sup>&nbsp;kg
         - Nombre d'atomes :  $\displaystyle N = \frac{0.012}{1.992646879\times 10^{-26}} = 6.02214076 \times 10^{23}$ atomes.
         - 👉 Ce nombre est appelé le **nombre d'Avogadro, noté <em>N<sub>A</sub></em>**{: .stabilo-vert}.
 
@@ -67,7 +67,7 @@ Une espèce chimique est formée d'un nombre considérable d'entités chimiques 
 
 ## II- Quantité de matière
 
-### 1. Unité de quantité de matière : la mole
+### 1. Unité de quantité de matière : la mole
 
 
 Le nombre de molécules dans une seule gouttelette d'eau est d'environ 100 milliards de fois plus élevé que le nombre de personnes sur Terre.
@@ -80,9 +80,9 @@ Pour manipuler des nombres moins grands, les chimistes utilisent la **quantité 
     - Une mole d'entités représente un «lot» de \( 6,022 \times 10^{23} \) entités identiques (atomes, molécules ou ions).
     ![image](data/chap7_mole.jpg){: .center width="80"}
     - Ce nombre appelé **nombre d'Avogadro** ou **constante d'Avogadro** et noté \( N_A \) correspond exactement au nombre d'atomes de carbone 12 présents dans 12g de carbone.
-    - **On retient :** N<sub>A</sub> = 6,02 &times; 10<sup>23</sup> mol<sup>-1</sup> (quelle que soit l'espèce chimique)
+    - **On retient :** N<sub>A</sub> = 6,02 &times; 10<sup>23</sup> mol<sup>-1</sup> (quelle que soit l'espèce chimique)
     ![image](data/chap7_moles.jpg){: .center .img-rounded width="500"}    
-    Remarque : les coupelles contiennent toutes **une mole** d'entités, c'est-à-dire le même nombre d'entités.
+    Remarque : les coupelles contiennent toutes **une mole** d'entités, c'est-à-dire le même nombre d'entités.
 
 
 
@@ -93,32 +93,32 @@ Pour manipuler des nombres moins grands, les chimistes utilisent la **quantité 
 
 - La quantité de matière représente le nombre moles c'est-à-dire le nombre de «lots».
 
-- La quantité de matière \( n \) d'un échantillon et le nombre \( N \) d'entités chimiques sont liés par :  
+- La quantité de matière \( n \) d'un échantillon et le nombre \( N \) d'entités chimiques sont liés par :  
 
 ![image](data/chap7_quantite_de_matiere.jpg){: .center width="400"}
 
 
 \[\text{ou} \quad  n = \frac{N}{6,02 \times 10^{23}}       \quad \text{ou} \quad  N = 6,02 \times 10^{23} \times n \]
 
-!!! example "{{ exercice() }} : quantité de matière de butane dans une cartouche"
+!!! example "{{ exercice() }} : quantité de matière de butane dans une cartouche"
     === "Énoncé"
         Calculer la quantité de matière de butane contenu dans une cartouche de gaz pleine (contenant 190g de butane). Donner les résultats avec 2 chiffres significatifs.
         
-        - Méthode 1 : sachant que la cartouche contient 1,96 &times; 10<sup>24</sup> molécules de butane.
-        - Méthode 2 : sachant que la masse d'une  mole (= un «lot») de molécules de butane de formule brute C<sub>4</sub>H<sub>10</sub> est de 4 &times; 12,0 + 10 &times; 1,0 = 58,0 grammes. 
+        - Méthode 1 : sachant que la cartouche contient 1,96 &times; 10<sup>24</sup> molécules de butane.
+        - Méthode 2 : sachant que la masse d'une  mole (= un «lot») de molécules de butane de formule brute C<sub>4</sub>H<sub>10</sub> est de 4 &times; 12,0 + 10 &times; 1,0 = 58,0 grammes. 
     === "Correction"
         La quantité de matière de butane dans une cartouche est… 
         
-        - Méthode 1 : $n = \frac{N}{6,02 \times 10^{23}} = \frac{1,96 \times 10^{24}}{6,02 \times 10^{23}} = 3,3 \text{ mol.}$
-        - Méthode 2 : $n = \frac{190}{58,0} = 3,3 \text{ mol.}$
+        - Méthode 1 : $n = \frac{N}{6,02 \times 10^{23}} = \frac{1,96 \times 10^{24}}{6,02 \times 10^{23}} = 3,3 \text{ mol.}$
+        - Méthode 2 : $n = \frac{190}{58,0} = 3,3 \text{ mol.}$
 
 ### 3. Masse d'une mole
 
-Nous avons vu qu'une **mole** contient toujours le même nombre d'entités : c'est le **nombre d'Avogadro**.
+Nous avons vu qu'une **mole** contient toujours le même nombre d'entités : c'est le **nombre d'Avogadro**.
 
 En revanche, la masse d'une mole dépend de l'entité que le chimiste décide de regrouper en «lots».
 
-🎯 **Exemples :**  
+🎯 **Exemples :**  
 
 - Si l'entité choisie est **l'atome de carbone**, alors une mole d'atomes de carbone a une masse de **12,0 g**.  
   → On dit que la **masse molaire atomique du carbone** est **12 g/mol**.  

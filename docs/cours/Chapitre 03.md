@@ -1,18 +1,18 @@
-# Chapitre III : Description des mouvements
+# Chapitre III : Description des mouvements
 
 {{ initexo(0) }}
 
 ## I. Le déplacement d'un système
 
 L'objet dont on étudie le mouvement est appelé le système.
-Pour simplifier, au lycée, on se limite à l'étude d'un seul point du système : son centre des masses.
+Pour simplifier, au lycée, on se limite à l'étude d'un seul point du système : son centre des masses.
 
 ![image](data/chap3_deplacement.jpg){width="800"}
 
 [**Exercices n°6, 9©, 10 p. 179**{: .exo}](../data/p179.png)
 
 
-### Référentiels usuels :heart:
+### Référentiels usuels :heart:
 
 | Référentiel               | terrestre                                                         | géocentrique                                                                                                   | héliocentrique                                            |
 |---------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
@@ -22,7 +22,7 @@ Pour simplifier, au lycée, on se limite à l'étude d'un seul point du système
 
 [**Exercice n°3© p. 178**{: .exo}](../data/p178.png) 
 
-### Mouvements usuels :heart:
+### Mouvements usuels :heart:
 
 !!! success "Le mouvement du système est..."
     - **stationnaire** si le système est immobile par rapport au référentiel choisi ;  
@@ -44,9 +44,9 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 
 
 !!! note "Représentation du vecteur vitesse $\vec v$ en un point"
-    - **direction** :  tangente à la trajectoire
-    - **sens** :  celui du mouvement
-    - **valeur** :  celle de la vitesse, en m⋅s<sup>–1</sup>
+    - **direction** :  tangente à la trajectoire
+    - **sens** :  celui du mouvement
+    - **valeur** :  celle de la vitesse, en m⋅s<sup>–1</sup>
     
     ![image](data/chap3_vitesses.jpg){width="300"}
     
@@ -61,7 +61,7 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 !!! warning "Attention"
     **La valeur de $\vec v$ se note $v$** (sans flèche) et non pas $\vec v$ !
     
-🎯 **Exemple :** **$v=5$ m∙s<sup>-1</sup> est JUSTE**{: .stabilo-vert} (alors que  **$\vec v=5$ m∙s<sup>-1</sup> est FAUX !**{: .stabilo-rouge-fluo})
+🎯 **Exemple :** **$v=5$ m∙s<sup>-1</sup> est JUSTE**{: .stabilo-vert} (alors que  **$\vec v=5$ m∙s<sup>-1</sup> est FAUX !**{: .stabilo-rouge-fluo})
 
 
 
@@ -70,9 +70,9 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 ## III. Décrire un mouvement
 
 
-Pour décrire un mouvement, on utilise deux caractéristiques : **la forme de la trajectoire** et **l'évolution de la vitesse**. Par exemple, on peut dire que le mouvement d'un système est *rectiligne uniforme*.
+Pour décrire un mouvement, on utilise deux caractéristiques : **la forme de la trajectoire** et **l'évolution de la vitesse**. Par exemple, on peut dire que le mouvement d'un système est *rectiligne uniforme*.
 
-!!! example "{{ exercice() }} : décrire un mouvement :heart:" 
+!!! example "{{ exercice() }} : décrire un mouvement :heart:" 
     === "Énoncé"
         Décrire le mouvement de la voiture dans chacune des situations suivantes.
         

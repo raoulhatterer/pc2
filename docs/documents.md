@@ -8,7 +8,7 @@
 
 {# écrire `cache/` ou `data/` pour cacher ou non un fichier #} 
 
-## [Chapitre I](cours/Chapitre 1.md)
+## [Chapitre I](cours/Chapitre 01.md)
 !!! abstract "Corps purs et mélanges"
     - [📚 Chapitre I](data/Chap-I.pdf){:target="_blank"}    
     - [⚛️ Activité 1](data/Act01 corps pur et melange.pdf){:target="_blank"}  Corps pur et mélange (contexte : l'eau de la Méditerranée, mélange ou corps pur ?)
@@ -36,7 +36,7 @@
     ![page 35](data/p35.png)
     ![page 36](data/p36.png)
 
-## [Chapitre II](cours/Chapitre 2.md)
+## [Chapitre II](cours/Chapitre 02.md)
 !!! abstract "Solutions aqueuses"
     - [📚 Chapitre II](./data/Chap-II.pdf){:target="_blank"}    
     - [**fm**{: .stabilo-vert} Protocole de la dissolution](data/fm-PROTOCOLE-DE-LA-DISSOLUTION.pdf){:target="_blank"}
@@ -48,7 +48,7 @@
 ??? success "Pour réviser"
     - QCM page 49.
     - Exercices résolus 1 et 2 p. 50, 51.
-    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre II.md)). 
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 02.md)). 
     - **Exercices 39, 40 p. 60.**{: .stabilo-jaune}
     - Exercices corrigés en classe.
 
@@ -63,7 +63,7 @@
     ![page 59](data/p59.png)
     ![page 60](data/p60.png)
 
-## [Chapitre III](cours/Chapitre 3.md)
+## [Chapitre III](cours/Chapitre 03.md)
 !!! abstract "Description des mouvements"
     - [📚 Chapitre III](data/Chap-III.pdf){:target="_blank"}    
     - [⚛️ Activité 5](data/Act05 vitesse systeme.pdf){:target="_blank"} Vitesse d'un système (contexte : circuit du Castellet)
@@ -72,7 +72,7 @@
 ??? success "Pour réviser"
     - QCM page 175.
     - Exercices résolus 1, 2 p. 176, 177
-    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre III.md)). 
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 03.md)). 
     - **Exercices 38, 39 , 40 p. 186.**{: .stabilo-jaune}
     - Exercices corrigés en classe.
 
@@ -87,7 +87,7 @@
     ![page 185](data/p185.png)
     ![page 186](data/p186.png)
 
-## [Chapitre IV](cours/Chapitre 4.md)
+## [Chapitre IV](cours/Chapitre 04.md)
 !!! abstract "Forces et mouvements"
     - [📚 Chapitre IV](./data/Chap-IV.pdf){:target="_blank"}
     - [⚛️ Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
@@ -96,7 +96,7 @@
 ??? success "Pour réviser"
     - QCM pages 197 et 213.
     - Exercices résolus 1 et 2 p. 198, 199 et 1 et 2 p. 214, 215
-    - Exercices corrigés dans le livre et en classe
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 04.md)) et en classe
     - **Exercices 32, 33, 34 p. 206 et 26, 27, 28 p. 222**{: .stabilo-jaune}
 
 ??? question "Exercices du livre (chap10 pages 200 à 206)" 
@@ -119,12 +119,7 @@
     ![page 222](data/p222.png)
 
 
-
-
-
-
-
-## [Chapitre V](cours/Chapitre 5.md)
+## [Chapitre V](cours/Chapitre 05.md)
 !!! abstract "De l'atome à l'élément chimique"
     - [📚 Chapitre V](./data/Chap-V.pdf){:target="_blank"}    
     - [⚛️ Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
@@ -139,7 +134,7 @@
 
 ??? success "Pour réviser"
     - QCM page 69 ; 
-    - Exercices corrigés dans le livre et en classe 
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre0 5.md)) et en classe 
     - Exercice résolu 1 p. 70
     - Je prépare l'évaluation p. 32, 33 p. 76.
 
@@ -155,7 +150,7 @@
 
 
 
-## [Chapitre VI](cours/Chapitre 6.md)
+## [Chapitre VI](cours/Chapitre 06.md)
 !!! abstract "Vers des entités plus stables"
     - [📚 Chapitre VI](data/Chap-VI.pdf){:target="_blank"} 
     - [⚛️ Activité 11](data/Act11 famille ion chlorure.pdf){:tatget="_blank"} Familles chimiques (contexte : famille de l'ion chlorure)
@@ -171,7 +166,7 @@
 
 ??? success "Pour réviser"
     - QCM page 87.
-    - Exercices corrigés dans le livre et en classe.
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 06.md)) et en classe.
     - Exercices résolus 1, 2, 3 p. 88, 89.
     - Je prépare l'évaluation 42, 43 p. 98.
 
@@ -191,7 +186,7 @@
 
 
 
-## [Chapitre VII](cours/Chapitre 7.md)
+## [Chapitre VII](cours/Chapitre 07.md)
 !!! abstract "La quantité de matière"
     - [📚 Chapitre VII](data/Chap-VII.pdf){:target="_blank"} 
     - [⚛️ Activité 14](data/Act14.pdf){:tatget="_blank"}
@@ -205,7 +200,7 @@
 ??? success "Pour réviser"
     - QCM page 103  
     - Exercices résolus 1 p. 104  
-    - Exercices corrigés dans le livre et en classe  
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 07.md)) et en classe  
     - Préparer l'évaluation : 21, 22 p. 110  
 
 ??? question "Exercices du livre (chap5 pages 105 à 110)" 
@@ -216,7 +211,7 @@
     ![page 109](data/p109.png)
     ![page 110](data/p110.png)
 
-## [Chapitre VIII](cours/Chapitre 8.md)
+## [Chapitre VIII](cours/Chapitre 08.md)
 !!! abstract "Émission et perception d'un son"
     - [📚Chapitre VIII](data/Chap-VIII.pdf){:target="_blank"}
     - [⚛️Activité 15](data/Act15 vitesse du son.pdf){:target="_blank"}
@@ -232,7 +227,7 @@
 ??? success "Pour réviser"
     - QCM p. 235  
     - Exercices résolus 1 p. 236  
-    - Exercices corrigés dans le livre et en classe  
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 08.md)) et en classe  
     - Préparer l'évaluation : 37, 38 p. 246
 
 ??? question "Exercices du livre (chap12 pages 237 à 246)" 
@@ -247,7 +242,7 @@
     ![page 245](data/p245.png)
     ![page 246](data/p246.png)
 
-## [Chapitre IX](cours/Chapitre 9.md)
+## [Chapitre IX](cours/Chapitre 09.md)
 !!! abstract "Transformations physiques"
     - [📚Chapitre IX](data/Chap-IX.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
@@ -260,7 +255,7 @@
 ??? success "Pour réviser"
     - QCM p. 117  
     - Exercices résolus 1, 2 et 3 p. 118, 119  
-    - Exercices corrigés dans le livre et en classe  
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 09.md)) et en classe  
     - Préparer l'évaluation : exercices 26, 27, 28 p. 126
 
 ??? question "Exercices du livre (chap6 pages 120 à 126)"

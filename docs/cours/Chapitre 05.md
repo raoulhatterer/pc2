@@ -1,4 +1,4 @@
-# Chapitre V : Constitution de la matière
+# Chapitre V : Constitution de la matière
 
 {{ initexo(0) }}
 
@@ -7,9 +7,9 @@
 
 ![image](data/chap5_representations.png){: .center width="500"}
 
-- **Niveau macroscopique :** ce qu'on observe directement (ex. un verre d'eau, la glace qui fond).
-- **Niveau microscopique (au sens « visible avec un microscope optique ») :** cellules, bactéries, grains de pollen…
-- **Niveau submicroscopique :** atomes, ions, molécules → entités trop petites pour être vues même au microscope optique ; on les représente par des modèles.
+- **Niveau macroscopique :** ce qu'on observe directement (ex. un verre d'eau, la glace qui fond).
+- **Niveau microscopique (au sens « visible avec un microscope optique ») :** cellules, bactéries, grains de pollen…
+- **Niveau submicroscopique :** atomes, ions, molécules → entités trop petites pour être vues même au microscope optique ; on les représente par des modèles.
 
 
 
@@ -105,7 +105,7 @@ L'écriture conventionnelle du noyau d'un atome de symbole **X** est: 
 Le nombre de neutrons est donc égal à A – Z.
 
 
-🎯 **Exemple :** le noyau d'un atome de cuivre de notation $_{29}^{63}\textbf{Cu}$ possède 29 protons et 63 – 29 = 34 neutrons.
+🎯 **Exemple :** le noyau d'un atome de cuivre de notation $_{29}^{63}\textbf{Cu}$ possède 29 protons et 63 – 29 = 34 neutrons.
 
 ### c. Masses 
 - La masse d'un neutron est environ égale à celle d'un proton (m<sub>neutron</sub> = m<sub>proton</sub> = m<sub>nucléon</sub> = 1,67× 10<sup>-27</sup>kg). 
@@ -147,7 +147,7 @@ Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
 !!! warning "Tout échantillon de matière est électriquement neutre"
 
 !!! success "Solution ionique"
-    - Certaines solutions aqueuses comportent des ions : on parle alors de **solutions ioniques**.  
+    - Certaines solutions aqueuses comportent des ions : on parle alors de **solutions ioniques**.  
     - Lorsqu'on analyse une solution ionique, on constate qu'elle est toujours **électriquement neutre**.  
     - Il est donc **impossible de trouver une solution contenant uniquement des anions ou uniquement des cations**.  
     - Une solution ionique contient à la fois des **anions** et des **cations**, en des proportions telles que **la somme des charges soit nulle**.  
@@ -159,7 +159,7 @@ Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
     - Des espèces ioniques (cations et anions) s'associent pour former un **composé ionique** de **charge globale nulle**.
     - À l'état solide, ces ions forment un **réseau régulier** dont la charge totale est nulle.
 
-**Si l'on dissout un composé ionique dans de l'eau**, le réseau cristallin est dissocié : les ions (anions et cations) se retrouvent en solution. **La solution ionique obtenue est également neutre**.
+**Si l'on dissout un composé ionique dans de l'eau**, le réseau cristallin est dissocié : les ions (anions et cations) se retrouvent en solution. **La solution ionique obtenue est également neutre**.
 
 !!! note "Formule d'un composé ionique"
 
@@ -167,7 +167,7 @@ Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
     - Si **les conditions de neutralité** font qu'un ion doit apparaître plus d'une fois, **la formule va comporter des indices** (en bas à droite des symboles) qui indiquent le rapport minimal entre les ions pour assurer la neutralité. 
 
 
-🎯 **Exemples :**
+🎯 **Exemples :**
 
-- Le chlorure de sodium **NaCℓ** est un composé ionique formé par l'association d'ions **Na⁺** et **Cℓ⁻**, en nombre **égal** (1 pour 1). La charge totale est donc **nulle** : `(+1) + (–1) = 0`
-- Le chlorure de cuivre(II) **CuCℓ₂** est un composé ionique formé par l'association d'**un ion Cu²⁺** et de **deux ions Cℓ⁻**. La charge totale est également **nulle** : `(+2) + 2 × (–1) = 0`
+- Le chlorure de sodium **NaCℓ** est un composé ionique formé par l'association d'ions **Na⁺** et **Cℓ⁻**, en nombre **égal** (1 pour 1). La charge totale est donc **nulle** : `(+1) + (–1) = 0`
+- Le chlorure de cuivre(II) **CuCℓ₂** est un composé ionique formé par l'association d'**un ion Cu²⁺** et de **deux ions Cℓ⁻**. La charge totale est également **nulle** : `(+2) + 2 × (–1) = 0`

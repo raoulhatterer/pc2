@@ -1,4 +1,4 @@
-# Chapitre IX : Transformations physiques
+# Chapitre IX : Transformations physiques
 
 {{ initexo(0) }}
 
@@ -6,7 +6,7 @@
 
 ### 1. Changements d'état physique de la vie courante et dans l'environnement
 
-La matière existe sous trois états physiques : **solide** (s), **liquide** (l) et **gazeux** (g).
+La matière existe sous trois états physiques : **solide** (s), **liquide** (l) et **gazeux** (g).
 
 Une transformation d'un système d'un état physique à un autre qui conserve les espèces chimiques est un **changement d'état**.  
 
@@ -16,12 +16,12 @@ Une transformation d'un système d'un état physique à un autre qui conserve le
 
 Ainsi, lors d'un changement d'état physique, les propriétés de la matière changent et l'arrangement spatial des molécules est modifié.
 
-Dans la vie courante ou dans l'environnement, on peut citer :
+Dans la vie courante ou dans l'environnement, on peut citer :
 
-- des **liquéfactions** : par exemple lorsque de la buée se forme sur une vitre froide (pour un physicien, la condensation c'est autre chose) ;
-- des **vaporisations** : par exemple lorsque l'eau liquide du linge s'évapore (l'ébullition et l'évaporation correspondent à un phénomène de vaporisation) ;
-- des **fusions** : par exemple lors de la formation du magma dans le manteau terrestre ;
-- des **solidifications** : par exemple lorsque de la lave devient une roche solide après une éruption.
+- des **liquéfactions** : par exemple lorsque de la buée se forme sur une vitre froide (pour un physicien, la condensation c'est autre chose) ;
+- des **vaporisations** : par exemple lorsque l'eau liquide du linge s'évapore (l'ébullition et l'évaporation correspondent à un phénomène de vaporisation) ;
+- des **fusions** : par exemple lors de la formation du magma dans le manteau terrestre ;
+- des **solidifications** : par exemple lorsque de la lave devient une roche solide après une éruption.
 
 ![image](data/chap9_transformations.jpg){: .center width="600"}
 
@@ -34,15 +34,15 @@ La **sublimation** (transformation d'un solide en gaz) et la **condensation** (t
 
 
 
-- **État gazeux** : dispersé.  
+- **État gazeux** : dispersé.  
   Un gaz est composé d'entités chimiques libres les unes par rapport aux autres, sans liaison entre elles. Elles se choquent sans cesse. Les particules sont agitées et espacées.
 
-- **États liquide et solide** : condensés.  
+- **États liquide et solide** : condensés.  
   Les distances entre entités chimiques sont du même ordre de grandeur que les dimensions de ces entités.
 
-- **Liquide** : entités chimiques très proches, en mouvement, reliées par des liaisons faibles. Les particules sont mobiles et peu liées entre elles.
+- **Liquide** : entités chimiques très proches, en mouvement, reliées par des liaisons faibles. Les particules sont mobiles et peu liées entre elles.
 
-- **Solide** : entités chimiques fortement liées les unes aux autres, avec très peu de liberté de mouvement. Les particules sont quasi immobiles et liées entre elles.
+- **Solide** : entités chimiques fortement liées les unes aux autres, avec très peu de liberté de mouvement. Les particules sont quasi immobiles et liées entre elles.
 
 
 !!! success "Lors d'un changement d'état" 
@@ -52,7 +52,7 @@ La **sublimation** (transformation d'un solide en gaz) et la **condensation** (t
 ![image](data/chap9_equilibre.png){: .center width="600"}        
     
     
-🎯 **Exemple :** lors de la solidification d'un liquide, les entités ralentissent, les liaisons entre les molécules deviennent plus fortes ; les particules sont alors quasi immobiles et liées entre elles.
+🎯 **Exemple :** lors de la solidification d'un liquide, les entités ralentissent, les liaisons entre les molécules deviennent plus fortes ; les particules sont alors quasi immobiles et liées entre elles.
 
 !!! success "Observation de paliers lors du changement d'état des corps purs"
     Dans le cas d'un corps pur, les changements d'état ont lieu à **température constante** lorsque la pression est maintenue constante. Cela permet de caractériser des espèces chimiques. Les deux états coexistent lors du changement d'état.
@@ -65,17 +65,17 @@ La **sublimation** (transformation d'un solide en gaz) et la **condensation** (t
 Un changement d'état d'un corps pur est modélisé par une réaction dont l'équation utilise le même formalisme que pour une transformation chimique.  
 L'état physique est précisé par une lettre entre parenthèses.
 
-🎯 **Exemples :**
+🎯 **Exemples :**
 
-- Fusion du gallium : Ga (s) → Ga (ℓ)
-- Vaporisation de l'eau : H<sub>2</sub>O (ℓ) → H<sub>2</sub>O (g)
-- Solidification du saccharose : C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (ℓ) → C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (s)
+- Fusion du gallium : Ga (s) → Ga (ℓ)
+- Vaporisation de l'eau : H<sub>2</sub>O (ℓ) → H<sub>2</sub>O (g)
+- Solidification du saccharose : C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (ℓ) → C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> (s)
 
 ### 4. Distinction entre fusion et dissolution
 
 
 !!! warning "Attention à ne pas confondre fusion et dissolution"
-    **Lorsque du sucre est introduit dans de l'eau,** il est inexact de dire que « le sucre fond ». Le sucre ne passe pas d'un état solide à un état liquide : **il se dissout dans l'eau**.
+    **Lorsque du sucre est introduit dans de l'eau,** il est inexact de dire que « le sucre fond ». Le sucre ne passe pas d'un état solide à un état liquide : **il se dissout dans l'eau**.
 
 
 !!! success "Fusion"
@@ -96,25 +96,25 @@ L'état physique est précisé par une lettre entre parenthèses.
 
 ### 1. Transformation endothermique et exothermique
 
-- Lors d'un **chauffage**, le corps capte de l'énergie du milieu extérieur : transformation **endothermique**.  
+- Lors d'un **chauffage**, le corps capte de l'énergie du milieu extérieur : transformation **endothermique**.  
   L'agitation des particules augmente, les liaisons peuvent se rompre, le désordre augmente.
 
 ![image](data/chap9_endothermique.jpg){: .center width="400"}
 
 !!! success "Changements d'état endothermiques"
-    **fusion**, **vaporisation**, **sublimation** : transformations lors desquelles **le système reçoit de l'énergie** du milieu extérieur par transfert thermique
+    **fusion**, **vaporisation**, **sublimation** : transformations lors desquelles **le système reçoit de l'énergie** du milieu extérieur par transfert thermique
 
-- Lors d'un **refroidissement**, le corps perd de l'énergie : transformation **exothermique**.  
+- Lors d'un **refroidissement**, le corps perd de l'énergie : transformation **exothermique**.  
   L'agitation des particules diminue, les liaisons se créent, l'ordre augmente.
 
 ![image](data/chap9_exothermique.jpg){: .center width="400"}
 
 !!! success "Changements d'état exothermiques"
-    **solidification**, **liquéfaction**, **condensation** : transformations lors desquelles **le système cède de l'énergie** au milieu extérieur par transfert thermique
+    **solidification**, **liquéfaction**, **condensation** : transformations lors desquelles **le système cède de l'énergie** au milieu extérieur par transfert thermique
 
 
 
-[**Exercices : 7©, 8 p. 121**{: .exo}](../data/p121.png) et
+[**Exercices : 7©, 8 p. 121**{: .exo}](../data/p121.png) et
 [**14© p. 122**{: .exo}](../data/p122.png)
 
 ### 2. Énergie massique de changement d'état
@@ -140,11 +140,11 @@ De même que les températures de changement d'état sont répertoriées dans de
 
 Elles sont essentielles pour les calculs de l'énergie échangée lors d'un changement d'état.
 
-#### Relations :
+#### Relations :
 
 **$Q = m \times L$**{: .stabilo-jaune} ou **$\displaystyle L = \frac{Q}{m}$**{: .stabilo-jaune}
 
-avec :
+avec :
 
 - $Q$ en joules (J),
 - $m$ en kilogrammes (kg),
