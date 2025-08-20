@@ -9,7 +9,7 @@
 {# écrire `cache/` ou `data/` pour cacher ou non un fichier #} 
 
 ## [Chapitre I](cours/Chapitre 1.md)
-??? abstract "Corps purs et mélanges"
+!!! abstract "Corps purs et mélanges"
     - [📚 Chapitre I](data/Chap-I.pdf){:target="_blank"}    
     - [⚛️ Activité 1](data/Act01 corps pur et melange.pdf){:target="_blank"}  Corps pur et mélange (contexte : l'eau de la Méditerranée, mélange ou corps pur ?)
 
@@ -37,7 +37,7 @@
     ![page 36](data/p36.png)
 
 ## [Chapitre II](cours/Chapitre 2.md)
-??? abstract "Solutions aqueuses"
+!!! abstract "Solutions aqueuses"
     - [📚 Chapitre II](./data/Chap-II.pdf){:target="_blank"}    
     - [**fm**{: .stabilo-vert} Protocole de la dissolution](data/fm-PROTOCOLE-DE-LA-DISSOLUTION.pdf){:target="_blank"}
     - [⚛️ Activité 2](data/Act02 dissolution.pdf){:target="_blank"} Préparation d'une solution par dissolution (contexte : la bouillie bordelaise)
@@ -64,7 +64,7 @@
     ![page 60](data/p60.png)
 
 ## [Chapitre III](cours/Chapitre 3.md)
-??? abstract "Description des mouvements"
+!!! abstract "Description des mouvements"
     - [📚 Chapitre III](data/Chap-III.pdf){:target="_blank"}    
     - [⚛️ Activité 5](data/Act05 vitesse systeme.pdf){:target="_blank"} Vitesse d'un système (contexte : circuit du Castellet)
     - [⚛️ Activité 6](data/Act06 vecteur deplacement et vitesse.pdf){:target="_blank"} Vecteurs déplacement et vitesse (contexte : mini golf)
@@ -88,7 +88,7 @@
     ![page 186](data/p186.png)
 
 ## [Chapitre IV](cours/Chapitre 4.md)
-??? abstract "Forces et mouvements"
+!!! abstract "Forces et mouvements"
     - [📚 Chapitre IV](./data/Chap-IV.pdf){:target="_blank"}
     - [⚛️ Activité 7 Actions réciproques](data/Act07 actions reciproques.pdf){:target="_blank"}
     - [⚛️ Activité 8 Principe d'inertie (contexte : parachutiste)](data/Act08 principe d'inertie.pdf){:target="_blank"}        
@@ -125,7 +125,7 @@
 
 
 ## [Chapitre V](cours/Chapitre 5.md)
-??? abstract "De l'atome à l'élément chimique"
+!!! abstract "De l'atome à l'élément chimique"
     - [📚 Chapitre V](./data/Chap-V.pdf){:target="_blank"}    
     - [⚛️ Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
     - [⚛️ Activité 10 Noyau des atomes (contexte : datation au carbone 14)](data/Act10 noyaux des atomes.pdf){:target="_blank"}    
@@ -156,7 +156,7 @@
 
 
 ## [Chapitre VI](cours/Chapitre 6.md)
-??? abstract "Vers des entités plus stables"
+!!! abstract "Vers des entités plus stables"
     - [📚 Chapitre VI](data/Chap-VI.pdf){:target="_blank"} 
     - [⚛️ Activité 11](data/Act11 famille ion chlorure.pdf){:tatget="_blank"} Familles chimiques (contexte : famille de l'ion chlorure)
     - [⚛️ Activité 12](data/Act12 ions monoatomiques.pdf){:target="_blank"} Ions monoatomiques
@@ -192,7 +192,7 @@
 
 
 ## [Chapitre VII](cours/Chapitre 7.md)
-??? abstract "La quantité de matière"
+!!! abstract "La quantité de matière"
     - [📚 Chapitre VII](data/Chap-VII.pdf){:target="_blank"} 
     - [⚛️ Activité 14](data/Act14.pdf){:tatget="_blank"}
 
@@ -217,7 +217,7 @@
     ![page 110](data/p110.png)
 
 ## [Chapitre VIII](cours/Chapitre 8.md)
-??? abstract "Émission et perception d'un son"
+!!! abstract "Émission et perception d'un son"
     - [📚Chapitre VIII](data/Chap-VIII.pdf){:target="_blank"}
     - [⚛️Activité 15](data/Act15 vitesse du son.pdf){:target="_blank"}
     - [⚛️Activité 14 Analyse d'un son](data/Act14 analyse d'un son.pdf){:target="_blank"}
@@ -248,7 +248,7 @@
     ![page 246](data/p246.png)
 
 ## [Chapitre IX](cours/Chapitre 9.md)
-??? abstract "Transformations physiques"
+!!! abstract "Transformations physiques"
     - [📚Chapitre IX](data/Chap-IX.pdf){:target="_blank"}
     - [⚛️Activité 15 Énergie et changement d'état](data/Act15 energie et changement d'etat.pdf){:target="_blank"}
 
@@ -273,7 +273,7 @@
     ![page 126](data/p126.png)
 
 ## [Chapitre X](cours/Chapitre 10.md)
-??? abstract "Transformations chimiques"
+!!! abstract "Transformations chimiques"
     - [📚Chapitre X](data/Chap-X.pdf){:target="_blank"}
     - [⚛️Activité 16 Trouver le réactif limitant](data/Act16 reactifs limitant.pdf){:target="_blank"}    
     - [⚛️Activité 17 Du gaspillage dans les vignes](data/Act17 gaspillage dans les vignes.pdf){:target="_blank"}        
@@ -301,7 +301,7 @@
         
 ## [Chapitre XI](cours/Chapitre 11.md)
 
-??? abstract "Propagation de la lumière"
+!!! abstract "Propagation de la lumière"
     - [📚 Chapitre XI](data/Chap-XI.pdf){:target="_blank"}
     - [⚛️ Activité 20 Lois de Snell-Descartes](data/Act20 Snell Descartes.pdf){:target="_blank"}    
 
@@ -335,7 +335,7 @@
 
 
 ## [Chapitre XII](cours/Chapitre 12.md)
-??? abstract "La lumière" 
+!!! abstract "La lumière" 
     - [📚Chapitre XII](data/Chap-XII.pdf){:target="_blank"}
     - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
 
@@ -353,7 +353,7 @@
 
 
 ## [Chapitre XIII](cours/Chapitre 13.md) 
-??? abstract "Les lois de l'électricité"
+!!! abstract "Les lois de l'électricité"
     - [📚Chapitre XIII](data/Chap-XIII.pdf){:target="_blank"}
     - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
 

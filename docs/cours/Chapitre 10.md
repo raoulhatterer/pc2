@@ -5,21 +5,27 @@
 ## I. Modélisation d'une transformation chimique
 
 !!! success "Qu'est-ce qu'une transformation chimique ?"
-    Une **transformation chimique** est le passage d'un système chimique d'un **état initial** (avant que les espèces chimiques ne réagissent entre elles) à un **état final** (lorsque le système n'évolue plus).
+    Une **transformation chimique** est le passage d'un *système chimique* d'un **état initial** (avant que les espèces chimiques ne réagissent entre elles) à un **état final** (lorsque le système n'évolue plus).
 
-!!! success "Qu'est-ce qu'un système chimique ?"
-    Le système chimique est l'**ensemble des espèces chimiques que l'on étudie**.
+!!! note "Système chimique"
+    - En chimie comme en physique, le système fait référence à ce qui est étudié.
+    - Le *système chimique* est l'**ensemble des espèces chimiques que l'on étudie**.
+    - Lors de son évolution, la composition du *système chimique* est modifiée. 
 
-Lors de son évolution, la composition du système chimique est modifiée. À l'échelle macroscopique, on observe par exemple un changement de couleur, un dégagement gazeux, une variation de température ou de pression...
 
-Certaines modifications peuvent être mises en évidence grâce à des tests d'identification.
+!!! success "Manifestations"
+    - À l'échelle macroscopique, on observe par exemple un changement de couleur, un dégagement gazeux, une variation de pH, de température ou de pression...
+    - Certaines modifications peuvent être mises en évidence grâce à des tests d'identification.
 
-### 2. Modélisation d'une transformation chimique
+![image](data/chap10_methane.jpg){: .center width="800"}
+
+
+### Réactifs, produits (et espèces spectatrices)
 
 Lors d'une transformation chimique :
 
-- certaines espèces chimiques sont **consommées** → ce sont les **réactifs**,
-- d'autres espèces chimiques **se forment** → ce sont les **produits**.
+- certaines espèces chimiques sont **consommées**, ce sont les **réactifs**,
+- d'autres espèces chimiques **se forment**, ce sont les **produits**.
 
 !!! success "Réactif"
     Espèce chimique consommée partiellement ou totalement. **Sa quantité de matière diminue**.
@@ -36,15 +42,22 @@ Lors d'une transformation chimique :
 - Produits : dioxyde de carbone (CO<sub>2</sub>) et eau (H<sub>2</sub>O)  
 - Espèce spectatrice : diazote (N<sub>2</sub>)
 
+
+### Réaction chimique
+
+![image](data/chap10_rc.jpg){: .center width="500"}
+
+
 Une transformation chimique est modélisée par une **réaction chimique**.  
 On représente l'évolution par une **flèche** : réactifs à gauche, produits à droite.
 
 Le méthane réagit avec le dioxygène pour former du dioxyde de carbone et de l'eau ; la combustion complète du méthane s'écrit donc :
 
 - En toutes lettres : *méthane + dioxygène → dioxyde de carbone + eau*
-- En symboles : CH<sub>4</sub> + 2 O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O
+- Même chose en symboles (mais l'équation reste à équilibrer) : ... CH<sub>4</sub> + ... O<sub>2</sub> → ... CO<sub>2</sub> + ... H<sub>2</sub>O
+- En symboles (ici l'équation a bien été équilibrée) : CH<sub>4</sub> + 2 O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O
 
-### 3. Écriture de l'équation chimique
+### Écriture de l'équation chimique
 
 L'**équation chimique** est l'écriture symbolique d'une réaction chimique.  
 Elle doit être **ajustée** avec des nombres stœchiométriques entiers (les plus petits possibles) pour respecter les lois de conservation.
@@ -88,8 +101,11 @@ Une transformation chimique s'arrête quand au moins un réactif est totalement 
 - **Réactif limitant** : réactif consommé en premier.  
 - **Réactif en excès** : réactif restant partiellement à la fin.  
 
+!!! warning "Attention"
+    - Le réactif limitant n'est pas nécessairement celui qui est introduit en plus petite quantité à l'état initial
+
 !!! success "Identifier le réactif limitant"
-    Le réactif limitant d'une transformation chimique est celui pour lequel le rapport de sa quantité de matière initiale sur son nombre stœchiométrique est le plus petit.
+    - Le réactif limitant d'une transformation chimique est celui pour lequel le rapport de sa quantité de matière initiale sur son nombre stœchiométrique est le plus petit.
 
     Donc, pour une équation ajustée de la forme : **$a\,A + b\,B \;\;\rightarrow\;\; c\,C + d\,D$**{: .stabilo-jaune}
     
@@ -121,10 +137,14 @@ Comparaison et conclusion :  $\dfrac{n_i(Zn)}{1} > \dfrac{n_i(H^+)}{2}$  donc l'
 
 - Briser des liaisons nécessite de l'énergie (amorce pour une combustion).  
 - Former de nouvelles liaisons libère de l'énergie.  
-- Bilan global → absorption ou libération d'énergie thermique.  
 
-- **Réaction endothermique** : absorbe de l'énergie → la température du système diminue.  
-- **Réaction exothermique** : libère de l'énergie → la température du système augmente.  
+Le bilan énergétique global d'une transformation chimique peut donc conduire à une absorption ou à une libération d'énergie thermique. L'énergie est échangée avec le milieu extérieur.
+
+
+![image](data/chap10_thermique.jpg){: .center width="200"}
+
+- **Réaction endothermique** : le système chimique absorbe de l'énergie, sa température diminue.  
+- **Réaction exothermique** : le système chimique libère de l'énergie, sa température augmente.  
 
 [**Exercices : 11, 12 p. 142**{: .exo}]
 
