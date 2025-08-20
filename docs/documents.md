@@ -283,6 +283,13 @@
     - Réaliser le schéma légendé du montage du chauffage à reflux et d'une CCM.
     - Exploiter une CCM.
 
+
+??? success "Pour réviser"
+    - QCM p. 137  
+    - Exercices résolus 1, 2 et 3 p. 138, 139  
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 10.md)) et en classe      
+    - Je prépare l'évaluation : exercices 35, 36 p. 148
+
 ??? question "Exercices du livre (chap7 pages 140 à 148)"
     ![page 140](data/p140.png)
     ![page 141](data/p141.png)

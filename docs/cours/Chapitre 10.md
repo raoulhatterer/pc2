@@ -45,22 +45,21 @@ Lors d'une transformation chimique :
 
 ### Réaction chimique
 
-![image](data/chap10_rc.jpg){: .center width="500"}
-
-
 Une transformation chimique est modélisée par une **réaction chimique**.  
 On représente l'évolution par une **flèche** : réactifs à gauche, produits à droite.
 
-Le méthane réagit avec le dioxygène pour former du dioxyde de carbone et de l'eau ; la combustion complète du méthane s'écrit donc :
+![image](data/chap10_rc.jpg){: .center .img-rounded width="500"}
+
+🎯 **Exemple :** le méthane réagit avec le dioxygène pour former du dioxyde de carbone et de l'eau ; la combustion complète du méthane s'écrit donc :
 
 - En toutes lettres : *méthane + dioxygène → dioxyde de carbone + eau*
-- Même chose en symboles (mais l'équation reste à équilibrer) : ... CH<sub>4</sub> + ... O<sub>2</sub> → ... CO<sub>2</sub> + ... H<sub>2</sub>O
+- Même chose en symboles (mais ⚠️ l'équation reste à équilibrer) : ... CH<sub>4</sub> + ... O<sub>2</sub> → ... CO<sub>2</sub> + ... H<sub>2</sub>O
 - En symboles (ici l'équation a bien été équilibrée) : CH<sub>4</sub> + 2 O<sub>2</sub> → CO<sub>2</sub> + 2 H<sub>2</sub>O
 
 ### Écriture de l'équation chimique
 
-L'**équation chimique** est l'écriture symbolique d'une réaction chimique.  
-Elle doit être **ajustée** avec des nombres stœchiométriques entiers (les plus petits possibles) pour respecter les lois de conservation.
+**L'équation chimique** est l'écriture symbolique d'une réaction chimique.  
+Elle **doit être ajustée** avec des nombres stœchiométriques entiers (les plus petits possibles) pour respecter les lois de conservation.
 
 !!! success "Lois de conservation"
     Lors d'une réaction chimique, il y a conservation :
@@ -91,9 +90,10 @@ Zn (s) + 2 H<sup>+</sup> (aq) → Zn<sup>2+</sup> (aq) + H<sub>2</sub> (g)
 
 La charge électrique globale est conservée.
 
-[**Exercices : 2, 5, 6, 7, 8 p. 140 à 142**{: .exo}]
+[**Exercices n°2 p. 140**{: .exo}](../data/p140.png) et
+[**5©, 6, 7© p. 141**{: .exo}](../data/p141.png) et 
+[**8 p. 142**{: .exo}](../data/p142.png)
 
----
 
 ## II. Réactif limitant d'une transformation chimique
 
@@ -129,7 +129,7 @@ Calculs :  $\dfrac{n_i(Zn)}{1} = 3,0 \times 10^{-2}$ mol tandis que $\dfrac{n_i
 
 Comparaison et conclusion :  $\dfrac{n_i(Zn)}{1} > \dfrac{n_i(H^+)}{2}$  donc l'ion  hydrogène H<sup>+</sup> (aq) est le réactif limitant.
 
-[**Exercices : 10, 14 p. 142**{: .exo}]
+[**Exercices n°10, 14 p. 142**{: .exo}](../data/p142.png)
 
 ---
 
@@ -146,7 +146,7 @@ Le bilan énergétique global d'une transformation chimique peut donc conduire �
 - **Réaction endothermique** : le système chimique absorbe de l'énergie, sa température diminue.  
 - **Réaction exothermique** : le système chimique libère de l'énergie, sa température augmente.  
 
-[**Exercices : 11, 12 p. 142**{: .exo}]
+[**Exercices n°11©, 12 p. 142**{: .exo}](../data/p142.png)
 
 ---
 
@@ -174,7 +174,7 @@ La synthèse d'une espèce chimique au laboratoire s'effectue généralement en 
 ![image](data/chap10_4etapes.jpg){: .center width="800"} 
 
 
-### Analyse
+### Analyse du produit brut
 
 <a id="chromatographie"></a>
 En début d'année, nous avions déjà présenté des *techniques d'identification* et notamment [la chromatographie sur couche mince](./Chapitre 01.md#chromatographie) :
@@ -184,21 +184,9 @@ En début d'année, nous avions déjà présenté des *techniques d'identificati
 
 
 
-[**Exercices : 15, 16, 17, 22, 23 p. 143, 144 et 32, 34 p. 146, 147**{: .exo}]
+[**Exercices n°15©, 16, 17© p. 143**{: .exo}](../data/p143.png) et 
+[**22©, 23 p. 144**{: .exo}](../data/p144.png) et 
+[**32 p. 146**{: .exo}](../data/p146.png) et 
+[**34 p. 147**{: .exo}](../data/p147.png)
 
----
 
-## Je dois savoir et savoir faire
-- Écrire l'équation d'une transformation chimique.
-- Identifier le réactif limitant.
-- Déterminer si une transformation est endothermique ou exothermique.
-- Réaliser un schéma de montage du chauffage à reflux et d'une CCM.
-- Exploiter une CCM.
-
----
-
-## Pour réviser
-- QCM p. 137  
-- Exercices résolus 1, 2 et 3 p. 138, 139  
-- Exercices corrigés en classe  
-- Je prépare l'évaluation : exercices 35, 36 p. 148
