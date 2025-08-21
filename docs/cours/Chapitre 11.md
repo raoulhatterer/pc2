@@ -29,12 +29,20 @@ On appelle angle d'incidence i<sub>1</sub> l'angle formé par le rayon incident 
 dioptre, angle de réfraction i<sub>2</sub> l'angle formé par le rayon réfracté et la normale au 
 dioptre, et angle de réflexion r, l'angle formé par le rayon réfléchi et la normale.
 
-#### Les lois de Snell-Descartes
 
-Elles ont été établies indépendamment par Willebrord Snell et René Descartes au XVIIe siècle.
 
-- **1re loi de Snell-Descartes :** **le rayon incident, le rayon réfracté, le rayon réfléchi et la normale sont dans le même plan.**{: .stabilo-jaune}
-- **2e loi de Snell-Descartes :**  **n<sub>1</sub>·sin(i<sub>1</sub>) = n<sub>2</sub>·sin(i<sub>2</sub>)**{: .stabilo-jaune} pour la réfraction  et  **i<sub>1</sub> = r**{: .stabilo-jaune} pour la réflexion où n<sub>1</sub> et n<sub>2</sub> sont les indices de réfraction des milieux 1 et 2.
+!!! success "Les lois de Snell-Descartes"
+
+    Elles ont été établies indépendamment par Willebrord Snell et René Descartes au XVIIe siècle.
+
+    - **1re loi de Snell-Descartes :** **le rayon incident, le rayon réfracté, le rayon réfléchi et la normale sont dans le même plan.**{: .stabilo-jaune}
+    - **2e loi de Snell-Descartes :**  **n<sub>1</sub>·sin(i<sub>1</sub>) = n<sub>2</sub>·sin(i<sub>2</sub>)**{: .stabilo-jaune} pour la réfraction  et  **i<sub>1</sub> = r**{: .stabilo-jaune} pour la réflexion où n<sub>1</sub> et n<sub>2</sub> sont les indices de réfraction des milieux 1 et 2.
+
+
+
+
+
+
 
 ### 3. Dispersion de la lumière
 
@@ -71,9 +79,18 @@ La multiplicité des gouttes nous donne une vision d'ensemble de ce phénomène 
 
 ### 1. Les lentilles
 
+
+
+Une simple bouteille d'eau abandonnée dans une zone à risques peut être à l'origine d'un incendie de forêt. 
+En se comportant comme une lentille convergente qui peut concentrer des rayons lumineux en un point appelé foyer, la bouteille peut enflammer la végétation.
+
+![image](./data/chap11_water_lens.png){: .center .img-rounded width="300"}
+
+
+
 Une lentille est un milieu transparent limité par deux surfaces dont au moins une n'est pas plane.
 
-Le milieu qui constitue la lentille, en général du verre, est caractérisé par son indice de réfraction. Un rayon 
+Le milieu transparent qui constitue la lentille est caractérisé par son indice de réfraction. Un rayon 
 lumineux est dévié par réfraction à travers la lentille.
 
 !!! success "Deux types de lentilles"
@@ -111,31 +128,39 @@ de lumière passant par F émerge en un faisceau parallèle à l'axe optique.
 
 ### 2. Image d'un objet par une lentille mince convergente
 
-On se limitera à l’étude d’un objet plan perpendiculaire à l’axe optique, cet objet est noté AB, A étant sur l’axe 
-optique, et on le représente par une flèche verticale.  
-L’image A’ d’un point A situé sur l’axe optique est sur l’axe optique.  
-Tous les rayons issus du point objet B convergent en un point unique B’, image de B à travers la lentille.  
-Pour déterminer l'image d'un objet par une lentille convergente, il est pratique de tracer trois rayons particuliers 
-issus du point B :
+![image](./data/chap11_banc.jpg){: .center .img-rounded width="500"}
 
-Ces rayons particuliers sont les suivants :  
-- le rayon passant par le centre optique O ne subit aucune déviation ;  
-- le rayon arrivant parallèlement à l'axe optique émerge de la lentille en passant par le foyer image F' ;  
-- le rayon passant par le foyer objet F émerge parallèlement à l'axe optique.  
+![image](./data/chap11_grandissement.jpg){: .center  width="800"}
+
+
+On se limitera à l’étude d’un objet plan perpendiculaire à l’axe optique, cet **objet est noté AB**, A étant sur l’axe 
+optique, et **on le représente par une flèche verticale**. L’image A’ d’un point A situé sur l’axe optique est sur l’axe optique. Tous les rayons issus du point objet B convergent en un point unique B’, image de B à travers la lentille.  
+
+
+!!! success "Méthode pour tracer l'image"
+
+    Pour déterminer l'image d'un objet par une lentille convergente, il est convient de savoir tracer les trois rayons particuliers suivants qui sont issus du point B :
+
+    - le rayon (en bleu sur la figure) passant par le centre optique O qui ne subit aucune déviation ;  
+    - le rayon (en vert sur la figure) arrivant parallèlement à l'axe optique qui émerge de la lentille en passant par le foyer image F' ;  
+    - le rayon (en rouge sur la figure) passant par le foyer objet F qui émerge parallèlement à l'axe optique.  
 
 Remarques :  
-- Si AB est perpendiculaire à l’axe optique alors son image A’B’ est aussi perpendiculaire à l’axe optique.  
-- L'image A'B' est dite réelle car elle est observable sur un écran. Elle est renversée si elle est de sens opposé à 
-celui de l'objet ; elle est droite si elle est de même sens.
 
-Le **grandissement** noté γ (gamma) est défini par le rapport entre la taille de l'image et celle de l'objet :  
+- Si AB est perpendiculaire à l’axe optique alors son image **A’B’** est aussi **perpendiculaire à l’axe optique**.  
+- **L'image A'B' est dite réelle car elle est observable sur un écran**. Elle est dite renversée car elle est de sens opposé à celui de l'objet (elle est dite droite si elle est de même sens).
 
-γ = A'B' / AB = OA' / OA
 
-Le grandissement n'a pas d'unité.  
-Il est inférieur à 1 si l'image est plus petite que l'objet et supérieur à 1 dans le cas contraire.  
 
-Remarque : le grandissement s'exprime aussi à l'aide des égalités obtenues par application du théorème de Thalès.
+!!! success "Le grandissement"
+
+    ![image](./data/chap11_gamma.png){: .center  width="200"}
+
+    - Le **grandissement** noté $\gamma$ (lettre grecque gamma minuscule) est défini par le rapport entre la taille de l'image et celle de l'objet. Il s'exprime aussi à l'aide des égalités obtenues par application du théorème de Thalès (cf. la formule plus haut).
+    - Le grandissement n'a pas d'unité.  
+    - Il est inférieur à 1 si l'image est plus petite que l'objet et supérieur à 1 dans le cas contraire.  
+
+
 
 ### 3. Modélisation de l'oeil
 
