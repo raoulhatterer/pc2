@@ -1,4 +1,4 @@
-# Chapitre XI : Propagation des ondes lumineuses
+# Chapitre XI : Propagation des ondes lumineuses
 
 {{ initexo(0) }}
 
@@ -7,7 +7,7 @@
 ### 1. Phénomènes de réflexion et de réfraction
 
 - La lumière se propage en ligne droite dans un milieu homogène et transparent. Cependant, lorsqu'elle change de 
-milieu de propagation (passage de l'air à l'eau par exemple), la lumière peut subir deux phénomènes : une **réflexion** 
+milieu de propagation (passage de l'air à l'eau par exemple), la lumière peut subir deux phénomènes : une **réflexion** 
 (le rayon repart dans le milieu initial) ou une **réfraction** (changement de direction de propagation). La surface de 
 séparation entre deux milieux est aussi appelée **dioptre**.
 
@@ -35,8 +35,8 @@ dioptre, et angle de réflexion r, l'angle formé par le rayon réfléchi et la 
 
     Elles ont été établies indépendamment par Willebrord Snell et René Descartes au XVIIe siècle.
 
-    - **1re loi de Snell-Descartes :** **le rayon incident, le rayon réfracté, le rayon réfléchi et la normale sont dans le même plan.**{: .stabilo-jaune}
-    - **2e loi de Snell-Descartes :**  **n<sub>1</sub>·sin(i<sub>1</sub>) = n<sub>2</sub>·sin(i<sub>2</sub>)**{: .stabilo-jaune} pour la réfraction  et  **i<sub>1</sub> = r**{: .stabilo-jaune} pour la réflexion où n<sub>1</sub> et n<sub>2</sub> sont les indices de réfraction des milieux 1 et 2.
+    - **1re loi de Snell-Descartes :** **le rayon incident, le rayon réfracté, le rayon réfléchi et la normale sont dans le même plan.**{: .stabilo-jaune}
+    - **2e loi de Snell-Descartes :**  **n<sub>1</sub>·sin(i<sub>1</sub>) = n<sub>2</sub>·sin(i<sub>2</sub>)**{: .stabilo-jaune} pour la réfraction  et  **i<sub>1</sub> = r**{: .stabilo-jaune} pour la réflexion où n<sub>1</sub> et n<sub>2</sub> sont les indices de réfraction des milieux 1 et 2.
 
 
 
@@ -78,9 +78,13 @@ La multiplicité des gouttes nous donne une vision d'ensemble de ce phénomène 
 
 
 
-[**Exercices : 3, 4, 5, 6, 12, 15, 18, 22, 23, 25, 28 p. 279 à 284**{: .exo}]
+[**Exercices n°3©, 4 p. 279**{: .exo}](../data/p279.png) et 
+[**5©, 6, 12 p. 280**{: .exo}](../data/p280.png) et
+[**15©, 18, 22, 23, 25, 28 p. 281**{: .exo}](../data/p281.png) et 
+[**22 p. 282**{: .exo}](../data/p282.png) et
+[**23, 25 p. 283**{: .exo}](../data/p283.png) et
+[**28 p. 284**{: .exo}](../data/p284.png)
 
----
 
 ## II. L'œil et les lentilles
 
@@ -101,9 +105,9 @@ Le milieu transparent qui constitue la lentille est caractérisé par son indice
 lumineux est dévié par réfraction à travers la lentille.
 
 !!! success "Deux types de lentilles"
-    - Les **lentilles convergentes** dont les bords sont plus minces que leur épaisseur au centre. Un faisceau de lumière incident parallèle émerge de cette lentille en un point : il converge.  
+    - Les **lentilles convergentes** dont les bords sont plus minces que leur épaisseur au centre. Un faisceau de lumière incident parallèle émerge de cette lentille en un point : il converge.  
     ![image](./data/chap11_lentille_c.jpg){: .center .img-rounded width="300"}
-    - Les **lentilles divergentes** dont les bords sont plus épais que leur épaisseur au centre. Un faisceau de lumière incident parallèle émerge de cette lentille en s'élargissant : il diverge.
+    - Les **lentilles divergentes** dont les bords sont plus épais que leur épaisseur au centre. Un faisceau de lumière incident parallèle émerge de cette lentille en s'élargissant : il diverge.
     ![image](./data/chap11_lentille_d.jpg){: .center .img-rounded width="300"}
 
 #### Modèle de la lentille mince convergente
@@ -116,13 +120,13 @@ lumineux est dévié par réfraction à travers la lentille.
     ![image](./data/chap11_distance_focale.jpg){: .center .img-rounded width="300"}
 
 
-On lui associe deux foyers :
+On lui associe deux foyers :
 
-- Son foyer image F' : point de convergence sur l'axe optique d'un faisceau incident de lumière parallèle à l'axe optique.
+- Son foyer image F' : point de convergence sur l'axe optique d'un faisceau incident de lumière parallèle à l'axe optique.
 
 ![image](./data/chap11_foyer_image.jpg){: .center .img-rounded width="300"}
 
-- Son foyer objet F : point symétrique du foyer image F' par rapport au centre optique O. Tout faisceau incident 
+- Son foyer objet F : point symétrique du foyer image F' par rapport au centre optique O. Tout faisceau incident 
 de lumière passant par F émerge en un faisceau parallèle à l'axe optique.
 
 
@@ -140,21 +144,21 @@ de lumière passant par F émerge en un faisceau parallèle à l'axe optique.
 ![image](./data/chap11_grandissement.jpg){: .center  width="800"}
 
 
-On se limitera à l’étude d’un objet plan perpendiculaire à l’axe optique, cet **objet est noté AB**, A étant sur l’axe 
-optique, et **on le représente par une flèche verticale**. L’image A’ d’un point A situé sur l’axe optique est sur l’axe optique. Tous les rayons issus du point objet B convergent en un point unique B’, image de B à travers la lentille.  
+On se limitera à l'étude d'un objet plan perpendiculaire à l'axe optique, cet **objet est noté AB**, A étant sur l'axe 
+optique, et **on le représente par une flèche verticale**. L'image A’ d'un point A situé sur l'axe optique est sur l'axe optique. Tous les rayons issus du point objet B convergent en un point unique B’, image de B à travers la lentille.  
 
 
 !!! success "Méthode pour tracer l'image"
 
-    Pour déterminer l'image d'un objet par une lentille convergente, il est convient de savoir tracer les trois rayons particuliers suivants qui sont issus du point B :
+    Pour déterminer l'image d'un objet par une lentille convergente, il est convient de savoir tracer les trois rayons particuliers suivants qui sont issus du point B :
 
     - le rayon (en bleu sur la figure) passant par le centre optique O qui ne subit aucune déviation ;  
     - le rayon (en vert sur la figure) arrivant parallèlement à l'axe optique qui émerge de la lentille en passant par le foyer image F' ;  
     - le rayon (en rouge sur la figure) passant par le foyer objet F qui émerge parallèlement à l'axe optique.  
 
-Remarques :  
+Remarques :  
 
-- Si AB est perpendiculaire à l’axe optique alors son image **A’B’** est aussi **perpendiculaire à l’axe optique**.  
+- Si AB est perpendiculaire à l'axe optique alors son image **A’B’** est aussi **perpendiculaire à l'axe optique**.  
 - **L'image A'B' est dite réelle car elle est observable sur un écran**. Elle est dite renversée car elle est de sens opposé à celui de l'objet (elle est dite droite si elle est de même sens).
 
 
@@ -180,7 +184,7 @@ se forme sur la rétine.
 ![image](./data/chap11_oeil.jpg){: .center .img-rounded width="800"}
 
 
-L'œil peut être modélisé par :
+L'œil peut être modélisé par :
 
 - un **diaphragme** qui correspond à **l'iris** ;  
 - une **lentille mince convergente** de distance focale f' variable qui correspond à l'ensemble des milieux transparents notamment **le cristallin** ;  
@@ -188,7 +192,7 @@ L'œil peut être modélisé par :
 
 On parle alors de **modèle de l'œil réduit**.
 
-**Remarques :**
+**Remarques :**
 
 - Dans un œil, la distance cristallin-rétine reste toujours constante. Elle vaut environ 17 mm pour l'œil humain.  
 - L'image formée sur la rétine est renversée. C'est le cerveau qui permet d'interpréter à l'endroit les images 
@@ -198,13 +202,18 @@ modifie sa distance focale f'. On dit que **l'œil accommode**.
 - Si l'objet est suffisamment éloigné, l'image se forme sur la rétine sans que l'œil accommode. On dit alors que 
 l'œil est au repos. 
 
-[**Exercices : 3, 4, 5, 6, 11, 17, 21, 23 p. 298 à 303**{: .exo}]
+[**Exercices n°3©, 4 p. 298**{: .exo}](../data/p298.png) et
+[**5©, 6 p. 299**{: .exo}](../data/p299.png) et 
+[**11 p. 300**{: .exo}](../data/p300.png) et 
+[**17 p. 301**{: .exo}](../data/p301.png) et 
+[**21 p. 302**{: .exo}](../data/p302.png) et 
+[**23 p. 303**{: .exo}](../data/p303.png) 
 
----
+
 
 ## Je dois savoir et savoir faire
-- Définir : réflexion ; réfraction ; réflexion totale ; lentille convergente et divergente ;  
-- Repérer sur un schéma et dessiner : rayon incident, rayon réfléchi, rayon réfracté ;  
+- Définir : réflexion ; réfraction ; réflexion totale ; lentille convergente et divergente ;  
+- Repérer sur un schéma et dessiner : rayon incident, rayon réfléchi, rayon réfracté ;  
 - Écrire et utiliser la loi de Snell-Descartes, la relation de grandissement pour une lentille.  
 
 ---
@@ -213,4 +222,4 @@ l'œil est au repos.
 - QCM page 277 et 295  
 - Exercices résolus 1 p. 278 et 1, 2 p. 296, 297  
 - Exercices corrigés dans le livre et en classe  
-- Je prépare l'évaluation : exercices 33, 34 p. 286 et 25, 26 p. 304
+- Je prépare l'évaluation : exercices 33, 34 p. 286 et 25, 26 p. 304
