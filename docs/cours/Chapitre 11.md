@@ -7,12 +7,12 @@
 ### 1. Phénomènes de réflexion et de réfraction
 
 - La lumière se propage en ligne droite dans un milieu homogène et transparent. Cependant, lorsqu'elle change de 
-milieu de propagation (passage de l'air à l'eau par exemple), la lumière peut subir deux phénomènes : une réflexion 
-(le rayon repart dans le milieu initial) ou une réfraction (changement de direction de propagation). La surface de 
-séparation entre deux milieux est aussi appelée dioptre.
+milieu de propagation (passage de l'air à l'eau par exemple), la lumière peut subir deux phénomènes : une **réflexion** 
+(le rayon repart dans le milieu initial) ou une **réfraction** (changement de direction de propagation). La surface de 
+séparation entre deux milieux est aussi appelée **dioptre**.
 
 
-![image](./data/chap11_paille.jpg){: .center .img-rounded width="300"}
+![image](./data/chap11_paille.jpg){: .center .img-rounded width="200"}
 
 
 
@@ -51,9 +51,16 @@ phénomène de séparation des radiations qui composent cette lumière.
 
 ![image](./data/chap11_prisme.jpg){: .center .img-rounded width="300"}
 
+
 On dit qu'un milieu est dispersif si son indice de réfraction dépend de la longueur d'onde de la radiation lumineuse 
 qui le traverse.  
+
+![image](./data/chap11_prisme2.jpg){: .center .img-rounded width="300"}
+
 Ce type de milieu permet de décomposer la lumière blanche.  
+
+![image](./data/chap11_prisme3.jpg){: .center .img-rounded width="600"}
+
 L'image de cette décomposition des couleurs sur un écran s'appelle le spectre de la lumière.  
 
 ![image](./data/chap11_spectre_visible.jpg){: .center .img-rounded width="300"}
@@ -75,7 +82,7 @@ La multiplicité des gouttes nous donne une vision d'ensemble de ce phénomène 
 
 ---
 
-## II. L'oeil et les lentilles
+## II. L'œil et les lentilles
 
 ### 1. Les lentilles
 
@@ -162,27 +169,34 @@ Remarques :
 
 
 
-### 3. Modélisation de l'oeil
+### 3. Modélisation de l'œil
 
-La quantité de lumière pénétrant dans l'oeil est régulée par l'ouverture de l'iris. L'ensemble des milieux transparents 
+La quantité de lumière pénétrant dans l'œil est régulée par l'ouverture de l'iris. L'ensemble des milieux transparents 
 que traverse la lumière peut être assimilé à une lentille mince convergente. Pour une vision nette, l'image de l'objet 
 se forme sur la rétine.
 
-L'oeil peut être modélisé par :  
-- un diaphragme qui correspond à l'iris ;  
-- une lentille mince convergente de distance focale f' variable qui correspond à l'ensemble des milieux transparents ;  
-- un écran qui correspond à la rétine.  
 
-On parle alors de **modèle de l'oeil réduit**.
 
-Remarques :  
-- Dans un oeil, la distance cristallin-rétine reste toujours constante. Elle vaut environ 17 mm pour l'oeil humain.  
+![image](./data/chap11_oeil.jpg){: .center .img-rounded width="800"}
+
+
+L'œil peut être modélisé par :
+
+- un **diaphragme** qui correspond à **l'iris** ;  
+- une **lentille mince convergente** de distance focale f' variable qui correspond à l'ensemble des milieux transparents notamment **le cristallin** ;  
+- un **écran** qui correspond à **la rétine**.  
+
+On parle alors de **modèle de l'œil réduit**.
+
+**Remarques :**
+
+- Dans un œil, la distance cristallin-rétine reste toujours constante. Elle vaut environ 17 mm pour l'œil humain.  
 - L'image formée sur la rétine est renversée. C'est le cerveau qui permet d'interpréter à l'endroit les images 
 renversées formées sur la rétine.  
-- Pour que l'image d'un objet pas trop proche de l'oeil se forme sur la rétine, le cristallin peut se déformer, ce qui 
-modifie sa distance focale f'. On dit que l'oeil accommode.  
-- Si l'objet est suffisamment éloigné, l'image se forme sur la rétine sans que l'oeil accommode. On dit alors que 
-l'oeil est au repos. 
+- Pour que l'image d'un objet pas trop proche de l'œil se forme sur la rétine, **le cristallin peut se déformer**, ce qui 
+modifie sa distance focale f'. On dit que **l'œil accommode**.  
+- Si l'objet est suffisamment éloigné, l'image se forme sur la rétine sans que l'œil accommode. On dit alors que 
+l'œil est au repos. 
 
 [**Exercices : 3, 4, 5, 6, 11, 17, 21, 23 p. 298 à 303**{: .exo}]
 
