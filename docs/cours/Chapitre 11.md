@@ -210,16 +210,3 @@ l'œil est au repos.
 [**23 p. 303**{: .exo}](../data/p303.png) 
 
 
-
-## Je dois savoir et savoir faire
-- Définir : réflexion ; réfraction ; réflexion totale ; lentille convergente et divergente ;  
-- Repérer sur un schéma et dessiner : rayon incident, rayon réfléchi, rayon réfracté ;  
-- Écrire et utiliser la loi de Snell-Descartes, la relation de grandissement pour une lentille.  
-
----
-
-## Pour réviser
-- QCM page 277 et 295  
-- Exercices résolus 1 p. 278 et 1, 2 p. 296, 297  
-- Exercices corrigés dans le livre et en classe  
-- Je prépare l'évaluation : exercices 33, 34 p. 286 et 25, 26 p. 304

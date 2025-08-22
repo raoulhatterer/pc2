@@ -313,6 +313,16 @@
     - Écrire et utiliser la loi de Snell-Descartes et la relation de grandissement pour une lentille.
 
 
+
+??? success "Pour réviser"
+    - QCM page 277 et 295  
+    - Exercices résolus 1 p. 278 et 1, 2 p. 296, 297  
+    - Exercices corrigés dans le livre (notés © dans le [cours en ligne](cours/Chapitre 11.md)) et en classe  
+    - Je prépare l'évaluation : exercices 33, 34 p. 286 et 25, 26 p. 304
+
+
+
+
 ??? question "Exercices du livre (chap14 pages 279 à 286) Réfraction et réflexion de la lumière"
     ![page 279](data/p279.png)
     ![page 280](data/p280.png)
