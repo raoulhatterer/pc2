@@ -369,6 +369,13 @@
     - [📚Chapitre XIII](data/Chap-XIII.pdf){:target="_blank"}
     - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
 
+!!! warning "Je dois savoir et savoir faire"
+    - Exploiter la loi des mailles et/ou la loi des nœuds dans un circuit électrique.
+    - Représenter et exploiter la caractéristique d'un dipôle électrique.
+    - Utiliser la loi d'Ohm.
+    - Citer des exemples de capteurs présents dans les objets de la vie quotidienne.
+    - Déterminer le point de fonctionnement d'un circuit.
+
 ??? question "Exercices du livre (chap 16 pages 316 à 324)"
     ![page 316](data/p316.png)
     ![page 317](data/p317.png)

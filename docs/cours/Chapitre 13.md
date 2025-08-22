@@ -49,7 +49,7 @@ En suivant le sens de parcours choisi dans la boucle, une de ces tensions est da
 !!! success "Tension aux bornes d'un fil"
     On peut considérer que la tension entre les bornes d'un fil de connexion est nulle.
 
-[**Vidéo de cours - Loi des nœuds, loi des mailles**](data/chap13_video_mailles.mp4)
+
 
 ### c. Le courant électrique
 
@@ -112,7 +112,7 @@ Pour l'exemple précédent :  $R = \dfrac{U_P}{I_P}$.
 
 Pour l'exemple ci-dessus, le point de fonctionnement P a pour coordonnées : U = 4,2 V et I = 275 mA ce qui nous donne la tension aux bornes de chaque dipôle ( U<sub>pile</sub> = U<sub>lampe</sub> = 4,2V ) et l'intensité du courant dans le circuit ( I = 275 mA ) quand la pile alimente la lampe.
 
-[**Vidéo de cours - Caractéristique et point de fonctionnement**](data/chap13_video_point_fonctionnement.mp4)
+
 
 
 
@@ -127,8 +127,11 @@ Un capteur électrique permet de convertir une grandeur physique (température, 
 | Luminosité          | Photorésistance   | Capteur de lumière     | Veilleuse pour enfants à allumage automatique |
 
 
-La variation de la résistance d'une thermistance en fonction de la température est exploitée pour réaliser des capteurs de température.
+Variation de la résistance d'une thermistance en fonction de la température :
 
 ![doc E](data/chap13_thermistance.jpg){: .center width="300"}
+
+La variation de la résistance d'une thermistance en fonction de la température est exploitée pour réaliser des capteurs de température.
+
 
 ![doc E](data/chap13_thermo.jpg){: .center .img-rounded width="250"}
