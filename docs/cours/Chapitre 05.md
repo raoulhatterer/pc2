@@ -93,7 +93,7 @@ Un atome est constitué d'un noyau chargé positivement et d'électrons chargés
 
 
 
-
+[**Exercices n°7©, 9©, 10 p. 72**{: .exo}](../data/p72.png)
 
 
 ### b. Noyau
@@ -114,6 +114,11 @@ Le nombre de neutrons est donc égal à A – Z.
 !!! success "La masse d'un atome est proche de celle de son noyau"
     - m<sub>atome</sub> ≈ A × m<sub>nucléon</sub>
     - Voilà pourquoi le nombre **A** de nucléons est appelé le *nombre de masse*
+
+
+
+[**Exercice 5© p. 71**{: .exo}](../data/p71.png) et 
+[**21© p. 73**{: .exo}](../data/p73.png)
 
 
 ## 3 - Les ions monoatomiques
@@ -171,3 +176,7 @@ Formé à partir d'un atome de magnésium Mg qui perd deux électrons.
 
 - Le chlorure de sodium **NaCℓ** est un composé ionique formé par l'association d'ions **Na⁺** et **Cℓ⁻**, en nombre **égal** (1 pour 1). La charge totale est donc **nulle** : `(+1) + (–1) = 0`
 - Le chlorure de cuivre(II) **CuCℓ₂** est un composé ionique formé par l'association d'**un ion Cu²⁺** et de **deux ions Cℓ⁻**. La charge totale est également **nulle** : `(+2) + 2 × (–1) = 0`
+
+[**Exercices n°11©, 12 p. 72**{: .exo}](../data/p72.png) et 
+[**18, 20, p. 73**{: .exo}](../data/p73.png) et 
+[**22, 26 p. 74**{: .exo}](../data/p74.png)
