@@ -56,6 +56,8 @@
         Configuration électronique du silicium (Z = 14) à l'état fondamental : 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>2</sup>
 
 
+[**Exercices n°1©, 3©, 4 p. 90**{: .exo}](../data/p90.png)
+
 
 ## 2 - Le tableau périodique des éléments
 
@@ -104,6 +106,9 @@ Les atomes N et P possèdent chacun 2 + 3 = 5 électrons de valence, donc les é
 
 
 🎯 **Exemple** Les éléments de la colonne 18 (hélium He, néon Ne et argon Ar) constituent la famille des *gaz nobles*.
+
+[**Exercices n°5©, 6, 9©, 11© p. 91**{:.exo}](../data/p91.png)
+
 
 ## 3 - Les entités stables chimiquement
 
@@ -158,6 +163,7 @@ Il convient de connaître le nom et la formule des quelques ions monoatomiques i
 | Cℓ<sup>–</sup>  | ion chlorure  |
 
 
+[**Exercices n°15©, 16, 17©, 18 p. 92**{: .exo}](../data/p92.png)
 
 ### c. Les molécules
 
@@ -209,5 +215,9 @@ Il convient de connaître le nom et la formule des quelques ions monoatomiques i
 🎯 **Exemple :** Pour rompre toutes les liaisons de la molécule CH<sub>4</sub>, il faut fournir l'énergie E = 4×E<sub>CH</sub> , soit E = 1 652 kJ/mol.
 
 
+[**Exercice n°21© p. 92**{: .exo}](../data/p92.png) et 
+[**23©, 24, 26, 28 p.93**{: .exo}](../data/p93.png) et 
+[**30 p.94**{: .exo}](../data/p94.png) et 
+[**40 p.97**{: .exo}](../data/p97.png)
 
 
