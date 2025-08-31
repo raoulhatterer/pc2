@@ -24,7 +24,7 @@ Ce **spectre** est dit **continu**, car il ne manque aucune composante colorée 
 
 !!! success "Lumière monochromatique"
     
-    - Une lumière qui ne peut pas être dispersée par un prisme est appelée **lumière monochromatique**. Elle est composée d'une seule radiation.  
+    Une lumière qui ne peut pas être dispersée par un prisme est appelée **lumière monochromatique**. Elle est composée d'une seule radiation.  
    
 🎯 **Exemples :**   
 
