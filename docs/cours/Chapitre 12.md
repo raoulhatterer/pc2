@@ -64,7 +64,7 @@ Les radiations dont la longueur d'onde n’entre pas dans ce domaine appartienne
 ### 3 - Vitesse de propagation de la lumière
 
 !!! success "Propagation rectiligne de la lumière"
-    Dans le vide ou dans les milieux transparents et homogènes(comme c'est le cas de l'air en général), la lumière se propage en ligne droite.  
+    Dans le vide ou dans les milieux transparents et homogènes (comme c'est le cas de l'air en général), la lumière se propage en ligne droite.  
 
 !!! success "Célérité (c-à-d vitesse de propagation de l'onde)"
     === "Dans le vide et dans l'air"
