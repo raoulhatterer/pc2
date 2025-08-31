@@ -43,7 +43,7 @@ dioptre, et angle de réflexion r, l'angle formé par le rayon réfléchi et la 
 
 
 
-
+<a id="dispersion"></a>
 ### 3. Dispersion de la lumière
 
 La dispersion d'une lumière polychromatique (composée de plusieurs radiations donc de plusieurs couleurs) est le 
