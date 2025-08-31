@@ -186,7 +186,7 @@ Pourtant, il ne sera pas perçu deux fois plus fort par l'oreille. **L'oreille n
 !!! warning "Danger" 
     Un **niveau d'intensité sonore trop élevé** peut **endommager l'oreille**.
 
-📘 *Voir TP 17*  
+
 
 
 [**Exercices n°19, 20, 22 p. 240**{: .exo}](../data/p240.png) et
