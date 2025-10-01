@@ -83,12 +83,12 @@ Si l'on connaît la composition du mélange.
     
     D'autres unités sont possibles.
 
-!!! example "{{ exercice() }} : utiliser une formule :heart:" 
+!!! example "{{ exercice() }} : utiliser une formule et unités SI :heart:" 
     === "Énoncé"
         $$\rho = \frac{m}{V}$$
         
         1. L'unité SI de la masse est le kilogramme. Son symbole est-il "kg" ou "Kg"... ou peu importe, car les deux écritures sont correctes ? 
-        2. Rajouter les unités à la formule précédente si la masse est exprimée en kilogrammes et le volume en mètres cubes.
+        2. Rajouter les unités à la formule précédente si la masse est exprimée en kilogrammes et le volume en mètres cubes ([unités SI](https://metrologie-francaise.lne.fr/fr/metrologie/unites-de-mesure-si)).
         3. Donner l'expression de $m$ en fonction de $\rho$ et $V$.
         4. Donner l'expression de $V$ en fonction de $\rho$ et $m$.
 
