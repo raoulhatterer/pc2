@@ -122,10 +122,7 @@
 ## [Chapitre V](cours/Chapitre 05.md)
 !!! abstract "De l'atome à l'élément chimique"
     - [📚 Chapitre V](./data/Chap-V.pdf){:target="_blank"}    
-    - [⚛️ Activité 9 Histoire de l'atome](data/Act09 histoire de l'atome.pdf){:target="_blank"}
-    - [⚛️ Activité 10 Noyau des atomes (contexte : datation au carbone 14)](data/Act10 noyaux des atomes.pdf){:target="_blank"}    
-
-
+    - [⚛️ Activité 9 Noyau des atomes (contexte : datation au carbone 14)](data/Act09 noyaux des atomes.pdf){:target="_blank"}    
 !!! warning "Je dois savoir et savoir faire"
     - Définir : élément, atome, ion (anion, cation), proton, neutron, électron.
     - Établir l'écriture conventionnelle d'un noyau à partir de sa composition et inversement.
@@ -153,9 +150,9 @@
 ## [Chapitre VI](cours/Chapitre 06.md)
 !!! abstract "Vers des entités plus stables"
     - [📚 Chapitre VI](data/Chap-VI.pdf){:target="_blank"} 
-    - [⚛️ Activité 11](data/Act11 famille ion chlorure.pdf){:tatget="_blank"} Familles chimiques (contexte : famille de l'ion chlorure)
-    - [⚛️ Activité 12](data/Act12 ions monoatomiques.pdf){:target="_blank"} Ions monoatomiques
-    - [⚛️ Activité 13](data/Act13 lewis.pdf){:target="_blank"} Lewis
+    - [⚛️ Activité 10](data/Act10 famille ion chlorure.pdf){:tatget="_blank"} Familles chimiques (contexte : famille de l'ion chlorure)
+    - [⚛️ Activité 11](data/Act11 ions monoatomiques.pdf){:target="_blank"} Ions monoatomiques
+    - [⚛️ Activité 12](data/Act12 lewis.pdf){:target="_blank"} Lewis
 
 !!! warning "Je dois savoir et savoir faire"
     - Déterminer le nombre d'électrons de valence d'un atome à partir de sa configuration électronique ou de sa position dans le tableau périodique et inversement.
@@ -189,7 +186,7 @@
 ## [Chapitre VII](cours/Chapitre 07.md)
 !!! abstract "La quantité de matière"
     - [📚 Chapitre VII](data/Chap-VII.pdf){:target="_blank"} 
-    - [⚛️ Activité 14](data/Act14.pdf){:tatget="_blank"}
+    - [⚛️ Activité 13](data/Act13 mole.pdf){:tatget="_blank"} La mole
 
 !!! warning "Je dois savoir et savoir faire"
     - Calculer la masse d'une entité : atome, ion ou molécule.
@@ -214,8 +211,8 @@
 ## [Chapitre VIII](cours/Chapitre 08.md)
 !!! abstract "Émission et perception d'un son"
     - [📚Chapitre VIII](data/Chap-VIII.pdf){:target="_blank"}
-    - [⚛️Activité 15](data/Act15 vitesse du son.pdf){:target="_blank"}
-    - [⚛️Activité 14 Analyse d'un son](data/Act14 analyse d'un son.pdf){:target="_blank"}
+    - [⚛️Activité 14](data/Act14 vitesse du son.pdf){:target="_blank"} Vitesse du son
+    - [⚛️Activité 15](data/Act15 analyse d'un son.pdf){:target="_blank"} Analyse d'un son
 
 !!! warning "Je dois savoir et savoir faire"
     - Définir un son (signal périodique),
