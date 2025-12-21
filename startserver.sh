@@ -18,7 +18,7 @@ else
   # Affiche la liste complète des packages obsolètes avec leurs versions
   pip list --outdated | grep "mkdocs"
   echo "-------------------------------------------"
-  echo "Pour les mettre à jour, veuillez d'abord activer votre environnement virtuel, puis exécuter la ou les commandes suivantes :"
+  echo "Pour les mettre à jour, veuillez d'abord activer votre environnement virtuel (avec workon), puis exécuter la ou les commandes suivantes :"
   echo ""
   # Génère et affiche les commandes d'upgrade spécifiques
   for pkg in $outdated_mkdocs_packages; do
