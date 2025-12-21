@@ -53,15 +53,25 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
     Le vecteur vitesse est représenté à l'aide d'une **échelle** adaptée.
 
 
-!!! success "Le mouvement du système est..."
-    - **uniforme** si la valeur de $\vec v$ ne change pas
-    - **varié** si la valeur de $\vec v$ change (**accéléré** si la valeur de $\vec v$ augmente ; **ralenti/décéléré** si elle diminue)
+Il existe différentes unités de vitesse comme le mètre par seconde (**m∙s<sup>-1</sup>**) ou le kilomètre par heure (**km∙h<sup>-1</sup>**). 
+
+!!! tip "Convertir des km∙h<sup>-1</sup> en m∙s<sup>-1</sup> et réciproquement"
+    - Une vitesse de 1 km∙h<sup>-1</sup> correspond à une distance de 1000 m parcourue en une durée de 3600 s par conséquent… 
+        - pour convertir des km∙h<sup>-1</sup> en m∙s<sup>-1</sup> on divise par 3,6 
+        - pour convertir des m∙s<sup>-1</sup> en km∙h<sup>-1</sup> on multiplie par 3,6 
 
 
 !!! warning "Attention"
     **La valeur de $\vec v$ se note $v$** (sans flèche) et non pas $\vec v$ !
     
 🎯 **Exemple :** **$v=5$ m∙s<sup>-1</sup> est JUSTE**{: .stabilo-vert} (alors que  **$\vec v=5$ m∙s<sup>-1</sup> est FAUX !**{: .stabilo-rouge-fluo})
+
+
+
+!!! success "Le mouvement du système est..."
+    - **uniforme** si la valeur $v$ de $\vec v$ ne change pas
+    - **varié** si la valeur de $\vec v$ change (**accéléré** si la valeur de $\vec v$ augmente ; **ralenti/décéléré** si elle diminue)
+
 
 
 
