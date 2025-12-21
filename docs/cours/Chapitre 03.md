@@ -56,9 +56,10 @@ Au cours d'un mouvement, la vitesse peut évoluer en sens, en direction et en va
 Il existe différentes unités de vitesse comme le mètre par seconde (**m∙s<sup>-1</sup>**) ou le kilomètre par heure (**km∙h<sup>-1</sup>**). 
 
 !!! tip "Convertir des km∙h<sup>-1</sup> en m∙s<sup>-1</sup> et réciproquement"
-    - Une vitesse de 1 km∙h<sup>-1</sup> correspond à une distance de 1000 m parcourue en une durée de 3600 s par conséquent… 
-        - pour convertir des km∙h<sup>-1</sup> en m∙s<sup>-1</sup> on divise par 3,6 
-        - pour convertir des m∙s<sup>-1</sup> en km∙h<sup>-1</sup> on multiplie par 3,6 
+    Une vitesse de 1 km∙h<sup>-1</sup> correspond à une distance de 1000 m parcourue en une durée de 3600 s par conséquent… 
+    
+    - pour convertir des km∙h<sup>-1</sup> en m∙s<sup>-1</sup> on divise par 3,6 
+    - pour convertir des m∙s<sup>-1</sup> en km∙h<sup>-1</sup> on multiplie par 3,6 
 
 
 !!! warning "Attention"
