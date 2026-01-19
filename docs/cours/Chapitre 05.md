@@ -76,11 +76,11 @@ Un atome est constitué d'un noyau chargé positivement et d'électrons chargés
     La charge électrique  e, de valeur   e = 1,60 × 10<sup>–19</sup> C, est appelée charge élémentaire (Coulomb).
 
 
-??? success "Un atome est électriquement neutre"
+??? success "Un atome est électriquement neutre :heart:"
     - Les charges électriques du proton (+e) et de l'électron (–e) sont opposées.
     - Un atome est électriquement neutre car il possède autant de protons que d'électrons.
 
-??? success " L'atome a une structure lacunaire"
+??? success " L'atome a une structure lacunaire :heart:"
     - L'ordre de grandeur du rayon d'un atome est de 10<sup>–10</sup> m. 
     - L'ordre de grandeur du rayon du noyau est d'environ 10<sup>–15</sup> m. 
     - Le rayon d'un atome est donc environ 10<sup>5</sup> fois plus grand que celui de son noyau.   
@@ -88,15 +88,18 @@ Un atome est constitué d'un noyau chargé positivement et d'électrons chargés
 
 
 
-!!! Info "Ordre de grandeur"
+!!! Info "Ordre de grandeur :heart:"
     L'ordre de grandeur d'un nombre écrit en notation scientifique est la **puissance de 10 la plus proche** de ce nombre.
+    !!! tip "Capacités mathématiques"  
+        - Exprimer les valeurs des grandeurs en écriture scientifique.
+        - Effectuer le quotient de deux grandeurs pour les comparer et, si le résultat est très grand, en donner l'ordre de grandeur.
 
 
 
 [**Exercices n°7©, 9©, 10 p. 72**{: .exo}](../data/p72.png)
 
 
-### b. Noyau
+### b. Noyau :heart:
 
 L'écriture conventionnelle du noyau d'un atome de symbole **X** est: 
 
@@ -111,7 +114,7 @@ Le nombre de neutrons est donc égal à A – Z.
 - La masse d'un neutron est environ égale à celle d'un proton (m<sub>neutron</sub> = m<sub>proton</sub> = m<sub>nucléon</sub> = 1,67× 10<sup>-27</sup>kg). 
 - La masse d'un électron est négligeable devant celle d'un nucléon (elle est 1836 fois plus faible).
 
-!!! success "La masse d'un atome est proche de celle de son noyau"
+!!! success "La masse d'un atome est proche de celle de son noyau :heart: "
     - m<sub>atome</sub> ≈ A × m<sub>nucléon</sub>
     - Voilà pourquoi le nombre **A** de nucléons est appelé le *nombre de masse*
 
@@ -123,12 +126,13 @@ Le nombre de neutrons est donc égal à A – Z.
 
 ## 3 - Les ions monoatomiques
 
-!!! success "ion monoatomique"
+!!! success "ion monoatomique :heart:"
     - Un ion monoatomique se forme lorsqu'**un atome gagne ou perd un ou plusieurs électrons**.  
     ![image](data/chap5_ion_lithium.jpg){: .center width="300"}
     (exemple : lorsqu'un atome de lithium Li perd un électron, l'ion formé Li<sup>+</sup> porte une charge électrique positive +e car il possède 3 protons et seulement 2 électrons.)
 
     - Lors de la formation d'un ion, le noyau reste inchangé.    
+    - Un ion négatif est appelé anion tandis qu'un ion positif est appelé cation.
 
 
 ### Exemple d'anion
