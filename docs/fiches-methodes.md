@@ -16,3 +16,5 @@
 
 
 - [**fm**{: .stabilo-vert} Fiche méthode Python](data/methode python.png){:target="_blank"}
+
+- [**fm**{: .stabilo-vert} Fiche méthode Audacity](data/fm-Audacity.pdf){:target="_blank"}
