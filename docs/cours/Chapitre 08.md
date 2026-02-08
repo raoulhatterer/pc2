@@ -190,7 +190,7 @@ Pourtant, il ne sera pas perçu deux fois plus fort par l'oreille. **L'oreille n
 
 
 [**Exercices n°19, 20, 22 p. 240**{: .exo}](../data/p240.png) et
-[**29 p. 242**{: .exo}](../data/p242.png)
+[**29 p. 243**{: .exo}](../data/p243.png)
 
 
 
