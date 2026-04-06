@@ -271,6 +271,7 @@
     - [⚛️Activité 17 Du gaspillage dans les vignes](data/Act17 gaspillage dans les vignes.pdf){:target="_blank"}        
     - [⚛️Activité 18 Transformations chimiques et effet thermique](data/Act18 transformations chimiques et effet thermique.pdf){:target="_blank"}            
     - [⚛️Activité 19 Arôme de banane](data/Act19 preparation d'un arome.pdf){:target="_blank"}                
+    - [⚛️Activité 20 Chromatographie sur couche mince](data/Act20 CCM.pdf){:target="_blank"}                    
 
 <a id="chapitre-10"></a>
 !!! warning "Je dois savoir et savoir faire"
@@ -302,7 +303,7 @@
 
 !!! abstract "Propagation de la lumière"
     - [📚 Chapitre XI](data/Chap-XI.pdf){:target="_blank"}
-    - [⚛️ Activité 20 Lois de Snell-Descartes](data/Act20 Snell Descartes.pdf){:target="_blank"}    
+    - [⚛️ Activité 21 Lois de Snell-Descartes](data/Act21 Snell Descartes.pdf){:target="_blank"}    
 
 !!! warning "Je dois savoir et savoir faire"
     - Définir : réflexion ; réfraction ; réflexion totale ; lentille convergente et divergente.
@@ -329,7 +330,7 @@
     ![page 284](data/p284.png)
     ![page 285](data/p285.png)
     ![page 286](data/p286.png)
-    - [⚛️Activité 21 Lentille convergente](data/Act21 lentille convergente.pdf){:target="_blank"}    
+    - [⚛️Activité 22 Lentille convergente](data/Act22 lentille convergente.pdf){:target="_blank"}    
 
 ??? question "Exercices du livre (chap 15 pages 298 à 304) Les lentilles convergentes"
     ![page 298](data/p298.png)
@@ -346,7 +347,7 @@
 ## [Chapitre XII](cours/Chapitre 12.md)
 !!! abstract "La lumière" 
     - [📚Chapitre XII](data/Chap-XII.pdf){:target="_blank"}
-    - [⚛️Activité 22 Spectroscopie](data/Act22 spectroscopie.pdf){:target="_blank"}    
+    - [⚛️Activité 23 Spectroscopie](data/Act23 spectroscopie.pdf){:target="_blank"}    
 
 ??? question "Exercices du livre (chap 13 pages 258 à 266)"
     ![page 258](data/p258.png)
@@ -364,7 +365,7 @@
 ## [Chapitre XIII](cours/Chapitre 13.md) 
 !!! abstract "Les lois de l'électricité"
     - [📚Chapitre XIII](data/Chap-XIII.pdf){:target="_blank"}
-    - [⚛️Activité 23](data/Act23 point de fonctionnement.pdf){:target="_blank"}    
+    - [⚛️Activité 24](data/Act24 point de fonctionnement.pdf){:target="_blank"}    
 
 !!! warning "Je dois savoir et savoir faire"
     - Exploiter la loi des mailles et/ou la loi des nœuds dans un circuit électrique.
