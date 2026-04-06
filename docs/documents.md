@@ -304,6 +304,7 @@
 !!! abstract "Propagation de la lumière"
     - [📚 Chapitre XI](data/Chap-XI.pdf){:target="_blank"}
     - [⚛️ Activité 21 Lois de Snell-Descartes](data/Act21 Snell Descartes.pdf){:target="_blank"}    
+    - [⚛️ Activité 22 Lentille convergente](data/Act22 lentille convergente.pdf){:target="_blank"}        
 
 !!! warning "Je dois savoir et savoir faire"
     - Définir : réflexion ; réfraction ; réflexion totale ; lentille convergente et divergente.
