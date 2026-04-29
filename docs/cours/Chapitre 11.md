@@ -80,7 +80,7 @@ La multiplicité des gouttes nous donne une vision d'ensemble de ce phénomène 
 
 [**Exercices n°3©, 4 p. 279**{: .exo}](../data/p279.png) et 
 [**5©, 6, 12 p. 280**{: .exo}](../data/p280.png) et
-[**15©, 18, 22, 23, 25, 28 p. 281**{: .exo}](../data/p281.png) et 
+[**15©, 18 p. 281**{: .exo}](../data/p281.png) et 
 [**22 p. 282**{: .exo}](../data/p282.png) et
 [**23, 25 p. 283**{: .exo}](../data/p283.png) et
 [**28 p. 284**{: .exo}](../data/p284.png)
