@@ -19,7 +19,7 @@
 ## ⚠️ Recommandations importantes
 - **Une seule inscription** : Ne créez qu'un seul compte. Tout compte supplémentaire sera automatiquement supprimé sans préavis. Seul le plus ancien sera conservé.
 - **Problème technique** : 
-    - Me contacter par messagerie Atrium
+    - Me contacter par messagerie Atrium en indiquant votre classe
     - Joindre une capture d'écran du problème
 - **Gestion des notes** : 
     - Je ne peux pas supprimer de notes
