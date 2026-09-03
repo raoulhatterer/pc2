@@ -1,7 +1,7 @@
 # Wims - Classe de Seconde
 
 ## 🔗 Lien d'accès
-- [Lien direct vers Wims seconde](https://wims.univ-cotedazur.fr/wims/wims.cgi?module=adm/class/classes&lang=fr&type=authparticipant&class=281361&subclass=yes)
+- [Lien direct vers Wims](https://wims.univ-cotedazur.fr/wims/wims.cgi?session=6GABC715BD.1&+lang=fr&+module=adm%2Fclass%2Fclasses&+type=participant)
 
 
 ## 👤 Création du compte
