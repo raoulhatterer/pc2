@@ -6,7 +6,7 @@
 Suivant votre classe le lien n'est pas le même.
 
 - [Lien direct vers Wims S7](https://wims.univ-cotedazur.fr/wims/wims.cgi?module=adm/class/classes&lang=fr&type=authparticipant&class=2093468&subclass=yes)
-- [Lien direct vers Wims S8]()
+- [Lien direct vers Wims S8](https://wims.univ-cotedazur.fr/wims/wims.cgi?module=adm/class/classes&lang=fr&type=authparticipant&class=8613610&subclass=yes)
 
 
 
