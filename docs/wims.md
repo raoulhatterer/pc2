@@ -1,12 +1,18 @@
 # Wims - Classe de Seconde
 
 ## 🔗 Lien d'accès
-- [Lien direct vers Wims](https://wims.univ-cotedazur.fr/wims/wims.cgi?session=6GABC715BD.1&+lang=fr&+module=adm%2Fclass%2Fclasses&+type=participant)
+
+
+Suivant votre classe le lien n'est pas le même.
+
+- [Lien direct vers Wims S7](https://wims.univ-cotedazur.fr/wims/wims.cgi?module=adm/class/classes&lang=fr&type=authparticipant&class=2093468&subclass=yes)
+- [Lien direct vers Wims S8]()
+
 
 
 ## 👤 Création du compte
 - 🔑 **Code d'inscription** (à n'utiliser qu'une fois par élève)
-    - Code à utiliser : `seconde`
+    - Le code à utiliser dépend de votre classe. Ce sera soit `S7svp` soit `S8svp`  (sans espaces).
 - **Nom et prénom** : Attention à ne pas les inverser
 - **Identifiant** : (respectez bien le format suivant)
     - Format : `prénom + 3 premières lettres du nom`
