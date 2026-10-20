@@ -93,8 +93,8 @@ Si l'on connaît la composition du mélange.
         4. Donner l'expression de $V$ en fonction de $\rho$ et $m$.
 
 !!! example "{{ exercice() }} : déterminer la masse volumique d'un solide :heart:" 
+    ![image](data/chap1_rho_solide.jpg){: .center width="300"}
     === "Énoncé"
-        ![image](data/chap1_rho_solide.jpg){: .center width="300"}
 
         1. Donner le protocole à suivre pour déterminer la masse volumique d'un solide.
         2. Donner la masse volumique du solide placé dans l'éprouvette graduée.
@@ -102,7 +102,39 @@ Si l'on connaît la composition du mélange.
         4. La masse volumique du cuivre est de 8,96 g/cm³. Le solide est-il en cuivre comme indiqué sur l'image ?
     === "NumWorks"
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Rq4CVP2V4_E?si=38Metg90MOOQBNji" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    === "Correction"
+        1. **Donner le protocole à suivre pour déterminer la masse volumique d'un solide.**  
+        Pour déterminer la masse volumique d'un solide, il faut suivre les étapes suivantes :  
+            - **Mesurer la masse m du solide à l'aide d'une balance électronique.**  
+            Remarque : Dans cet exercice, d'après l'image, on voit que la balance de gauche est tarée avec l'éprouvette vide et l'eau. La balance de droite affiche donc la masse du solide mais **généralement on pèse le solide seul**.
+            - **Mesurer le volume du solide par déplacement d'eau :**
+                - Remplir une éprouvette graduée avec un volume d'eau connu ($V_1$)​.
+                - Plonger délicatement le solide dans l'eau.
+                - Lire le nouveau volume ($V_2$​) indiqué par l'éprouvette.
+                - Calculer le volume du solide : $V=V_2−V_1$​.
+            - **Calculer la masse volumique (ρ) en utilisant la formule : $\displaystyle ρ=\frac{m}{V}$​.**
+        2. **Donner la masse volumique du solide placé dans l'éprouvette graduée.**  
+            - D'après l'image, la balance est tarée avec l'éprouvette et l'eau.
+            - Masse du solide : $m = 178,00\, g$
+            - Volume du solide : $V=V_2-V_1=84−64=20\, mL$
+            - Calcul de la masse volumique : $ρ=\frac{m}{V}=\frac{178}{20}=8,9\, g/mL$
+        3. **Utiliser la conversion d'unités de la calculatrice NumWorks pour montrer que 1 L = 1000 cm³ et que 1 mL = 1 cm³.**
+            - Repérer la flèche à utiliser (en bout de 2e ligne).
+            - Saisir 1L → cm³ pour que la calculatrice réalise la conversion.
+            - Saisir 1 mL → cm³ pour que la calculatrice réalise la conversion.
+        4. **La masse volumique du cuivre est de 8,96 g/cm³. Le solide est-il en cuivre comme indiqué sur l'image ?**
+            - La valeur trouvée (8,9 g/cm³) est très proche de la valeur théorique (8,96 g/cm³). 
+            - La petite différence (environ 0,06 g/cm³) s'explique par les incertitudes de lecture sur l'éprouvette graduée (le ménisque peut être difficile à lire précisément) et l'arrondi de la balance.
+            - L'étiquette indiquant "Morceau de cuivre" est donc correcte.
+            
+
     
+    
+        
+        
+        
+        
+           
 
 !!! example "{{ exercice() }} : déterminer la masse volumique d'un liquide :heart:" 
     === "Énoncé"
