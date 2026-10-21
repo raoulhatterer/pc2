@@ -11,8 +11,14 @@ Suivant votre classe le lien n'est pas le même.
 
 
 ## 👤 Création du compte
-- 🔑 **Code d'inscription** (à n'utiliser qu'une fois par élève)
-    - Le code à utiliser dépend de votre classe. Ce sera soit `S7svp` soit `S8svp`  (sans espaces).
+
+![image](./data/wims_inscription.png)    
+
+
+- 🔑 **Le code d'inscription** est à saisir en bas de page et à n'utiliser qu'une fois par élève). Le code à utiliser dépend de votre classe. Ce sera soit `S7svp` soit `S8svp`  (sans espaces). Il vous permet d'accéder au formulaire d'inscription suivant :
+    
+![image](./data/wims_formulaire_inscription.png)    
+
 - **Nom et prénom** : Attention à ne pas les inverser
 - **Identifiant** : (respectez bien le format suivant)
     - Format : `prénom + 3 premières lettres du nom`
